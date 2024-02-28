@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  hw3:
+    build: ./
+    networks:
+      - no-internet   # comment me for internet access
+    volumes:
+      - ./hw3:/hw3
+    stdin_open: true
+    tty: true
+
+# this blocks the container's external internet connection
+# if you want to download additional package DURING YOUR DEVELOPMENT
+# make sure to take this out
+networks:
+  no-internet:
+    driver: bridge
+    internal: true

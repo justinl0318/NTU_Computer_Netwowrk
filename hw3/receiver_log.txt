@@ -1,0 +1,2311 @@
+recv	data	#1	(in order)
+send	ack	#1,	sack	#1
+recv	data	#2	(in order)
+send	ack	#2,	sack	#2
+recv	data	#3	(in order)
+send	ack	#3,	sack	#3
+recv	data	#5	(out of order, sack-ed)
+send	ack	#3,	sack	#5
+recv	data	#7	(out of order, sack-ed)
+send	ack	#3,	sack	#7
+recv	data	#8	(out of order, sack-ed)
+send	ack	#3,	sack	#8
+recv	data	#9	(out of order, sack-ed)
+send	ack	#3,	sack	#9
+recv	data	#10	(out of order, sack-ed)
+send	ack	#3,	sack	#10
+recv	data	#4	(in order)
+send	ack	#5,	sack	#4
+recv	data	#12	(out of order, sack-ed)
+send	ack	#5,	sack	#12
+recv	data	#13	(out of order, sack-ed)
+send	ack	#5,	sack	#13
+recv	data	#14	(out of order, sack-ed)
+send	ack	#5,	sack	#14
+recv	data	#15	(out of order, sack-ed)
+send	ack	#5,	sack	#15
+drop	data	#16	(corrupted)
+send	ack	#5,	sack	#5
+drop	data	#17	(corrupted)
+send	ack	#5,	sack	#5
+recv	data	#18	(out of order, sack-ed)
+send	ack	#5,	sack	#18
+recv	data	#19	(out of order, sack-ed)
+send	ack	#5,	sack	#19
+recv	data	#6	(in order)
+send	ack	#10,	sack	#6
+recv	data	#11	(in order)
+send	ack	#15,	sack	#11
+recv	data	#16	(in order)
+send	ack	#16,	sack	#16
+recv	data	#17	(in order)
+send	ack	#19,	sack	#17
+recv	data	#20	(in order)
+send	ack	#20,	sack	#20
+recv	data	#22	(out of order, sack-ed)
+send	ack	#20,	sack	#22
+recv	data	#23	(out of order, sack-ed)
+send	ack	#20,	sack	#23
+recv	data	#24	(out of order, sack-ed)
+send	ack	#20,	sack	#24
+recv	data	#26	(out of order, sack-ed)
+send	ack	#20,	sack	#26
+recv	data	#21	(in order)
+send	ack	#24,	sack	#21
+recv	data	#27	(out of order, sack-ed)
+send	ack	#24,	sack	#27
+recv	data	#28	(out of order, sack-ed)
+send	ack	#24,	sack	#28
+recv	data	#29	(out of order, sack-ed)
+send	ack	#24,	sack	#29
+recv	data	#30	(out of order, sack-ed)
+send	ack	#24,	sack	#30
+recv	data	#31	(out of order, sack-ed)
+send	ack	#24,	sack	#31
+drop	data	#32	(corrupted)
+send	ack	#24,	sack	#24
+recv	data	#25	(in order)
+send	ack	#31,	sack	#25
+recv	data	#33	(out of order, sack-ed)
+send	ack	#31,	sack	#33
+recv	data	#34	(out of order, sack-ed)
+send	ack	#31,	sack	#34
+recv	data	#35	(out of order, sack-ed)
+send	ack	#31,	sack	#35
+recv	data	#36	(out of order, sack-ed)
+send	ack	#31,	sack	#36
+recv	data	#37	(out of order, sack-ed)
+send	ack	#31,	sack	#37
+recv	data	#38	(out of order, sack-ed)
+send	ack	#31,	sack	#38
+recv	data	#32	(in order)
+send	ack	#38,	sack	#32
+recv	data	#39	(in order)
+send	ack	#39,	sack	#39
+drop	data	#41	(corrupted)
+send	ack	#39,	sack	#39
+drop	data	#42	(corrupted)
+send	ack	#39,	sack	#39
+recv	data	#43	(out of order, sack-ed)
+send	ack	#39,	sack	#43
+recv	data	#44	(out of order, sack-ed)
+send	ack	#39,	sack	#44
+recv	data	#45	(out of order, sack-ed)
+send	ack	#39,	sack	#45
+recv	data	#46	(out of order, sack-ed)
+send	ack	#39,	sack	#46
+recv	data	#47	(out of order, sack-ed)
+send	ack	#39,	sack	#47
+recv	data	#48	(out of order, sack-ed)
+send	ack	#39,	sack	#48
+recv	data	#49	(out of order, sack-ed)
+send	ack	#39,	sack	#49
+recv	data	#50	(out of order, sack-ed)
+send	ack	#39,	sack	#50
+recv	data	#51	(out of order, sack-ed)
+send	ack	#39,	sack	#51
+recv	data	#52	(out of order, sack-ed)
+send	ack	#39,	sack	#52
+recv	data	#53	(out of order, sack-ed)
+send	ack	#39,	sack	#53
+recv	data	#54	(out of order, sack-ed)
+send	ack	#39,	sack	#54
+recv	data	#40	(in order)
+send	ack	#40,	sack	#40
+recv	data	#41	(in order)
+send	ack	#41,	sack	#41
+recv	data	#42	(in order)
+send	ack	#54,	sack	#42
+recv	data	#55	(in order)
+send	ack	#55,	sack	#55
+recv	data	#56	(in order)
+send	ack	#56,	sack	#56
+recv	data	#57	(in order)
+send	ack	#57,	sack	#57
+recv	data	#58	(in order)
+send	ack	#58,	sack	#58
+recv	data	#59	(in order)
+send	ack	#59,	sack	#59
+recv	data	#60	(in order)
+send	ack	#60,	sack	#60
+recv	data	#61	(in order)
+send	ack	#61,	sack	#61
+recv	data	#62	(in order)
+send	ack	#62,	sack	#62
+recv	data	#63	(in order)
+send	ack	#63,	sack	#63
+recv	data	#64	(in order)
+send	ack	#64,	sack	#64
+recv	data	#65	(in order)
+send	ack	#65,	sack	#65
+recv	data	#66	(in order)
+send	ack	#66,	sack	#66
+recv	data	#67	(in order)
+send	ack	#67,	sack	#67
+recv	data	#68	(in order)
+send	ack	#68,	sack	#68
+recv	data	#69	(in order)
+send	ack	#69,	sack	#69
+recv	data	#70	(in order)
+send	ack	#70,	sack	#70
+recv	data	#71	(in order)
+send	ack	#71,	sack	#71
+recv	data	#72	(in order)
+send	ack	#72,	sack	#72
+recv	data	#73	(in order)
+send	ack	#73,	sack	#73
+recv	data	#74	(in order)
+send	ack	#74,	sack	#74
+recv	data	#75	(in order)
+send	ack	#75,	sack	#75
+recv	data	#76	(in order)
+send	ack	#76,	sack	#76
+recv	data	#77	(in order)
+send	ack	#77,	sack	#77
+recv	data	#78	(in order)
+send	ack	#78,	sack	#78
+recv	data	#79	(in order)
+send	ack	#79,	sack	#79
+recv	data	#80	(in order)
+send	ack	#80,	sack	#80
+recv	data	#81	(in order)
+send	ack	#81,	sack	#81
+drop	data	#82	(corrupted)
+send	ack	#81,	sack	#81
+recv	data	#84	(out of order, sack-ed)
+send	ack	#81,	sack	#84
+recv	data	#85	(out of order, sack-ed)
+send	ack	#81,	sack	#85
+recv	data	#86	(out of order, sack-ed)
+send	ack	#81,	sack	#86
+recv	data	#88	(out of order, sack-ed)
+send	ack	#81,	sack	#88
+recv	data	#89	(out of order, sack-ed)
+send	ack	#81,	sack	#89
+recv	data	#90	(out of order, sack-ed)
+send	ack	#81,	sack	#90
+recv	data	#91	(out of order, sack-ed)
+send	ack	#81,	sack	#91
+recv	data	#82	(in order)
+send	ack	#82,	sack	#82
+recv	data	#92	(out of order, sack-ed)
+send	ack	#82,	sack	#92
+recv	data	#93	(out of order, sack-ed)
+send	ack	#82,	sack	#93
+recv	data	#94	(out of order, sack-ed)
+send	ack	#82,	sack	#94
+recv	data	#96	(out of order, sack-ed)
+send	ack	#82,	sack	#96
+recv	data	#97	(out of order, sack-ed)
+send	ack	#82,	sack	#97
+recv	data	#99	(out of order, sack-ed)
+send	ack	#82,	sack	#99
+recv	data	#100	(out of order, sack-ed)
+send	ack	#82,	sack	#100
+recv	data	#83	(in order)
+send	ack	#86,	sack	#83
+recv	data	#101	(out of order, sack-ed)
+send	ack	#86,	sack	#101
+drop	data	#102	(corrupted)
+send	ack	#86,	sack	#86
+recv	data	#103	(out of order, sack-ed)
+send	ack	#86,	sack	#103
+recv	data	#104	(out of order, sack-ed)
+send	ack	#86,	sack	#104
+recv	data	#105	(out of order, sack-ed)
+send	ack	#86,	sack	#105
+recv	data	#87	(in order)
+send	ack	#94,	sack	#87
+recv	data	#108	(out of order, sack-ed)
+send	ack	#94,	sack	#108
+recv	data	#110	(out of order, sack-ed)
+send	ack	#94,	sack	#110
+recv	data	#111	(out of order, sack-ed)
+send	ack	#94,	sack	#111
+recv	data	#112	(out of order, sack-ed)
+send	ack	#94,	sack	#112
+recv	data	#113	(out of order, sack-ed)
+send	ack	#94,	sack	#113
+recv	data	#95	(in order)
+send	ack	#97,	sack	#95
+recv	data	#114	(out of order, sack-ed)
+send	ack	#97,	sack	#114
+recv	data	#115	(out of order, sack-ed)
+send	ack	#97,	sack	#115
+recv	data	#116	(out of order, sack-ed)
+send	ack	#97,	sack	#116
+recv	data	#117	(out of order, sack-ed)
+send	ack	#97,	sack	#117
+recv	data	#118	(out of order, sack-ed)
+send	ack	#97,	sack	#118
+recv	data	#119	(out of order, sack-ed)
+send	ack	#97,	sack	#119
+recv	data	#98	(in order)
+send	ack	#101,	sack	#98
+recv	data	#120	(out of order, sack-ed)
+send	ack	#101,	sack	#120
+recv	data	#121	(out of order, sack-ed)
+send	ack	#101,	sack	#121
+recv	data	#122	(out of order, sack-ed)
+send	ack	#101,	sack	#122
+recv	data	#123	(out of order, sack-ed)
+send	ack	#101,	sack	#123
+recv	data	#124	(out of order, sack-ed)
+send	ack	#101,	sack	#124
+recv	data	#125	(out of order, sack-ed)
+send	ack	#101,	sack	#125
+recv	data	#126	(out of order, sack-ed)
+send	ack	#101,	sack	#126
+drop	data	#102	(corrupted)
+send	ack	#101,	sack	#101
+recv	data	#127	(out of order, sack-ed)
+send	ack	#101,	sack	#127
+recv	data	#128	(out of order, sack-ed)
+send	ack	#101,	sack	#128
+recv	data	#129	(out of order, sack-ed)
+send	ack	#101,	sack	#129
+recv	data	#131	(out of order, sack-ed)
+send	ack	#101,	sack	#131
+recv	data	#132	(out of order, sack-ed)
+send	ack	#101,	sack	#132
+recv	data	#133	(out of order, sack-ed)
+send	ack	#101,	sack	#133
+recv	data	#134	(out of order, sack-ed)
+send	ack	#101,	sack	#134
+recv	data	#135	(out of order, sack-ed)
+send	ack	#101,	sack	#135
+recv	data	#136	(out of order, sack-ed)
+send	ack	#101,	sack	#136
+recv	data	#137	(out of order, sack-ed)
+send	ack	#101,	sack	#137
+recv	data	#138	(out of order, sack-ed)
+send	ack	#101,	sack	#138
+recv	data	#139	(out of order, sack-ed)
+send	ack	#101,	sack	#139
+drop	data	#140	(corrupted)
+send	ack	#101,	sack	#101
+recv	data	#141	(out of order, sack-ed)
+send	ack	#101,	sack	#141
+recv	data	#142	(out of order, sack-ed)
+send	ack	#101,	sack	#142
+recv	data	#144	(out of order, sack-ed)
+send	ack	#101,	sack	#144
+recv	data	#145	(out of order, sack-ed)
+send	ack	#101,	sack	#145
+recv	data	#146	(out of order, sack-ed)
+send	ack	#101,	sack	#146
+recv	data	#147	(out of order, sack-ed)
+send	ack	#101,	sack	#147
+recv	data	#148	(out of order, sack-ed)
+send	ack	#101,	sack	#148
+recv	data	#149	(out of order, sack-ed)
+send	ack	#101,	sack	#149
+drop	data	#150	(corrupted)
+send	ack	#101,	sack	#101
+recv	data	#102	(in order)
+send	ack	#105,	sack	#102
+drop	data	#106	(corrupted)
+send	ack	#105,	sack	#105
+recv	data	#107	(out of order, sack-ed)
+send	ack	#105,	sack	#107
+recv	data	#109	(out of order, sack-ed)
+send	ack	#105,	sack	#109
+recv	data	#130	(out of order, sack-ed)
+send	ack	#105,	sack	#130
+recv	data	#106	(in order)
+send	ack	#139,	sack	#106
+recv	data	#140	(in order)
+send	ack	#142,	sack	#140
+recv	data	#143	(in order)
+send	ack	#149,	sack	#143
+recv	data	#151	(out of order, sack-ed)
+send	ack	#149,	sack	#151
+recv	data	#152	(out of order, sack-ed)
+send	ack	#149,	sack	#152
+recv	data	#153	(out of order, sack-ed)
+send	ack	#149,	sack	#153
+recv	data	#155	(out of order, sack-ed)
+send	ack	#149,	sack	#155
+recv	data	#156	(out of order, sack-ed)
+send	ack	#149,	sack	#156
+recv	data	#150	(in order)
+send	ack	#153,	sack	#150
+recv	data	#158	(out of order, sack-ed)
+send	ack	#153,	sack	#158
+recv	data	#159	(out of order, sack-ed)
+send	ack	#153,	sack	#159
+drop	data	#154	(corrupted)
+send	ack	#153,	sack	#153
+recv	data	#154	(in order)
+send	ack	#156,	sack	#154
+recv	data	#157	(in order)
+send	ack	#159,	sack	#157
+recv	data	#160	(in order)
+send	ack	#160,	sack	#160
+recv	data	#161	(in order)
+send	ack	#161,	sack	#161
+recv	data	#162	(in order)
+send	ack	#162,	sack	#162
+recv	data	#163	(in order)
+send	ack	#163,	sack	#163
+recv	data	#164	(in order)
+send	ack	#164,	sack	#164
+recv	data	#165	(in order)
+send	ack	#165,	sack	#165
+recv	data	#166	(in order)
+send	ack	#166,	sack	#166
+recv	data	#167	(in order)
+send	ack	#167,	sack	#167
+recv	data	#169	(out of order, sack-ed)
+send	ack	#167,	sack	#169
+drop	data	#170	(corrupted)
+send	ack	#167,	sack	#167
+recv	data	#171	(out of order, sack-ed)
+send	ack	#167,	sack	#171
+recv	data	#172	(out of order, sack-ed)
+send	ack	#167,	sack	#172
+recv	data	#173	(out of order, sack-ed)
+send	ack	#167,	sack	#173
+recv	data	#174	(out of order, sack-ed)
+send	ack	#167,	sack	#174
+recv	data	#168	(in order)
+send	ack	#169,	sack	#168
+recv	data	#175	(out of order, sack-ed)
+send	ack	#169,	sack	#175
+recv	data	#176	(out of order, sack-ed)
+send	ack	#169,	sack	#176
+recv	data	#177	(out of order, sack-ed)
+send	ack	#169,	sack	#177
+recv	data	#179	(out of order, sack-ed)
+send	ack	#169,	sack	#179
+recv	data	#180	(out of order, sack-ed)
+send	ack	#169,	sack	#180
+drop	data	#181	(corrupted)
+send	ack	#169,	sack	#169
+recv	data	#170	(in order)
+send	ack	#177,	sack	#170
+recv	data	#182	(out of order, sack-ed)
+send	ack	#177,	sack	#182
+recv	data	#183	(out of order, sack-ed)
+send	ack	#177,	sack	#183
+recv	data	#184	(out of order, sack-ed)
+send	ack	#177,	sack	#184
+recv	data	#185	(out of order, sack-ed)
+send	ack	#177,	sack	#185
+recv	data	#186	(out of order, sack-ed)
+send	ack	#177,	sack	#186
+recv	data	#187	(out of order, sack-ed)
+send	ack	#177,	sack	#187
+recv	data	#178	(in order)
+send	ack	#180,	sack	#178
+recv	data	#188	(out of order, sack-ed)
+send	ack	#180,	sack	#188
+recv	data	#189	(out of order, sack-ed)
+send	ack	#180,	sack	#189
+recv	data	#190	(out of order, sack-ed)
+send	ack	#180,	sack	#190
+recv	data	#191	(out of order, sack-ed)
+send	ack	#180,	sack	#191
+recv	data	#192	(out of order, sack-ed)
+send	ack	#180,	sack	#192
+recv	data	#193	(out of order, sack-ed)
+send	ack	#180,	sack	#193
+recv	data	#194	(out of order, sack-ed)
+send	ack	#180,	sack	#194
+recv	data	#181	(in order)
+send	ack	#194,	sack	#181
+drop	data	#195	(corrupted)
+send	ack	#194,	sack	#194
+recv	data	#196	(out of order, sack-ed)
+send	ack	#194,	sack	#196
+recv	data	#198	(out of order, sack-ed)
+send	ack	#194,	sack	#198
+recv	data	#199	(out of order, sack-ed)
+send	ack	#194,	sack	#199
+recv	data	#200	(out of order, sack-ed)
+send	ack	#194,	sack	#200
+recv	data	#201	(out of order, sack-ed)
+send	ack	#194,	sack	#201
+recv	data	#195	(in order)
+send	ack	#196,	sack	#195
+recv	data	#202	(out of order, sack-ed)
+send	ack	#196,	sack	#202
+recv	data	#204	(out of order, sack-ed)
+send	ack	#196,	sack	#204
+recv	data	#205	(out of order, sack-ed)
+send	ack	#196,	sack	#205
+recv	data	#206	(out of order, sack-ed)
+send	ack	#196,	sack	#206
+recv	data	#207	(out of order, sack-ed)
+send	ack	#196,	sack	#207
+recv	data	#208	(out of order, sack-ed)
+send	ack	#196,	sack	#208
+drop	data	#209	(corrupted)
+send	ack	#196,	sack	#196
+recv	data	#197	(in order)
+send	ack	#202,	sack	#197
+recv	data	#210	(out of order, sack-ed)
+send	ack	#202,	sack	#210
+recv	data	#211	(out of order, sack-ed)
+send	ack	#202,	sack	#211
+drop	data	#213	(corrupted)
+send	ack	#202,	sack	#202
+recv	data	#214	(out of order, sack-ed)
+send	ack	#202,	sack	#214
+drop	data	#215	(corrupted)
+send	ack	#202,	sack	#202
+recv	data	#203	(in order)
+send	ack	#208,	sack	#203
+recv	data	#216	(out of order, sack-ed)
+send	ack	#208,	sack	#216
+recv	data	#217	(out of order, sack-ed)
+send	ack	#208,	sack	#217
+drop	data	#218	(corrupted)
+send	ack	#208,	sack	#208
+recv	data	#219	(out of order, sack-ed)
+send	ack	#208,	sack	#219
+recv	data	#209	(in order)
+send	ack	#211,	sack	#209
+recv	data	#220	(out of order, sack-ed)
+send	ack	#211,	sack	#220
+recv	data	#221	(out of order, sack-ed)
+send	ack	#211,	sack	#221
+drop	data	#222	(corrupted)
+send	ack	#211,	sack	#211
+recv	data	#212	(in order)
+send	ack	#212,	sack	#212
+recv	data	#224	(out of order, sack-ed)
+send	ack	#212,	sack	#224
+recv	data	#225	(out of order, sack-ed)
+send	ack	#212,	sack	#225
+recv	data	#226	(out of order, sack-ed)
+send	ack	#212,	sack	#226
+recv	data	#227	(out of order, sack-ed)
+send	ack	#212,	sack	#227
+recv	data	#213	(in order)
+send	ack	#214,	sack	#213
+recv	data	#228	(out of order, sack-ed)
+send	ack	#214,	sack	#228
+recv	data	#229	(out of order, sack-ed)
+send	ack	#214,	sack	#229
+recv	data	#230	(out of order, sack-ed)
+send	ack	#214,	sack	#230
+recv	data	#231	(out of order, sack-ed)
+send	ack	#214,	sack	#231
+recv	data	#232	(out of order, sack-ed)
+send	ack	#214,	sack	#232
+recv	data	#215	(in order)
+send	ack	#217,	sack	#215
+recv	data	#233	(out of order, sack-ed)
+send	ack	#217,	sack	#233
+recv	data	#234	(out of order, sack-ed)
+send	ack	#217,	sack	#234
+recv	data	#236	(out of order, sack-ed)
+send	ack	#217,	sack	#236
+recv	data	#237	(out of order, sack-ed)
+send	ack	#217,	sack	#237
+recv	data	#238	(out of order, sack-ed)
+send	ack	#217,	sack	#238
+recv	data	#239	(out of order, sack-ed)
+send	ack	#217,	sack	#239
+recv	data	#218	(in order)
+send	ack	#221,	sack	#218
+recv	data	#240	(out of order, sack-ed)
+send	ack	#221,	sack	#240
+drop	data	#241	(corrupted)
+send	ack	#221,	sack	#221
+recv	data	#242	(out of order, sack-ed)
+send	ack	#221,	sack	#242
+drop	data	#243	(corrupted)
+send	ack	#221,	sack	#221
+recv	data	#244	(out of order, sack-ed)
+send	ack	#221,	sack	#244
+recv	data	#245	(out of order, sack-ed)
+send	ack	#221,	sack	#245
+recv	data	#222	(in order)
+send	ack	#222,	sack	#222
+drop	data	#246	(corrupted)
+send	ack	#222,	sack	#222
+recv	data	#247	(out of order, sack-ed)
+send	ack	#222,	sack	#247
+recv	data	#248	(out of order, sack-ed)
+send	ack	#222,	sack	#248
+recv	data	#249	(out of order, sack-ed)
+send	ack	#222,	sack	#249
+recv	data	#223	(in order)
+send	ack	#234,	sack	#223
+recv	data	#252	(out of order, sack-ed)
+send	ack	#234,	sack	#252
+recv	data	#253	(out of order, sack-ed)
+send	ack	#234,	sack	#253
+recv	data	#254	(out of order, sack-ed)
+send	ack	#234,	sack	#254
+recv	data	#255	(out of order, sack-ed)
+send	ack	#234,	sack	#255
+recv	data	#235	(in order)
+send	ack	#240,	sack	#235
+recv	data	#256	(out of order, sack-ed)
+send	ack	#240,	sack	#256
+drop	data	#257	(buffer overflow)
+send	ack	#240,	sack	#240
+drop	data	#258	(corrupted)
+send	ack	#240,	sack	#240
+drop	data	#241	(corrupted)
+send	ack	#240,	sack	#240
+recv	data	#241	(in order)
+send	ack	#242,	sack	#241
+recv	data	#243	(in order)
+send	ack	#245,	sack	#243
+recv	data	#250	(out of order, sack-ed)
+send	ack	#245,	sack	#250
+recv	data	#251	(out of order, sack-ed)
+send	ack	#245,	sack	#251
+drop	data	#257	(buffer overflow)
+send	ack	#245,	sack	#245
+drop	data	#258	(buffer overflow)
+send	ack	#245,	sack	#245
+recv	data	#246	(in order)
+send	ack	#256,	sack	#246
+flush
+sha256	256000	63ca53460cf467cfeccd33b2781b7927554a6c04d4a04eee0158286365b1d204
+recv	data	#257	(in order)
+send	ack	#257,	sack	#257
+recv	data	#258	(in order)
+send	ack	#258,	sack	#258
+recv	data	#259	(in order)
+send	ack	#259,	sack	#259
+recv	data	#260	(in order)
+send	ack	#260,	sack	#260
+recv	data	#261	(in order)
+send	ack	#261,	sack	#261
+recv	data	#262	(in order)
+send	ack	#262,	sack	#262
+recv	data	#263	(in order)
+send	ack	#263,	sack	#263
+recv	data	#264	(in order)
+send	ack	#264,	sack	#264
+recv	data	#265	(in order)
+send	ack	#265,	sack	#265
+recv	data	#266	(in order)
+send	ack	#266,	sack	#266
+recv	data	#267	(in order)
+send	ack	#267,	sack	#267
+recv	data	#268	(in order)
+send	ack	#268,	sack	#268
+recv	data	#269	(in order)
+send	ack	#269,	sack	#269
+recv	data	#270	(in order)
+send	ack	#270,	sack	#270
+recv	data	#271	(in order)
+send	ack	#271,	sack	#271
+recv	data	#272	(in order)
+send	ack	#272,	sack	#272
+recv	data	#273	(in order)
+send	ack	#273,	sack	#273
+recv	data	#274	(in order)
+send	ack	#274,	sack	#274
+drop	data	#275	(corrupted)
+send	ack	#274,	sack	#274
+recv	data	#276	(out of order, sack-ed)
+send	ack	#274,	sack	#276
+recv	data	#277	(out of order, sack-ed)
+send	ack	#274,	sack	#277
+recv	data	#279	(out of order, sack-ed)
+send	ack	#274,	sack	#279
+recv	data	#280	(out of order, sack-ed)
+send	ack	#274,	sack	#280
+drop	data	#281	(corrupted)
+send	ack	#274,	sack	#274
+drop	data	#282	(corrupted)
+send	ack	#274,	sack	#274
+recv	data	#275	(in order)
+send	ack	#277,	sack	#275
+recv	data	#283	(out of order, sack-ed)
+send	ack	#277,	sack	#283
+recv	data	#284	(out of order, sack-ed)
+send	ack	#277,	sack	#284
+recv	data	#287	(out of order, sack-ed)
+send	ack	#277,	sack	#287
+recv	data	#288	(out of order, sack-ed)
+send	ack	#277,	sack	#288
+recv	data	#289	(out of order, sack-ed)
+send	ack	#277,	sack	#289
+recv	data	#290	(out of order, sack-ed)
+send	ack	#277,	sack	#290
+recv	data	#291	(out of order, sack-ed)
+send	ack	#277,	sack	#291
+recv	data	#292	(out of order, sack-ed)
+send	ack	#277,	sack	#292
+recv	data	#293	(out of order, sack-ed)
+send	ack	#277,	sack	#293
+recv	data	#278	(in order)
+send	ack	#280,	sack	#278
+drop	data	#281	(corrupted)
+send	ack	#280,	sack	#280
+recv	data	#282	(out of order, sack-ed)
+send	ack	#280,	sack	#282
+recv	data	#285	(out of order, sack-ed)
+send	ack	#280,	sack	#285
+recv	data	#286	(out of order, sack-ed)
+send	ack	#280,	sack	#286
+recv	data	#281	(in order)
+send	ack	#293,	sack	#281
+drop	data	#294	(corrupted)
+send	ack	#293,	sack	#293
+drop	data	#295	(corrupted)
+send	ack	#293,	sack	#293
+recv	data	#296	(out of order, sack-ed)
+send	ack	#293,	sack	#296
+recv	data	#297	(out of order, sack-ed)
+send	ack	#293,	sack	#297
+recv	data	#294	(in order)
+send	ack	#294,	sack	#294
+recv	data	#299	(out of order, sack-ed)
+send	ack	#294,	sack	#299
+recv	data	#300	(out of order, sack-ed)
+send	ack	#294,	sack	#300
+drop	data	#301	(corrupted)
+send	ack	#294,	sack	#294
+recv	data	#295	(in order)
+send	ack	#297,	sack	#295
+drop	data	#298	(corrupted)
+send	ack	#297,	sack	#297
+recv	data	#301	(out of order, sack-ed)
+send	ack	#297,	sack	#301
+drop	data	#302	(corrupted)
+send	ack	#297,	sack	#297
+drop	data	#298	(corrupted)
+send	ack	#297,	sack	#297
+recv	data	#298	(in order)
+send	ack	#301,	sack	#298
+recv	data	#302	(in order)
+send	ack	#302,	sack	#302
+recv	data	#303	(in order)
+send	ack	#303,	sack	#303
+recv	data	#305	(out of order, sack-ed)
+send	ack	#303,	sack	#305
+recv	data	#307	(out of order, sack-ed)
+send	ack	#303,	sack	#307
+recv	data	#308	(out of order, sack-ed)
+send	ack	#303,	sack	#308
+recv	data	#309	(out of order, sack-ed)
+send	ack	#303,	sack	#309
+recv	data	#304	(in order)
+send	ack	#305,	sack	#304
+recv	data	#311	(out of order, sack-ed)
+send	ack	#305,	sack	#311
+recv	data	#306	(in order)
+send	ack	#309,	sack	#306
+recv	data	#312	(out of order, sack-ed)
+send	ack	#309,	sack	#312
+recv	data	#313	(out of order, sack-ed)
+send	ack	#309,	sack	#313
+recv	data	#314	(out of order, sack-ed)
+send	ack	#309,	sack	#314
+recv	data	#315	(out of order, sack-ed)
+send	ack	#309,	sack	#315
+drop	data	#310	(corrupted)
+send	ack	#309,	sack	#309
+drop	data	#316	(corrupted)
+send	ack	#309,	sack	#309
+recv	data	#310	(in order)
+send	ack	#315,	sack	#310
+recv	data	#316	(in order)
+send	ack	#316,	sack	#316
+recv	data	#317	(in order)
+send	ack	#317,	sack	#317
+recv	data	#318	(in order)
+send	ack	#318,	sack	#318
+recv	data	#319	(in order)
+send	ack	#319,	sack	#319
+recv	data	#321	(out of order, sack-ed)
+send	ack	#319,	sack	#321
+recv	data	#322	(out of order, sack-ed)
+send	ack	#319,	sack	#322
+recv	data	#323	(out of order, sack-ed)
+send	ack	#319,	sack	#323
+recv	data	#324	(out of order, sack-ed)
+send	ack	#319,	sack	#324
+recv	data	#320	(in order)
+send	ack	#324,	sack	#320
+recv	data	#326	(out of order, sack-ed)
+send	ack	#324,	sack	#326
+recv	data	#327	(out of order, sack-ed)
+send	ack	#324,	sack	#327
+recv	data	#328	(out of order, sack-ed)
+send	ack	#324,	sack	#328
+recv	data	#329	(out of order, sack-ed)
+send	ack	#324,	sack	#329
+drop	data	#331	(corrupted)
+send	ack	#324,	sack	#324
+recv	data	#325	(in order)
+send	ack	#329,	sack	#325
+recv	data	#332	(out of order, sack-ed)
+send	ack	#329,	sack	#332
+recv	data	#333	(out of order, sack-ed)
+send	ack	#329,	sack	#333
+recv	data	#334	(out of order, sack-ed)
+send	ack	#329,	sack	#334
+recv	data	#335	(out of order, sack-ed)
+send	ack	#329,	sack	#335
+recv	data	#336	(out of order, sack-ed)
+send	ack	#329,	sack	#336
+recv	data	#330	(in order)
+send	ack	#330,	sack	#330
+recv	data	#338	(out of order, sack-ed)
+send	ack	#330,	sack	#338
+recv	data	#339	(out of order, sack-ed)
+send	ack	#330,	sack	#339
+recv	data	#340	(out of order, sack-ed)
+send	ack	#330,	sack	#340
+recv	data	#341	(out of order, sack-ed)
+send	ack	#330,	sack	#341
+recv	data	#331	(in order)
+send	ack	#336,	sack	#331
+recv	data	#343	(out of order, sack-ed)
+send	ack	#336,	sack	#343
+recv	data	#344	(out of order, sack-ed)
+send	ack	#336,	sack	#344
+recv	data	#345	(out of order, sack-ed)
+send	ack	#336,	sack	#345
+drop	data	#346	(corrupted)
+send	ack	#336,	sack	#336
+recv	data	#347	(out of order, sack-ed)
+send	ack	#336,	sack	#347
+recv	data	#337	(in order)
+send	ack	#341,	sack	#337
+recv	data	#348	(out of order, sack-ed)
+send	ack	#341,	sack	#348
+recv	data	#349	(out of order, sack-ed)
+send	ack	#341,	sack	#349
+recv	data	#350	(out of order, sack-ed)
+send	ack	#341,	sack	#350
+recv	data	#351	(out of order, sack-ed)
+send	ack	#341,	sack	#351
+recv	data	#352	(out of order, sack-ed)
+send	ack	#341,	sack	#352
+recv	data	#353	(out of order, sack-ed)
+send	ack	#341,	sack	#353
+recv	data	#342	(in order)
+send	ack	#345,	sack	#342
+recv	data	#354	(out of order, sack-ed)
+send	ack	#345,	sack	#354
+recv	data	#355	(out of order, sack-ed)
+send	ack	#345,	sack	#355
+recv	data	#356	(out of order, sack-ed)
+send	ack	#345,	sack	#356
+recv	data	#357	(out of order, sack-ed)
+send	ack	#345,	sack	#357
+recv	data	#358	(out of order, sack-ed)
+send	ack	#345,	sack	#358
+recv	data	#359	(out of order, sack-ed)
+send	ack	#345,	sack	#359
+recv	data	#360	(out of order, sack-ed)
+send	ack	#345,	sack	#360
+recv	data	#346	(in order)
+send	ack	#360,	sack	#346
+recv	data	#361	(in order)
+send	ack	#361,	sack	#361
+recv	data	#362	(in order)
+send	ack	#362,	sack	#362
+drop	data	#363	(corrupted)
+send	ack	#362,	sack	#362
+recv	data	#365	(out of order, sack-ed)
+send	ack	#362,	sack	#365
+recv	data	#366	(out of order, sack-ed)
+send	ack	#362,	sack	#366
+recv	data	#367	(out of order, sack-ed)
+send	ack	#362,	sack	#367
+recv	data	#368	(out of order, sack-ed)
+send	ack	#362,	sack	#368
+recv	data	#369	(out of order, sack-ed)
+send	ack	#362,	sack	#369
+recv	data	#363	(in order)
+send	ack	#363,	sack	#363
+recv	data	#370	(out of order, sack-ed)
+send	ack	#363,	sack	#370
+recv	data	#371	(out of order, sack-ed)
+send	ack	#363,	sack	#371
+recv	data	#372	(out of order, sack-ed)
+send	ack	#363,	sack	#372
+recv	data	#373	(out of order, sack-ed)
+send	ack	#363,	sack	#373
+recv	data	#374	(out of order, sack-ed)
+send	ack	#363,	sack	#374
+recv	data	#375	(out of order, sack-ed)
+send	ack	#363,	sack	#375
+recv	data	#376	(out of order, sack-ed)
+send	ack	#363,	sack	#376
+recv	data	#377	(out of order, sack-ed)
+send	ack	#363,	sack	#377
+recv	data	#364	(in order)
+send	ack	#377,	sack	#364
+recv	data	#378	(in order)
+send	ack	#378,	sack	#378
+recv	data	#379	(in order)
+send	ack	#379,	sack	#379
+recv	data	#380	(in order)
+send	ack	#380,	sack	#380
+recv	data	#381	(in order)
+send	ack	#381,	sack	#381
+recv	data	#382	(in order)
+send	ack	#382,	sack	#382
+recv	data	#383	(in order)
+send	ack	#383,	sack	#383
+recv	data	#384	(in order)
+send	ack	#384,	sack	#384
+recv	data	#385	(in order)
+send	ack	#385,	sack	#385
+recv	data	#386	(in order)
+send	ack	#386,	sack	#386
+recv	data	#388	(out of order, sack-ed)
+send	ack	#386,	sack	#388
+recv	data	#389	(out of order, sack-ed)
+send	ack	#386,	sack	#389
+recv	data	#390	(out of order, sack-ed)
+send	ack	#386,	sack	#390
+recv	data	#391	(out of order, sack-ed)
+send	ack	#386,	sack	#391
+recv	data	#392	(out of order, sack-ed)
+send	ack	#386,	sack	#392
+recv	data	#393	(out of order, sack-ed)
+send	ack	#386,	sack	#393
+recv	data	#394	(out of order, sack-ed)
+send	ack	#386,	sack	#394
+recv	data	#395	(out of order, sack-ed)
+send	ack	#386,	sack	#395
+recv	data	#396	(out of order, sack-ed)
+send	ack	#386,	sack	#396
+recv	data	#387	(in order)
+send	ack	#396,	sack	#387
+recv	data	#397	(in order)
+send	ack	#397,	sack	#397
+drop	data	#398	(corrupted)
+send	ack	#397,	sack	#397
+recv	data	#399	(out of order, sack-ed)
+send	ack	#397,	sack	#399
+drop	data	#401	(corrupted)
+send	ack	#397,	sack	#397
+recv	data	#402	(out of order, sack-ed)
+send	ack	#397,	sack	#402
+recv	data	#403	(out of order, sack-ed)
+send	ack	#397,	sack	#403
+recv	data	#404	(out of order, sack-ed)
+send	ack	#397,	sack	#404
+recv	data	#405	(out of order, sack-ed)
+send	ack	#397,	sack	#405
+recv	data	#398	(in order)
+send	ack	#399,	sack	#398
+recv	data	#406	(out of order, sack-ed)
+send	ack	#399,	sack	#406
+recv	data	#407	(out of order, sack-ed)
+send	ack	#399,	sack	#407
+recv	data	#408	(out of order, sack-ed)
+send	ack	#399,	sack	#408
+recv	data	#409	(out of order, sack-ed)
+send	ack	#399,	sack	#409
+recv	data	#410	(out of order, sack-ed)
+send	ack	#399,	sack	#410
+recv	data	#411	(out of order, sack-ed)
+send	ack	#399,	sack	#411
+recv	data	#412	(out of order, sack-ed)
+send	ack	#399,	sack	#412
+recv	data	#413	(out of order, sack-ed)
+send	ack	#399,	sack	#413
+recv	data	#414	(out of order, sack-ed)
+send	ack	#399,	sack	#414
+recv	data	#400	(in order)
+send	ack	#400,	sack	#400
+recv	data	#415	(out of order, sack-ed)
+send	ack	#400,	sack	#415
+recv	data	#416	(out of order, sack-ed)
+send	ack	#400,	sack	#416
+recv	data	#417	(out of order, sack-ed)
+send	ack	#400,	sack	#417
+recv	data	#418	(out of order, sack-ed)
+send	ack	#400,	sack	#418
+recv	data	#419	(out of order, sack-ed)
+send	ack	#400,	sack	#419
+recv	data	#420	(out of order, sack-ed)
+send	ack	#400,	sack	#420
+recv	data	#421	(out of order, sack-ed)
+send	ack	#400,	sack	#421
+recv	data	#422	(out of order, sack-ed)
+send	ack	#400,	sack	#422
+recv	data	#423	(out of order, sack-ed)
+send	ack	#400,	sack	#423
+recv	data	#424	(out of order, sack-ed)
+send	ack	#400,	sack	#424
+recv	data	#401	(in order)
+send	ack	#424,	sack	#401
+recv	data	#426	(out of order, sack-ed)
+send	ack	#424,	sack	#426
+drop	data	#427	(corrupted)
+send	ack	#424,	sack	#424
+recv	data	#428	(out of order, sack-ed)
+send	ack	#424,	sack	#428
+recv	data	#429	(out of order, sack-ed)
+send	ack	#424,	sack	#429
+recv	data	#430	(out of order, sack-ed)
+send	ack	#424,	sack	#430
+recv	data	#432	(out of order, sack-ed)
+send	ack	#424,	sack	#432
+recv	data	#433	(out of order, sack-ed)
+send	ack	#424,	sack	#433
+recv	data	#425	(in order)
+send	ack	#426,	sack	#425
+recv	data	#436	(out of order, sack-ed)
+send	ack	#426,	sack	#436
+recv	data	#437	(out of order, sack-ed)
+send	ack	#426,	sack	#437
+recv	data	#438	(out of order, sack-ed)
+send	ack	#426,	sack	#438
+drop	data	#439	(corrupted)
+send	ack	#426,	sack	#426
+recv	data	#440	(out of order, sack-ed)
+send	ack	#426,	sack	#440
+recv	data	#441	(out of order, sack-ed)
+send	ack	#426,	sack	#441
+recv	data	#442	(out of order, sack-ed)
+send	ack	#426,	sack	#442
+drop	data	#427	(corrupted)
+send	ack	#426,	sack	#426
+recv	data	#443	(out of order, sack-ed)
+send	ack	#426,	sack	#443
+recv	data	#444	(out of order, sack-ed)
+send	ack	#426,	sack	#444
+recv	data	#445	(out of order, sack-ed)
+send	ack	#426,	sack	#445
+drop	data	#446	(corrupted)
+send	ack	#426,	sack	#426
+recv	data	#447	(out of order, sack-ed)
+send	ack	#426,	sack	#447
+recv	data	#449	(out of order, sack-ed)
+send	ack	#426,	sack	#449
+recv	data	#450	(out of order, sack-ed)
+send	ack	#426,	sack	#450
+recv	data	#451	(out of order, sack-ed)
+send	ack	#426,	sack	#451
+recv	data	#452	(out of order, sack-ed)
+send	ack	#426,	sack	#452
+recv	data	#453	(out of order, sack-ed)
+send	ack	#426,	sack	#453
+recv	data	#454	(out of order, sack-ed)
+send	ack	#426,	sack	#454
+recv	data	#455	(out of order, sack-ed)
+send	ack	#426,	sack	#455
+recv	data	#427	(in order)
+send	ack	#430,	sack	#427
+drop	data	#431	(corrupted)
+send	ack	#430,	sack	#430
+recv	data	#434	(out of order, sack-ed)
+send	ack	#430,	sack	#434
+recv	data	#435	(out of order, sack-ed)
+send	ack	#430,	sack	#435
+drop	data	#439	(corrupted)
+send	ack	#430,	sack	#430
+recv	data	#431	(in order)
+send	ack	#438,	sack	#431
+recv	data	#448	(out of order, sack-ed)
+send	ack	#438,	sack	#448
+recv	data	#456	(out of order, sack-ed)
+send	ack	#438,	sack	#456
+recv	data	#457	(out of order, sack-ed)
+send	ack	#438,	sack	#457
+recv	data	#458	(out of order, sack-ed)
+send	ack	#438,	sack	#458
+drop	data	#439	(corrupted)
+send	ack	#438,	sack	#438
+recv	data	#459	(out of order, sack-ed)
+send	ack	#438,	sack	#459
+recv	data	#460	(out of order, sack-ed)
+send	ack	#438,	sack	#460
+drop	data	#461	(corrupted)
+send	ack	#438,	sack	#438
+drop	data	#439	(corrupted)
+send	ack	#438,	sack	#438
+drop	data	#439	(corrupted)
+send	ack	#438,	sack	#438
+recv	data	#439	(in order)
+send	ack	#445,	sack	#439
+recv	data	#446	(in order)
+send	ack	#460,	sack	#446
+recv	data	#461	(in order)
+send	ack	#461,	sack	#461
+recv	data	#462	(in order)
+send	ack	#462,	sack	#462
+recv	data	#463	(in order)
+send	ack	#463,	sack	#463
+recv	data	#465	(out of order, sack-ed)
+send	ack	#463,	sack	#465
+recv	data	#466	(out of order, sack-ed)
+send	ack	#463,	sack	#466
+recv	data	#467	(out of order, sack-ed)
+send	ack	#463,	sack	#467
+recv	data	#468	(out of order, sack-ed)
+send	ack	#463,	sack	#468
+recv	data	#469	(out of order, sack-ed)
+send	ack	#463,	sack	#469
+recv	data	#464	(in order)
+send	ack	#469,	sack	#464
+drop	data	#470	(corrupted)
+send	ack	#469,	sack	#469
+recv	data	#471	(out of order, sack-ed)
+send	ack	#469,	sack	#471
+recv	data	#472	(out of order, sack-ed)
+send	ack	#469,	sack	#472
+recv	data	#473	(out of order, sack-ed)
+send	ack	#469,	sack	#473
+recv	data	#474	(out of order, sack-ed)
+send	ack	#469,	sack	#474
+recv	data	#475	(out of order, sack-ed)
+send	ack	#469,	sack	#475
+recv	data	#470	(in order)
+send	ack	#475,	sack	#470
+recv	data	#477	(out of order, sack-ed)
+send	ack	#475,	sack	#477
+recv	data	#478	(out of order, sack-ed)
+send	ack	#475,	sack	#478
+recv	data	#479	(out of order, sack-ed)
+send	ack	#475,	sack	#479
+recv	data	#480	(out of order, sack-ed)
+send	ack	#475,	sack	#480
+recv	data	#481	(out of order, sack-ed)
+send	ack	#475,	sack	#481
+recv	data	#482	(out of order, sack-ed)
+send	ack	#475,	sack	#482
+recv	data	#476	(in order)
+send	ack	#482,	sack	#476
+drop	data	#483	(corrupted)
+send	ack	#482,	sack	#482
+recv	data	#484	(out of order, sack-ed)
+send	ack	#482,	sack	#484
+drop	data	#485	(corrupted)
+send	ack	#482,	sack	#482
+recv	data	#486	(out of order, sack-ed)
+send	ack	#482,	sack	#486
+recv	data	#487	(out of order, sack-ed)
+send	ack	#482,	sack	#487
+recv	data	#483	(in order)
+send	ack	#484,	sack	#483
+recv	data	#488	(out of order, sack-ed)
+send	ack	#484,	sack	#488
+recv	data	#489	(out of order, sack-ed)
+send	ack	#484,	sack	#489
+recv	data	#490	(out of order, sack-ed)
+send	ack	#484,	sack	#490
+recv	data	#491	(out of order, sack-ed)
+send	ack	#484,	sack	#491
+recv	data	#492	(out of order, sack-ed)
+send	ack	#484,	sack	#492
+recv	data	#493	(out of order, sack-ed)
+send	ack	#484,	sack	#493
+recv	data	#485	(in order)
+send	ack	#493,	sack	#485
+recv	data	#497	(out of order, sack-ed)
+send	ack	#493,	sack	#497
+recv	data	#499	(out of order, sack-ed)
+send	ack	#493,	sack	#499
+recv	data	#500	(out of order, sack-ed)
+send	ack	#493,	sack	#500
+recv	data	#494	(in order)
+send	ack	#494,	sack	#494
+recv	data	#495	(in order)
+send	ack	#495,	sack	#495
+drop	data	#496	(corrupted)
+send	ack	#495,	sack	#495
+recv	data	#498	(out of order, sack-ed)
+send	ack	#495,	sack	#498
+recv	data	#501	(out of order, sack-ed)
+send	ack	#495,	sack	#501
+recv	data	#502	(out of order, sack-ed)
+send	ack	#495,	sack	#502
+recv	data	#503	(out of order, sack-ed)
+send	ack	#495,	sack	#503
+recv	data	#504	(out of order, sack-ed)
+send	ack	#495,	sack	#504
+recv	data	#505	(out of order, sack-ed)
+send	ack	#495,	sack	#505
+recv	data	#496	(in order)
+send	ack	#505,	sack	#496
+recv	data	#506	(in order)
+send	ack	#506,	sack	#506
+recv	data	#507	(in order)
+send	ack	#507,	sack	#507
+recv	data	#508	(in order)
+send	ack	#508,	sack	#508
+recv	data	#509	(in order)
+send	ack	#509,	sack	#509
+recv	data	#510	(in order)
+send	ack	#510,	sack	#510
+recv	data	#512	(out of order, sack-ed)
+send	ack	#510,	sack	#512
+drop	data	#513	(buffer overflow)
+send	ack	#510,	sack	#510
+drop	data	#514	(corrupted)
+send	ack	#510,	sack	#510
+drop	data	#515	(buffer overflow)
+send	ack	#510,	sack	#510
+recv	data	#511	(in order)
+send	ack	#512,	sack	#511
+flush
+sha256	512000	a40c37d2ff32a3f8d87018ca801982263daffcb9ce98dcf491d73e598e17c63f
+recv	data	#516	(out of order, sack-ed)
+send	ack	#512,	sack	#516
+recv	data	#517	(out of order, sack-ed)
+send	ack	#512,	sack	#517
+recv	data	#518	(out of order, sack-ed)
+send	ack	#512,	sack	#518
+recv	data	#519	(out of order, sack-ed)
+send	ack	#512,	sack	#519
+recv	data	#513	(in order)
+send	ack	#513,	sack	#513
+recv	data	#520	(out of order, sack-ed)
+send	ack	#513,	sack	#520
+recv	data	#522	(out of order, sack-ed)
+send	ack	#513,	sack	#522
+recv	data	#523	(out of order, sack-ed)
+send	ack	#513,	sack	#523
+drop	data	#524	(corrupted)
+send	ack	#513,	sack	#513
+recv	data	#514	(in order)
+send	ack	#514,	sack	#514
+recv	data	#525	(out of order, sack-ed)
+send	ack	#514,	sack	#525
+recv	data	#526	(out of order, sack-ed)
+send	ack	#514,	sack	#526
+drop	data	#527	(corrupted)
+send	ack	#514,	sack	#514
+recv	data	#515	(in order)
+send	ack	#520,	sack	#515
+recv	data	#528	(out of order, sack-ed)
+send	ack	#520,	sack	#528
+recv	data	#530	(out of order, sack-ed)
+send	ack	#520,	sack	#530
+recv	data	#531	(out of order, sack-ed)
+send	ack	#520,	sack	#531
+recv	data	#532	(out of order, sack-ed)
+send	ack	#520,	sack	#532
+recv	data	#521	(in order)
+send	ack	#523,	sack	#521
+recv	data	#533	(out of order, sack-ed)
+send	ack	#523,	sack	#533
+recv	data	#534	(out of order, sack-ed)
+send	ack	#523,	sack	#534
+recv	data	#535	(out of order, sack-ed)
+send	ack	#523,	sack	#535
+recv	data	#536	(out of order, sack-ed)
+send	ack	#523,	sack	#536
+recv	data	#537	(out of order, sack-ed)
+send	ack	#523,	sack	#537
+recv	data	#524	(in order)
+send	ack	#526,	sack	#524
+recv	data	#538	(out of order, sack-ed)
+send	ack	#526,	sack	#538
+recv	data	#539	(out of order, sack-ed)
+send	ack	#526,	sack	#539
+recv	data	#542	(out of order, sack-ed)
+send	ack	#526,	sack	#542
+drop	data	#543	(corrupted)
+send	ack	#526,	sack	#526
+recv	data	#527	(in order)
+send	ack	#528,	sack	#527
+recv	data	#544	(out of order, sack-ed)
+send	ack	#528,	sack	#544
+drop	data	#529	(corrupted)
+send	ack	#528,	sack	#528
+recv	data	#529	(in order)
+send	ack	#539,	sack	#529
+recv	data	#540	(in order)
+send	ack	#540,	sack	#540
+recv	data	#541	(in order)
+send	ack	#542,	sack	#541
+recv	data	#543	(in order)
+send	ack	#544,	sack	#543
+recv	data	#546	(out of order, sack-ed)
+send	ack	#544,	sack	#546
+recv	data	#547	(out of order, sack-ed)
+send	ack	#544,	sack	#547
+recv	data	#548	(out of order, sack-ed)
+send	ack	#544,	sack	#548
+recv	data	#549	(out of order, sack-ed)
+send	ack	#544,	sack	#549
+recv	data	#550	(out of order, sack-ed)
+send	ack	#544,	sack	#550
+recv	data	#545	(in order)
+send	ack	#550,	sack	#545
+recv	data	#551	(in order)
+send	ack	#551,	sack	#551
+recv	data	#552	(in order)
+send	ack	#552,	sack	#552
+recv	data	#553	(in order)
+send	ack	#553,	sack	#553
+recv	data	#554	(in order)
+send	ack	#554,	sack	#554
+drop	data	#555	(corrupted)
+send	ack	#554,	sack	#554
+recv	data	#556	(out of order, sack-ed)
+send	ack	#554,	sack	#556
+recv	data	#557	(out of order, sack-ed)
+send	ack	#554,	sack	#557
+drop	data	#558	(corrupted)
+send	ack	#554,	sack	#554
+recv	data	#560	(out of order, sack-ed)
+send	ack	#554,	sack	#560
+recv	data	#555	(in order)
+send	ack	#557,	sack	#555
+drop	data	#562	(corrupted)
+send	ack	#557,	sack	#557
+recv	data	#563	(out of order, sack-ed)
+send	ack	#557,	sack	#563
+recv	data	#564	(out of order, sack-ed)
+send	ack	#557,	sack	#564
+recv	data	#565	(out of order, sack-ed)
+send	ack	#557,	sack	#565
+recv	data	#558	(in order)
+send	ack	#558,	sack	#558
+recv	data	#567	(out of order, sack-ed)
+send	ack	#558,	sack	#567
+recv	data	#568	(out of order, sack-ed)
+send	ack	#558,	sack	#568
+recv	data	#569	(out of order, sack-ed)
+send	ack	#558,	sack	#569
+recv	data	#570	(out of order, sack-ed)
+send	ack	#558,	sack	#570
+recv	data	#559	(in order)
+send	ack	#560,	sack	#559
+recv	data	#571	(out of order, sack-ed)
+send	ack	#560,	sack	#571
+recv	data	#572	(out of order, sack-ed)
+send	ack	#560,	sack	#572
+recv	data	#573	(out of order, sack-ed)
+send	ack	#560,	sack	#573
+recv	data	#574	(out of order, sack-ed)
+send	ack	#560,	sack	#574
+recv	data	#561	(in order)
+send	ack	#561,	sack	#561
+drop	data	#576	(corrupted)
+send	ack	#561,	sack	#561
+recv	data	#562	(in order)
+send	ack	#565,	sack	#562
+recv	data	#566	(in order)
+send	ack	#574,	sack	#566
+recv	data	#575	(in order)
+send	ack	#575,	sack	#575
+drop	data	#576	(corrupted)
+send	ack	#575,	sack	#575
+recv	data	#577	(out of order, sack-ed)
+send	ack	#575,	sack	#577
+recv	data	#576	(in order)
+send	ack	#577,	sack	#576
+drop	data	#578	(corrupted)
+send	ack	#577,	sack	#577
+recv	data	#579	(out of order, sack-ed)
+send	ack	#577,	sack	#579
+recv	data	#580	(out of order, sack-ed)
+send	ack	#577,	sack	#580
+drop	data	#578	(corrupted)
+send	ack	#577,	sack	#577
+recv	data	#578	(in order)
+send	ack	#580,	sack	#578
+recv	data	#581	(in order)
+send	ack	#581,	sack	#581
+recv	data	#582	(in order)
+send	ack	#582,	sack	#582
+drop	data	#583	(corrupted)
+send	ack	#582,	sack	#582
+recv	data	#584	(out of order, sack-ed)
+send	ack	#582,	sack	#584
+recv	data	#585	(out of order, sack-ed)
+send	ack	#582,	sack	#585
+recv	data	#586	(out of order, sack-ed)
+send	ack	#582,	sack	#586
+recv	data	#587	(out of order, sack-ed)
+send	ack	#582,	sack	#587
+drop	data	#583	(corrupted)
+send	ack	#582,	sack	#582
+recv	data	#588	(out of order, sack-ed)
+send	ack	#582,	sack	#588
+recv	data	#589	(out of order, sack-ed)
+send	ack	#582,	sack	#589
+recv	data	#590	(out of order, sack-ed)
+send	ack	#582,	sack	#590
+drop	data	#591	(corrupted)
+send	ack	#582,	sack	#582
+recv	data	#592	(out of order, sack-ed)
+send	ack	#582,	sack	#592
+recv	data	#593	(out of order, sack-ed)
+send	ack	#582,	sack	#593
+recv	data	#594	(out of order, sack-ed)
+send	ack	#582,	sack	#594
+recv	data	#595	(out of order, sack-ed)
+send	ack	#582,	sack	#595
+recv	data	#596	(out of order, sack-ed)
+send	ack	#582,	sack	#596
+recv	data	#597	(out of order, sack-ed)
+send	ack	#582,	sack	#597
+recv	data	#598	(out of order, sack-ed)
+send	ack	#582,	sack	#598
+recv	data	#599	(out of order, sack-ed)
+send	ack	#582,	sack	#599
+recv	data	#600	(out of order, sack-ed)
+send	ack	#582,	sack	#600
+recv	data	#601	(out of order, sack-ed)
+send	ack	#582,	sack	#601
+recv	data	#602	(out of order, sack-ed)
+send	ack	#582,	sack	#602
+recv	data	#603	(out of order, sack-ed)
+send	ack	#582,	sack	#603
+recv	data	#583	(in order)
+send	ack	#590,	sack	#583
+drop	data	#591	(corrupted)
+send	ack	#590,	sack	#590
+recv	data	#604	(out of order, sack-ed)
+send	ack	#590,	sack	#604
+recv	data	#605	(out of order, sack-ed)
+send	ack	#590,	sack	#605
+recv	data	#606	(out of order, sack-ed)
+send	ack	#590,	sack	#606
+recv	data	#591	(in order)
+send	ack	#606,	sack	#591
+recv	data	#607	(in order)
+send	ack	#607,	sack	#607
+recv	data	#608	(in order)
+send	ack	#608,	sack	#608
+drop	data	#609	(corrupted)
+send	ack	#608,	sack	#608
+recv	data	#610	(out of order, sack-ed)
+send	ack	#608,	sack	#610
+recv	data	#611	(out of order, sack-ed)
+send	ack	#608,	sack	#611
+recv	data	#612	(out of order, sack-ed)
+send	ack	#608,	sack	#612
+recv	data	#613	(out of order, sack-ed)
+send	ack	#608,	sack	#613
+drop	data	#609	(corrupted)
+send	ack	#608,	sack	#608
+drop	data	#614	(corrupted)
+send	ack	#608,	sack	#608
+recv	data	#615	(out of order, sack-ed)
+send	ack	#608,	sack	#615
+recv	data	#616	(out of order, sack-ed)
+send	ack	#608,	sack	#616
+recv	data	#617	(out of order, sack-ed)
+send	ack	#608,	sack	#617
+recv	data	#618	(out of order, sack-ed)
+send	ack	#608,	sack	#618
+recv	data	#619	(out of order, sack-ed)
+send	ack	#608,	sack	#619
+recv	data	#620	(out of order, sack-ed)
+send	ack	#608,	sack	#620
+recv	data	#621	(out of order, sack-ed)
+send	ack	#608,	sack	#621
+recv	data	#622	(out of order, sack-ed)
+send	ack	#608,	sack	#622
+recv	data	#609	(in order)
+send	ack	#613,	sack	#609
+recv	data	#614	(in order)
+send	ack	#622,	sack	#614
+recv	data	#623	(in order)
+send	ack	#623,	sack	#623
+recv	data	#624	(in order)
+send	ack	#624,	sack	#624
+recv	data	#625	(in order)
+send	ack	#625,	sack	#625
+recv	data	#626	(in order)
+send	ack	#626,	sack	#626
+recv	data	#627	(in order)
+send	ack	#627,	sack	#627
+recv	data	#628	(in order)
+send	ack	#628,	sack	#628
+recv	data	#629	(in order)
+send	ack	#629,	sack	#629
+recv	data	#630	(in order)
+send	ack	#630,	sack	#630
+recv	data	#631	(in order)
+send	ack	#631,	sack	#631
+drop	data	#632	(corrupted)
+send	ack	#631,	sack	#631
+recv	data	#633	(out of order, sack-ed)
+send	ack	#631,	sack	#633
+recv	data	#634	(out of order, sack-ed)
+send	ack	#631,	sack	#634
+recv	data	#635	(out of order, sack-ed)
+send	ack	#631,	sack	#635
+recv	data	#636	(out of order, sack-ed)
+send	ack	#631,	sack	#636
+recv	data	#637	(out of order, sack-ed)
+send	ack	#631,	sack	#637
+recv	data	#638	(out of order, sack-ed)
+send	ack	#631,	sack	#638
+recv	data	#632	(in order)
+send	ack	#638,	sack	#632
+drop	data	#639	(corrupted)
+send	ack	#638,	sack	#638
+recv	data	#640	(out of order, sack-ed)
+send	ack	#638,	sack	#640
+recv	data	#642	(out of order, sack-ed)
+send	ack	#638,	sack	#642
+recv	data	#643	(out of order, sack-ed)
+send	ack	#638,	sack	#643
+recv	data	#644	(out of order, sack-ed)
+send	ack	#638,	sack	#644
+recv	data	#645	(out of order, sack-ed)
+send	ack	#638,	sack	#645
+recv	data	#639	(in order)
+send	ack	#640,	sack	#639
+drop	data	#646	(corrupted)
+send	ack	#640,	sack	#640
+recv	data	#647	(out of order, sack-ed)
+send	ack	#640,	sack	#647
+recv	data	#648	(out of order, sack-ed)
+send	ack	#640,	sack	#648
+recv	data	#650	(out of order, sack-ed)
+send	ack	#640,	sack	#650
+recv	data	#651	(out of order, sack-ed)
+send	ack	#640,	sack	#651
+recv	data	#641	(in order)
+send	ack	#645,	sack	#641
+recv	data	#652	(out of order, sack-ed)
+send	ack	#645,	sack	#652
+recv	data	#653	(out of order, sack-ed)
+send	ack	#645,	sack	#653
+recv	data	#654	(out of order, sack-ed)
+send	ack	#645,	sack	#654
+drop	data	#656	(corrupted)
+send	ack	#645,	sack	#645
+drop	data	#657	(corrupted)
+send	ack	#645,	sack	#645
+recv	data	#646	(in order)
+send	ack	#648,	sack	#646
+recv	data	#658	(out of order, sack-ed)
+send	ack	#648,	sack	#658
+recv	data	#659	(out of order, sack-ed)
+send	ack	#648,	sack	#659
+recv	data	#660	(out of order, sack-ed)
+send	ack	#648,	sack	#660
+recv	data	#661	(out of order, sack-ed)
+send	ack	#648,	sack	#661
+recv	data	#662	(out of order, sack-ed)
+send	ack	#648,	sack	#662
+recv	data	#649	(in order)
+send	ack	#654,	sack	#649
+recv	data	#663	(out of order, sack-ed)
+send	ack	#654,	sack	#663
+recv	data	#664	(out of order, sack-ed)
+send	ack	#654,	sack	#664
+recv	data	#665	(out of order, sack-ed)
+send	ack	#654,	sack	#665
+recv	data	#666	(out of order, sack-ed)
+send	ack	#654,	sack	#666
+recv	data	#667	(out of order, sack-ed)
+send	ack	#654,	sack	#667
+recv	data	#655	(in order)
+send	ack	#655,	sack	#655
+recv	data	#669	(out of order, sack-ed)
+send	ack	#655,	sack	#669
+recv	data	#672	(out of order, sack-ed)
+send	ack	#655,	sack	#672
+recv	data	#656	(in order)
+send	ack	#656,	sack	#656
+recv	data	#657	(in order)
+send	ack	#667,	sack	#657
+recv	data	#668	(in order)
+send	ack	#669,	sack	#668
+recv	data	#670	(in order)
+send	ack	#670,	sack	#670
+recv	data	#671	(in order)
+send	ack	#672,	sack	#671
+recv	data	#673	(in order)
+send	ack	#673,	sack	#673
+recv	data	#674	(in order)
+send	ack	#674,	sack	#674
+recv	data	#675	(in order)
+send	ack	#675,	sack	#675
+drop	data	#676	(corrupted)
+send	ack	#675,	sack	#675
+recv	data	#678	(out of order, sack-ed)
+send	ack	#675,	sack	#678
+drop	data	#679	(corrupted)
+send	ack	#675,	sack	#675
+recv	data	#680	(out of order, sack-ed)
+send	ack	#675,	sack	#680
+recv	data	#676	(in order)
+send	ack	#676,	sack	#676
+recv	data	#682	(out of order, sack-ed)
+send	ack	#676,	sack	#682
+recv	data	#684	(out of order, sack-ed)
+send	ack	#676,	sack	#684
+recv	data	#685	(out of order, sack-ed)
+send	ack	#676,	sack	#685
+recv	data	#686	(out of order, sack-ed)
+send	ack	#676,	sack	#686
+recv	data	#677	(in order)
+send	ack	#678,	sack	#677
+recv	data	#687	(out of order, sack-ed)
+send	ack	#678,	sack	#687
+recv	data	#689	(out of order, sack-ed)
+send	ack	#678,	sack	#689
+recv	data	#690	(out of order, sack-ed)
+send	ack	#678,	sack	#690
+recv	data	#691	(out of order, sack-ed)
+send	ack	#678,	sack	#691
+recv	data	#692	(out of order, sack-ed)
+send	ack	#678,	sack	#692
+recv	data	#693	(out of order, sack-ed)
+send	ack	#678,	sack	#693
+recv	data	#694	(out of order, sack-ed)
+send	ack	#678,	sack	#694
+recv	data	#695	(out of order, sack-ed)
+send	ack	#678,	sack	#695
+recv	data	#696	(out of order, sack-ed)
+send	ack	#678,	sack	#696
+recv	data	#679	(in order)
+send	ack	#680,	sack	#679
+recv	data	#681	(in order)
+send	ack	#682,	sack	#681
+recv	data	#683	(in order)
+send	ack	#687,	sack	#683
+drop	data	#688	(corrupted)
+send	ack	#687,	sack	#687
+recv	data	#697	(out of order, sack-ed)
+send	ack	#687,	sack	#697
+recv	data	#698	(out of order, sack-ed)
+send	ack	#687,	sack	#698
+recv	data	#699	(out of order, sack-ed)
+send	ack	#687,	sack	#699
+recv	data	#700	(out of order, sack-ed)
+send	ack	#687,	sack	#700
+recv	data	#688	(in order)
+send	ack	#700,	sack	#688
+recv	data	#701	(in order)
+send	ack	#701,	sack	#701
+recv	data	#702	(in order)
+send	ack	#702,	sack	#702
+recv	data	#703	(in order)
+send	ack	#703,	sack	#703
+recv	data	#705	(out of order, sack-ed)
+send	ack	#703,	sack	#705
+recv	data	#706	(out of order, sack-ed)
+send	ack	#703,	sack	#706
+drop	data	#707	(corrupted)
+send	ack	#703,	sack	#703
+recv	data	#708	(out of order, sack-ed)
+send	ack	#703,	sack	#708
+recv	data	#709	(out of order, sack-ed)
+send	ack	#703,	sack	#709
+recv	data	#704	(in order)
+send	ack	#706,	sack	#704
+recv	data	#710	(out of order, sack-ed)
+send	ack	#706,	sack	#710
+recv	data	#711	(out of order, sack-ed)
+send	ack	#706,	sack	#711
+recv	data	#712	(out of order, sack-ed)
+send	ack	#706,	sack	#712
+recv	data	#714	(out of order, sack-ed)
+send	ack	#706,	sack	#714
+recv	data	#715	(out of order, sack-ed)
+send	ack	#706,	sack	#715
+recv	data	#707	(in order)
+send	ack	#712,	sack	#707
+recv	data	#716	(out of order, sack-ed)
+send	ack	#712,	sack	#716
+recv	data	#717	(out of order, sack-ed)
+send	ack	#712,	sack	#717
+recv	data	#718	(out of order, sack-ed)
+send	ack	#712,	sack	#718
+recv	data	#719	(out of order, sack-ed)
+send	ack	#712,	sack	#719
+recv	data	#720	(out of order, sack-ed)
+send	ack	#712,	sack	#720
+recv	data	#721	(out of order, sack-ed)
+send	ack	#712,	sack	#721
+recv	data	#713	(in order)
+send	ack	#721,	sack	#713
+recv	data	#723	(out of order, sack-ed)
+send	ack	#721,	sack	#723
+recv	data	#725	(out of order, sack-ed)
+send	ack	#721,	sack	#725
+recv	data	#726	(out of order, sack-ed)
+send	ack	#721,	sack	#726
+drop	data	#727	(corrupted)
+send	ack	#721,	sack	#721
+drop	data	#729	(corrupted)
+send	ack	#721,	sack	#721
+recv	data	#722	(in order)
+send	ack	#723,	sack	#722
+recv	data	#724	(in order)
+send	ack	#726,	sack	#724
+recv	data	#727	(in order)
+send	ack	#727,	sack	#727
+drop	data	#728	(corrupted)
+send	ack	#727,	sack	#727
+recv	data	#729	(out of order, sack-ed)
+send	ack	#727,	sack	#729
+recv	data	#730	(out of order, sack-ed)
+send	ack	#727,	sack	#730
+recv	data	#731	(out of order, sack-ed)
+send	ack	#727,	sack	#731
+recv	data	#732	(out of order, sack-ed)
+send	ack	#727,	sack	#732
+recv	data	#728	(in order)
+send	ack	#732,	sack	#728
+recv	data	#733	(in order)
+send	ack	#733,	sack	#733
+recv	data	#734	(in order)
+send	ack	#734,	sack	#734
+recv	data	#735	(in order)
+send	ack	#735,	sack	#735
+recv	data	#737	(out of order, sack-ed)
+send	ack	#735,	sack	#737
+recv	data	#738	(out of order, sack-ed)
+send	ack	#735,	sack	#738
+recv	data	#739	(out of order, sack-ed)
+send	ack	#735,	sack	#739
+recv	data	#740	(out of order, sack-ed)
+send	ack	#735,	sack	#740
+recv	data	#741	(out of order, sack-ed)
+send	ack	#735,	sack	#741
+recv	data	#742	(out of order, sack-ed)
+send	ack	#735,	sack	#742
+recv	data	#736	(in order)
+send	ack	#742,	sack	#736
+drop	data	#743	(corrupted)
+send	ack	#742,	sack	#742
+recv	data	#744	(out of order, sack-ed)
+send	ack	#742,	sack	#744
+drop	data	#745	(corrupted)
+send	ack	#742,	sack	#742
+recv	data	#746	(out of order, sack-ed)
+send	ack	#742,	sack	#746
+recv	data	#747	(out of order, sack-ed)
+send	ack	#742,	sack	#747
+drop	data	#743	(corrupted)
+send	ack	#742,	sack	#742
+recv	data	#748	(out of order, sack-ed)
+send	ack	#742,	sack	#748
+recv	data	#749	(out of order, sack-ed)
+send	ack	#742,	sack	#749
+recv	data	#750	(out of order, sack-ed)
+send	ack	#742,	sack	#750
+recv	data	#751	(out of order, sack-ed)
+send	ack	#742,	sack	#751
+recv	data	#753	(out of order, sack-ed)
+send	ack	#742,	sack	#753
+recv	data	#754	(out of order, sack-ed)
+send	ack	#742,	sack	#754
+recv	data	#743	(in order)
+send	ack	#744,	sack	#743
+recv	data	#745	(in order)
+send	ack	#751,	sack	#745
+recv	data	#752	(in order)
+send	ack	#754,	sack	#752
+recv	data	#756	(out of order, sack-ed)
+send	ack	#754,	sack	#756
+recv	data	#757	(out of order, sack-ed)
+send	ack	#754,	sack	#757
+recv	data	#758	(out of order, sack-ed)
+send	ack	#754,	sack	#758
+drop	data	#759	(corrupted)
+send	ack	#754,	sack	#754
+recv	data	#755	(in order)
+send	ack	#758,	sack	#755
+recv	data	#761	(out of order, sack-ed)
+send	ack	#758,	sack	#761
+recv	data	#762	(out of order, sack-ed)
+send	ack	#758,	sack	#762
+recv	data	#759	(in order)
+send	ack	#759,	sack	#759
+recv	data	#760	(in order)
+send	ack	#762,	sack	#760
+recv	data	#763	(in order)
+send	ack	#763,	sack	#763
+recv	data	#764	(in order)
+send	ack	#764,	sack	#764
+drop	data	#765	(corrupted)
+send	ack	#764,	sack	#764
+recv	data	#766	(out of order, sack-ed)
+send	ack	#764,	sack	#766
+recv	data	#767	(out of order, sack-ed)
+send	ack	#764,	sack	#767
+recv	data	#768	(out of order, sack-ed)
+send	ack	#764,	sack	#768
+drop	data	#769	(buffer overflow)
+send	ack	#764,	sack	#764
+recv	data	#765	(in order)
+send	ack	#768,	sack	#765
+flush
+sha256	768000	b526c790495fe1373e2517c61c2326e0f1db5439f82777f023078d72fc9b6a86
+recv	data	#770	(out of order, sack-ed)
+send	ack	#768,	sack	#770
+recv	data	#771	(out of order, sack-ed)
+send	ack	#768,	sack	#771
+recv	data	#772	(out of order, sack-ed)
+send	ack	#768,	sack	#772
+recv	data	#773	(out of order, sack-ed)
+send	ack	#768,	sack	#773
+recv	data	#769	(in order)
+send	ack	#773,	sack	#769
+recv	data	#775	(out of order, sack-ed)
+send	ack	#773,	sack	#775
+recv	data	#777	(out of order, sack-ed)
+send	ack	#773,	sack	#777
+recv	data	#778	(out of order, sack-ed)
+send	ack	#773,	sack	#778
+recv	data	#779	(out of order, sack-ed)
+send	ack	#773,	sack	#779
+recv	data	#780	(out of order, sack-ed)
+send	ack	#773,	sack	#780
+drop	data	#774	(corrupted)
+send	ack	#773,	sack	#773
+recv	data	#781	(out of order, sack-ed)
+send	ack	#773,	sack	#781
+recv	data	#782	(out of order, sack-ed)
+send	ack	#773,	sack	#782
+recv	data	#783	(out of order, sack-ed)
+send	ack	#773,	sack	#783
+recv	data	#784	(out of order, sack-ed)
+send	ack	#773,	sack	#784
+drop	data	#785	(corrupted)
+send	ack	#773,	sack	#773
+recv	data	#786	(out of order, sack-ed)
+send	ack	#773,	sack	#786
+drop	data	#787	(corrupted)
+send	ack	#773,	sack	#773
+recv	data	#774	(in order)
+send	ack	#775,	sack	#774
+recv	data	#776	(in order)
+send	ack	#784,	sack	#776
+recv	data	#785	(in order)
+send	ack	#786,	sack	#785
+recv	data	#787	(in order)
+send	ack	#787,	sack	#787
+recv	data	#788	(in order)
+send	ack	#788,	sack	#788
+recv	data	#789	(in order)
+send	ack	#789,	sack	#789
+recv	data	#790	(in order)
+send	ack	#790,	sack	#790
+recv	data	#791	(in order)
+send	ack	#791,	sack	#791
+recv	data	#792	(in order)
+send	ack	#792,	sack	#792
+recv	data	#793	(in order)
+send	ack	#793,	sack	#793
+recv	data	#794	(in order)
+send	ack	#794,	sack	#794
+recv	data	#796	(out of order, sack-ed)
+send	ack	#794,	sack	#796
+recv	data	#797	(out of order, sack-ed)
+send	ack	#794,	sack	#797
+recv	data	#798	(out of order, sack-ed)
+send	ack	#794,	sack	#798
+recv	data	#799	(out of order, sack-ed)
+send	ack	#794,	sack	#799
+recv	data	#800	(out of order, sack-ed)
+send	ack	#794,	sack	#800
+recv	data	#801	(out of order, sack-ed)
+send	ack	#794,	sack	#801
+recv	data	#802	(out of order, sack-ed)
+send	ack	#794,	sack	#802
+recv	data	#795	(in order)
+send	ack	#802,	sack	#795
+recv	data	#803	(in order)
+send	ack	#803,	sack	#803
+recv	data	#804	(in order)
+send	ack	#804,	sack	#804
+recv	data	#805	(in order)
+send	ack	#805,	sack	#805
+recv	data	#807	(out of order, sack-ed)
+send	ack	#805,	sack	#807
+recv	data	#808	(out of order, sack-ed)
+send	ack	#805,	sack	#808
+recv	data	#809	(out of order, sack-ed)
+send	ack	#805,	sack	#809
+recv	data	#810	(out of order, sack-ed)
+send	ack	#805,	sack	#810
+recv	data	#811	(out of order, sack-ed)
+send	ack	#805,	sack	#811
+recv	data	#812	(out of order, sack-ed)
+send	ack	#805,	sack	#812
+recv	data	#813	(out of order, sack-ed)
+send	ack	#805,	sack	#813
+recv	data	#814	(out of order, sack-ed)
+send	ack	#805,	sack	#814
+recv	data	#806	(in order)
+send	ack	#814,	sack	#806
+recv	data	#815	(in order)
+send	ack	#815,	sack	#815
+drop	data	#816	(corrupted)
+send	ack	#815,	sack	#815
+recv	data	#817	(out of order, sack-ed)
+send	ack	#815,	sack	#817
+recv	data	#818	(out of order, sack-ed)
+send	ack	#815,	sack	#818
+recv	data	#819	(out of order, sack-ed)
+send	ack	#815,	sack	#819
+recv	data	#820	(out of order, sack-ed)
+send	ack	#815,	sack	#820
+recv	data	#821	(out of order, sack-ed)
+send	ack	#815,	sack	#821
+recv	data	#822	(out of order, sack-ed)
+send	ack	#815,	sack	#822
+recv	data	#823	(out of order, sack-ed)
+send	ack	#815,	sack	#823
+recv	data	#816	(in order)
+send	ack	#823,	sack	#816
+recv	data	#824	(in order)
+send	ack	#824,	sack	#824
+recv	data	#826	(out of order, sack-ed)
+send	ack	#824,	sack	#826
+recv	data	#827	(out of order, sack-ed)
+send	ack	#824,	sack	#827
+recv	data	#828	(out of order, sack-ed)
+send	ack	#824,	sack	#828
+drop	data	#829	(corrupted)
+send	ack	#824,	sack	#824
+recv	data	#830	(out of order, sack-ed)
+send	ack	#824,	sack	#830
+recv	data	#832	(out of order, sack-ed)
+send	ack	#824,	sack	#832
+recv	data	#833	(out of order, sack-ed)
+send	ack	#824,	sack	#833
+recv	data	#825	(in order)
+send	ack	#828,	sack	#825
+recv	data	#834	(out of order, sack-ed)
+send	ack	#828,	sack	#834
+recv	data	#836	(out of order, sack-ed)
+send	ack	#828,	sack	#836
+recv	data	#837	(out of order, sack-ed)
+send	ack	#828,	sack	#837
+drop	data	#838	(corrupted)
+send	ack	#828,	sack	#828
+recv	data	#839	(out of order, sack-ed)
+send	ack	#828,	sack	#839
+recv	data	#840	(out of order, sack-ed)
+send	ack	#828,	sack	#840
+recv	data	#829	(in order)
+send	ack	#830,	sack	#829
+recv	data	#841	(out of order, sack-ed)
+send	ack	#830,	sack	#841
+recv	data	#842	(out of order, sack-ed)
+send	ack	#830,	sack	#842
+recv	data	#843	(out of order, sack-ed)
+send	ack	#830,	sack	#843
+recv	data	#844	(out of order, sack-ed)
+send	ack	#830,	sack	#844
+recv	data	#845	(out of order, sack-ed)
+send	ack	#830,	sack	#845
+recv	data	#846	(out of order, sack-ed)
+send	ack	#830,	sack	#846
+recv	data	#847	(out of order, sack-ed)
+send	ack	#830,	sack	#847
+recv	data	#831	(in order)
+send	ack	#834,	sack	#831
+recv	data	#848	(out of order, sack-ed)
+send	ack	#834,	sack	#848
+recv	data	#849	(out of order, sack-ed)
+send	ack	#834,	sack	#849
+recv	data	#850	(out of order, sack-ed)
+send	ack	#834,	sack	#850
+drop	data	#851	(corrupted)
+send	ack	#834,	sack	#834
+recv	data	#852	(out of order, sack-ed)
+send	ack	#834,	sack	#852
+recv	data	#853	(out of order, sack-ed)
+send	ack	#834,	sack	#853
+recv	data	#854	(out of order, sack-ed)
+send	ack	#834,	sack	#854
+recv	data	#855	(out of order, sack-ed)
+send	ack	#834,	sack	#855
+recv	data	#835	(in order)
+send	ack	#837,	sack	#835
+recv	data	#856	(out of order, sack-ed)
+send	ack	#837,	sack	#856
+recv	data	#857	(out of order, sack-ed)
+send	ack	#837,	sack	#857
+recv	data	#858	(out of order, sack-ed)
+send	ack	#837,	sack	#858
+recv	data	#860	(out of order, sack-ed)
+send	ack	#837,	sack	#860
+recv	data	#861	(out of order, sack-ed)
+send	ack	#837,	sack	#861
+recv	data	#862	(out of order, sack-ed)
+send	ack	#837,	sack	#862
+recv	data	#863	(out of order, sack-ed)
+send	ack	#837,	sack	#863
+recv	data	#838	(in order)
+send	ack	#850,	sack	#838
+recv	data	#864	(out of order, sack-ed)
+send	ack	#850,	sack	#864
+drop	data	#865	(corrupted)
+send	ack	#850,	sack	#850
+recv	data	#866	(out of order, sack-ed)
+send	ack	#850,	sack	#866
+recv	data	#868	(out of order, sack-ed)
+send	ack	#850,	sack	#868
+recv	data	#869	(out of order, sack-ed)
+send	ack	#850,	sack	#869
+recv	data	#870	(out of order, sack-ed)
+send	ack	#850,	sack	#870
+recv	data	#871	(out of order, sack-ed)
+send	ack	#850,	sack	#871
+recv	data	#872	(out of order, sack-ed)
+send	ack	#850,	sack	#872
+recv	data	#873	(out of order, sack-ed)
+send	ack	#850,	sack	#873
+recv	data	#874	(out of order, sack-ed)
+send	ack	#850,	sack	#874
+drop	data	#875	(corrupted)
+send	ack	#850,	sack	#850
+recv	data	#876	(out of order, sack-ed)
+send	ack	#850,	sack	#876
+recv	data	#877	(out of order, sack-ed)
+send	ack	#850,	sack	#877
+recv	data	#878	(out of order, sack-ed)
+send	ack	#850,	sack	#878
+recv	data	#879	(out of order, sack-ed)
+send	ack	#850,	sack	#879
+recv	data	#880	(out of order, sack-ed)
+send	ack	#850,	sack	#880
+drop	data	#881	(corrupted)
+send	ack	#850,	sack	#850
+recv	data	#851	(in order)
+send	ack	#858,	sack	#851
+recv	data	#859	(in order)
+send	ack	#864,	sack	#859
+recv	data	#865	(in order)
+send	ack	#866,	sack	#865
+recv	data	#867	(in order)
+send	ack	#874,	sack	#867
+recv	data	#875	(in order)
+send	ack	#880,	sack	#875
+recv	data	#881	(in order)
+send	ack	#881,	sack	#881
+recv	data	#882	(in order)
+send	ack	#882,	sack	#882
+recv	data	#883	(in order)
+send	ack	#883,	sack	#883
+recv	data	#884	(in order)
+send	ack	#884,	sack	#884
+recv	data	#885	(in order)
+send	ack	#885,	sack	#885
+drop	data	#886	(corrupted)
+send	ack	#885,	sack	#885
+recv	data	#887	(out of order, sack-ed)
+send	ack	#885,	sack	#887
+recv	data	#888	(out of order, sack-ed)
+send	ack	#885,	sack	#888
+recv	data	#890	(out of order, sack-ed)
+send	ack	#885,	sack	#890
+drop	data	#892	(corrupted)
+send	ack	#885,	sack	#885
+recv	data	#886	(in order)
+send	ack	#888,	sack	#886
+recv	data	#893	(out of order, sack-ed)
+send	ack	#888,	sack	#893
+recv	data	#894	(out of order, sack-ed)
+send	ack	#888,	sack	#894
+recv	data	#895	(out of order, sack-ed)
+send	ack	#888,	sack	#895
+recv	data	#897	(out of order, sack-ed)
+send	ack	#888,	sack	#897
+recv	data	#889	(in order)
+send	ack	#890,	sack	#889
+recv	data	#898	(out of order, sack-ed)
+send	ack	#890,	sack	#898
+recv	data	#899	(out of order, sack-ed)
+send	ack	#890,	sack	#899
+recv	data	#900	(out of order, sack-ed)
+send	ack	#890,	sack	#900
+recv	data	#902	(out of order, sack-ed)
+send	ack	#890,	sack	#902
+drop	data	#891	(corrupted)
+send	ack	#890,	sack	#890
+drop	data	#903	(corrupted)
+send	ack	#890,	sack	#890
+recv	data	#891	(in order)
+send	ack	#891,	sack	#891
+drop	data	#892	(corrupted)
+send	ack	#891,	sack	#891
+recv	data	#896	(out of order, sack-ed)
+send	ack	#891,	sack	#896
+recv	data	#901	(out of order, sack-ed)
+send	ack	#891,	sack	#901
+recv	data	#903	(out of order, sack-ed)
+send	ack	#891,	sack	#903
+recv	data	#892	(in order)
+send	ack	#903,	sack	#892
+recv	data	#904	(in order)
+send	ack	#904,	sack	#904
+recv	data	#905	(in order)
+send	ack	#905,	sack	#905
+recv	data	#906	(in order)
+send	ack	#906,	sack	#906
+recv	data	#907	(in order)
+send	ack	#907,	sack	#907
+recv	data	#908	(in order)
+send	ack	#908,	sack	#908
+drop	data	#909	(corrupted)
+send	ack	#908,	sack	#908
+recv	data	#910	(out of order, sack-ed)
+send	ack	#908,	sack	#910
+recv	data	#911	(out of order, sack-ed)
+send	ack	#908,	sack	#911
+recv	data	#914	(out of order, sack-ed)
+send	ack	#908,	sack	#914
+recv	data	#909	(in order)
+send	ack	#911,	sack	#909
+recv	data	#915	(out of order, sack-ed)
+send	ack	#911,	sack	#915
+recv	data	#916	(out of order, sack-ed)
+send	ack	#911,	sack	#916
+recv	data	#917	(out of order, sack-ed)
+send	ack	#911,	sack	#917
+recv	data	#918	(out of order, sack-ed)
+send	ack	#911,	sack	#918
+recv	data	#919	(out of order, sack-ed)
+send	ack	#911,	sack	#919
+recv	data	#912	(in order)
+send	ack	#912,	sack	#912
+recv	data	#920	(out of order, sack-ed)
+send	ack	#912,	sack	#920
+recv	data	#921	(out of order, sack-ed)
+send	ack	#912,	sack	#921
+recv	data	#922	(out of order, sack-ed)
+send	ack	#912,	sack	#922
+recv	data	#923	(out of order, sack-ed)
+send	ack	#912,	sack	#923
+recv	data	#924	(out of order, sack-ed)
+send	ack	#912,	sack	#924
+recv	data	#925	(out of order, sack-ed)
+send	ack	#912,	sack	#925
+recv	data	#913	(in order)
+send	ack	#925,	sack	#913
+recv	data	#926	(in order)
+send	ack	#926,	sack	#926
+recv	data	#927	(in order)
+send	ack	#927,	sack	#927
+drop	data	#928	(corrupted)
+send	ack	#927,	sack	#927
+drop	data	#929	(corrupted)
+send	ack	#927,	sack	#927
+recv	data	#930	(out of order, sack-ed)
+send	ack	#927,	sack	#930
+recv	data	#931	(out of order, sack-ed)
+send	ack	#927,	sack	#931
+recv	data	#932	(out of order, sack-ed)
+send	ack	#927,	sack	#932
+recv	data	#933	(out of order, sack-ed)
+send	ack	#927,	sack	#933
+recv	data	#934	(out of order, sack-ed)
+send	ack	#927,	sack	#934
+recv	data	#935	(out of order, sack-ed)
+send	ack	#927,	sack	#935
+recv	data	#936	(out of order, sack-ed)
+send	ack	#927,	sack	#936
+recv	data	#937	(out of order, sack-ed)
+send	ack	#927,	sack	#937
+recv	data	#938	(out of order, sack-ed)
+send	ack	#927,	sack	#938
+recv	data	#939	(out of order, sack-ed)
+send	ack	#927,	sack	#939
+recv	data	#940	(out of order, sack-ed)
+send	ack	#927,	sack	#940
+recv	data	#941	(out of order, sack-ed)
+send	ack	#927,	sack	#941
+drop	data	#942	(corrupted)
+send	ack	#927,	sack	#927
+recv	data	#943	(out of order, sack-ed)
+send	ack	#927,	sack	#943
+recv	data	#944	(out of order, sack-ed)
+send	ack	#927,	sack	#944
+drop	data	#945	(corrupted)
+send	ack	#927,	sack	#927
+recv	data	#946	(out of order, sack-ed)
+send	ack	#927,	sack	#946
+recv	data	#947	(out of order, sack-ed)
+send	ack	#927,	sack	#947
+recv	data	#948	(out of order, sack-ed)
+send	ack	#927,	sack	#948
+recv	data	#949	(out of order, sack-ed)
+send	ack	#927,	sack	#949
+recv	data	#950	(out of order, sack-ed)
+send	ack	#927,	sack	#950
+recv	data	#951	(out of order, sack-ed)
+send	ack	#927,	sack	#951
+recv	data	#928	(in order)
+send	ack	#928,	sack	#928
+drop	data	#929	(corrupted)
+send	ack	#928,	sack	#928
+recv	data	#942	(out of order, sack-ed)
+send	ack	#928,	sack	#942
+recv	data	#945	(out of order, sack-ed)
+send	ack	#928,	sack	#945
+recv	data	#952	(out of order, sack-ed)
+send	ack	#928,	sack	#952
+recv	data	#929	(in order)
+send	ack	#952,	sack	#929
+recv	data	#953	(in order)
+send	ack	#953,	sack	#953
+recv	data	#954	(in order)
+send	ack	#954,	sack	#954
+recv	data	#956	(out of order, sack-ed)
+send	ack	#954,	sack	#956
+recv	data	#957	(out of order, sack-ed)
+send	ack	#954,	sack	#957
+recv	data	#958	(out of order, sack-ed)
+send	ack	#954,	sack	#958
+recv	data	#959	(out of order, sack-ed)
+send	ack	#954,	sack	#959
+drop	data	#960	(corrupted)
+send	ack	#954,	sack	#954
+recv	data	#955	(in order)
+send	ack	#959,	sack	#955
+recv	data	#961	(out of order, sack-ed)
+send	ack	#959,	sack	#961
+recv	data	#962	(out of order, sack-ed)
+send	ack	#959,	sack	#962
+recv	data	#963	(out of order, sack-ed)
+send	ack	#959,	sack	#963
+recv	data	#964	(out of order, sack-ed)
+send	ack	#959,	sack	#964
+recv	data	#965	(out of order, sack-ed)
+send	ack	#959,	sack	#965
+drop	data	#960	(corrupted)
+send	ack	#959,	sack	#959
+recv	data	#966	(out of order, sack-ed)
+send	ack	#959,	sack	#966
+recv	data	#967	(out of order, sack-ed)
+send	ack	#959,	sack	#967
+recv	data	#968	(out of order, sack-ed)
+send	ack	#959,	sack	#968
+recv	data	#969	(out of order, sack-ed)
+send	ack	#959,	sack	#969
+recv	data	#970	(out of order, sack-ed)
+send	ack	#959,	sack	#970
+recv	data	#971	(out of order, sack-ed)
+send	ack	#959,	sack	#971
+recv	data	#972	(out of order, sack-ed)
+send	ack	#959,	sack	#972
+recv	data	#973	(out of order, sack-ed)
+send	ack	#959,	sack	#973
+recv	data	#975	(out of order, sack-ed)
+send	ack	#959,	sack	#975
+recv	data	#976	(out of order, sack-ed)
+send	ack	#959,	sack	#976
+recv	data	#977	(out of order, sack-ed)
+send	ack	#959,	sack	#977
+recv	data	#978	(out of order, sack-ed)
+send	ack	#959,	sack	#978
+recv	data	#979	(out of order, sack-ed)
+send	ack	#959,	sack	#979
+recv	data	#980	(out of order, sack-ed)
+send	ack	#959,	sack	#980
+recv	data	#981	(out of order, sack-ed)
+send	ack	#959,	sack	#981
+recv	data	#960	(in order)
+send	ack	#973,	sack	#960
+recv	data	#974	(in order)
+send	ack	#981,	sack	#974
+recv	data	#982	(in order)
+send	ack	#982,	sack	#982
+recv	data	#983	(in order)
+send	ack	#983,	sack	#983
+recv	data	#984	(in order)
+send	ack	#984,	sack	#984
+recv	data	#985	(in order)
+send	ack	#985,	sack	#985
+recv	data	#986	(in order)
+send	ack	#986,	sack	#986
+recv	data	#987	(in order)
+send	ack	#987,	sack	#987
+recv	data	#988	(in order)
+send	ack	#988,	sack	#988
+drop	data	#989	(corrupted)
+send	ack	#988,	sack	#988
+recv	data	#990	(out of order, sack-ed)
+send	ack	#988,	sack	#990
+recv	data	#991	(out of order, sack-ed)
+send	ack	#988,	sack	#991
+recv	data	#992	(out of order, sack-ed)
+send	ack	#988,	sack	#992
+recv	data	#993	(out of order, sack-ed)
+send	ack	#988,	sack	#993
+recv	data	#994	(out of order, sack-ed)
+send	ack	#988,	sack	#994
+drop	data	#989	(corrupted)
+send	ack	#988,	sack	#988
+recv	data	#995	(out of order, sack-ed)
+send	ack	#988,	sack	#995
+recv	data	#996	(out of order, sack-ed)
+send	ack	#988,	sack	#996
+recv	data	#997	(out of order, sack-ed)
+send	ack	#988,	sack	#997
+recv	data	#998	(out of order, sack-ed)
+send	ack	#988,	sack	#998
+recv	data	#999	(out of order, sack-ed)
+send	ack	#988,	sack	#999
+drop	data	#1000	(corrupted)
+send	ack	#988,	sack	#988
+recv	data	#1002	(out of order, sack-ed)
+send	ack	#988,	sack	#1002
+recv	data	#1003	(out of order, sack-ed)
+send	ack	#988,	sack	#1003
+recv	data	#1004	(out of order, sack-ed)
+send	ack	#988,	sack	#1004
+recv	data	#1005	(out of order, sack-ed)
+send	ack	#988,	sack	#1005
+recv	data	#1006	(out of order, sack-ed)
+send	ack	#988,	sack	#1006
+recv	data	#1007	(out of order, sack-ed)
+send	ack	#988,	sack	#1007
+recv	data	#989	(in order)
+send	ack	#999,	sack	#989
+recv	data	#1000	(in order)
+send	ack	#1000,	sack	#1000
+recv	data	#1001	(in order)
+send	ack	#1007,	sack	#1001
+recv	data	#1008	(in order)
+send	ack	#1008,	sack	#1008
+recv	data	#1009	(in order)
+send	ack	#1009,	sack	#1009
+recv	data	#1010	(in order)
+send	ack	#1010,	sack	#1010
+recv	data	#1011	(in order)
+send	ack	#1011,	sack	#1011
+recv	data	#1012	(in order)
+send	ack	#1012,	sack	#1012
+drop	data	#1013	(corrupted)
+send	ack	#1012,	sack	#1012
+recv	data	#1014	(out of order, sack-ed)
+send	ack	#1012,	sack	#1014
+recv	data	#1015	(out of order, sack-ed)
+send	ack	#1012,	sack	#1015
+recv	data	#1016	(out of order, sack-ed)
+send	ack	#1012,	sack	#1016
+recv	data	#1017	(out of order, sack-ed)
+send	ack	#1012,	sack	#1017
+recv	data	#1018	(out of order, sack-ed)
+send	ack	#1012,	sack	#1018
+recv	data	#1013	(in order)
+send	ack	#1018,	sack	#1013
+recv	data	#1019	(in order)
+send	ack	#1019,	sack	#1019
+recv	data	#1021	(out of order, sack-ed)
+send	ack	#1019,	sack	#1021
+recv	data	#1022	(out of order, sack-ed)
+send	ack	#1019,	sack	#1022
+recv	data	#1023	(out of order, sack-ed)
+send	ack	#1019,	sack	#1023
+recv	data	#1024	(out of order, sack-ed)
+send	ack	#1019,	sack	#1024
+recv	data	#1020	(in order)
+send	ack	#1024,	sack	#1020
+flush
+sha256	1024000	20160a71cc0f658c4e78070e2629241c2e02b339bb8ca74c99e88b1fb4156ba2
+recv	fin
+send	finack
+flush
+sha256	1024000	20160a71cc0f658c4e78070e2629241c2e02b339bb8ca74c99e88b1fb4156ba2
+finsha	20160a71cc0f658c4e78070e2629241c2e02b339bb8ca74c99e88b1fb4156ba2

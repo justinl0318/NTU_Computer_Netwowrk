@@ -1,0 +1,4888 @@
+get	data	#1
+fwd	data	#1,	error rate = 0.0000
+get	ack	#1,	sack	#1
+fwd	ack	#1,	sack	#1
+get	data	#2
+fwd	data	#2,	error rate = 0.0000
+get	data	#3
+fwd	data	#3,	error rate = 0.0000
+get	ack	#2,	sack	#2
+fwd	ack	#2,	sack	#2
+get	ack	#3,	sack	#3
+fwd	ack	#3,	sack	#3
+get	data	#4
+drop	data	#4,	error rate = 0.2500
+get	data	#5
+fwd	data	#5,	error rate = 0.2000
+get	data	#6
+drop	data	#6,	error rate = 0.3333
+get	data	#7
+fwd	data	#7,	error rate = 0.2857
+get	ack	#3,	sack	#5
+fwd	ack	#3,	sack	#5
+get	ack	#3,	sack	#7
+fwd	ack	#3,	sack	#7
+get	data	#8
+fwd	data	#8,	error rate = 0.2500
+get	data	#9
+fwd	data	#9,	error rate = 0.2222
+get	ack	#3,	sack	#8
+fwd	ack	#3,	sack	#8
+get	ack	#3,	sack	#9
+fwd	ack	#3,	sack	#9
+get	data	#10
+fwd	data	#10,	error rate = 0.2000
+get	data	#4
+fwd	data	#4,	error rate = 0.1818
+get	data	#11
+drop	data	#11,	error rate = 0.2500
+get	ack	#3,	sack	#10
+fwd	ack	#3,	sack	#10
+get	ack	#5,	sack	#4
+fwd	ack	#5,	sack	#4
+get	data	#12
+fwd	data	#12,	error rate = 0.2308
+get	data	#13
+fwd	data	#13,	error rate = 0.2143
+get	data	#14
+fwd	data	#14,	error rate = 0.2000
+get	ack	#5,	sack	#12
+fwd	ack	#5,	sack	#12
+get	ack	#5,	sack	#13
+fwd	ack	#5,	sack	#13
+get	ack	#5,	sack	#14
+fwd	ack	#5,	sack	#14
+get	data	#15
+fwd	data	#15,	error rate = 0.1875
+get	data	#16
+corrupt	data	#16,	error rate = 0.2353
+get	data	#17
+corrupt	data	#17,	error rate = 0.2778
+get	data	#6
+drop	data	#6,	error rate = 0.3158
+get	ack	#5,	sack	#15
+fwd	ack	#5,	sack	#15
+get	ack	#5,	sack	#5
+fwd	ack	#5,	sack	#5
+get	ack	#5,	sack	#5
+fwd	ack	#5,	sack	#5
+get	data	#18
+fwd	data	#18,	error rate = 0.3000
+get	ack	#5,	sack	#18
+fwd	ack	#5,	sack	#18
+get	data	#19
+fwd	data	#19,	error rate = 0.2857
+get	ack	#5,	sack	#19
+fwd	ack	#5,	sack	#19
+get	data	#20
+drop	data	#20,	error rate = 0.3182
+get	data	#6
+fwd	data	#6,	error rate = 0.3043
+get	ack	#10,	sack	#6
+fwd	ack	#10,	sack	#6
+get	data	#11
+fwd	data	#11,	error rate = 0.2917
+get	data	#16
+fwd	data	#16,	error rate = 0.2800
+get	ack	#15,	sack	#11
+fwd	ack	#15,	sack	#11
+get	ack	#16,	sack	#16
+fwd	ack	#16,	sack	#16
+get	data	#17
+fwd	data	#17,	error rate = 0.2692
+get	data	#20
+fwd	data	#20,	error rate = 0.2593
+get	data	#21
+drop	data	#21,	error rate = 0.2857
+get	ack	#19,	sack	#17
+fwd	ack	#19,	sack	#17
+get	ack	#20,	sack	#20
+fwd	ack	#20,	sack	#20
+get	data	#22
+fwd	data	#22,	error rate = 0.2759
+get	data	#23
+fwd	data	#23,	error rate = 0.2667
+get	ack	#20,	sack	#22
+fwd	ack	#20,	sack	#22
+get	ack	#20,	sack	#23
+fwd	ack	#20,	sack	#23
+get	data	#24
+fwd	data	#24,	error rate = 0.2581
+get	data	#25
+drop	data	#25,	error rate = 0.2812
+get	ack	#20,	sack	#24
+fwd	ack	#20,	sack	#24
+get	data	#26
+fwd	data	#26,	error rate = 0.2727
+get	data	#21
+fwd	data	#21,	error rate = 0.2647
+get	ack	#20,	sack	#26
+fwd	ack	#20,	sack	#26
+get	ack	#24,	sack	#21
+fwd	ack	#24,	sack	#21
+get	data	#27
+fwd	data	#27,	error rate = 0.2571
+get	data	#28
+fwd	data	#28,	error rate = 0.2500
+get	data	#29
+fwd	data	#29,	error rate = 0.2432
+get	ack	#24,	sack	#27
+fwd	ack	#24,	sack	#27
+get	ack	#24,	sack	#28
+fwd	ack	#24,	sack	#28
+get	ack	#24,	sack	#29
+fwd	ack	#24,	sack	#29
+get	data	#30
+fwd	data	#30,	error rate = 0.2368
+get	data	#31
+fwd	data	#31,	error rate = 0.2308
+get	data	#32
+corrupt	data	#32,	error rate = 0.2500
+get	data	#25
+fwd	data	#25,	error rate = 0.2439
+get	ack	#24,	sack	#30
+fwd	ack	#24,	sack	#30
+get	ack	#24,	sack	#31
+fwd	ack	#24,	sack	#31
+get	ack	#24,	sack	#24
+fwd	ack	#24,	sack	#24
+get	ack	#31,	sack	#25
+fwd	ack	#31,	sack	#25
+get	data	#33
+fwd	data	#33,	error rate = 0.2381
+get	data	#34
+fwd	data	#34,	error rate = 0.2326
+get	data	#35
+fwd	data	#35,	error rate = 0.2273
+get	ack	#31,	sack	#33
+fwd	ack	#31,	sack	#33
+get	ack	#31,	sack	#34
+fwd	ack	#31,	sack	#34
+get	ack	#31,	sack	#35
+fwd	ack	#31,	sack	#35
+get	data	#36
+fwd	data	#36,	error rate = 0.2222
+get	data	#37
+fwd	data	#37,	error rate = 0.2174
+get	data	#38
+fwd	data	#38,	error rate = 0.2128
+get	data	#32
+fwd	data	#32,	error rate = 0.2083
+get	ack	#31,	sack	#36
+fwd	ack	#31,	sack	#36
+get	ack	#31,	sack	#37
+fwd	ack	#31,	sack	#37
+get	ack	#31,	sack	#38
+fwd	ack	#31,	sack	#38
+get	ack	#38,	sack	#32
+fwd	ack	#38,	sack	#32
+get	data	#39
+fwd	data	#39,	error rate = 0.2041
+get	data	#40
+drop	data	#40,	error rate = 0.2200
+get	data	#41
+corrupt	data	#41,	error rate = 0.2353
+get	data	#42
+corrupt	data	#42,	error rate = 0.2500
+get	ack	#39,	sack	#39
+fwd	ack	#39,	sack	#39
+get	ack	#39,	sack	#39
+fwd	ack	#39,	sack	#39
+get	ack	#39,	sack	#39
+fwd	ack	#39,	sack	#39
+get	data	#43
+fwd	data	#43,	error rate = 0.2453
+get	ack	#39,	sack	#43
+fwd	ack	#39,	sack	#43
+get	data	#44
+fwd	data	#44,	error rate = 0.2407
+get	data	#40
+drop	data	#40,	error rate = 0.2545
+get	ack	#39,	sack	#44
+fwd	ack	#39,	sack	#44
+get	data	#45
+fwd	data	#45,	error rate = 0.2500
+get	ack	#39,	sack	#45
+fwd	ack	#39,	sack	#45
+get	data	#46
+fwd	data	#46,	error rate = 0.2456
+get	ack	#39,	sack	#46
+fwd	ack	#39,	sack	#46
+get	data	#47
+fwd	data	#47,	error rate = 0.2414
+get	ack	#39,	sack	#47
+fwd	ack	#39,	sack	#47
+get	data	#48
+fwd	data	#48,	error rate = 0.2373
+get	ack	#39,	sack	#48
+fwd	ack	#39,	sack	#48
+get	data	#49
+fwd	data	#49,	error rate = 0.2333
+get	ack	#39,	sack	#49
+fwd	ack	#39,	sack	#49
+get	data	#50
+fwd	data	#50,	error rate = 0.2295
+get	ack	#39,	sack	#50
+fwd	ack	#39,	sack	#50
+get	data	#51
+fwd	data	#51,	error rate = 0.2258
+get	ack	#39,	sack	#51
+fwd	ack	#39,	sack	#51
+get	data	#52
+fwd	data	#52,	error rate = 0.2222
+get	ack	#39,	sack	#52
+fwd	ack	#39,	sack	#52
+get	data	#53
+fwd	data	#53,	error rate = 0.2188
+get	ack	#39,	sack	#53
+fwd	ack	#39,	sack	#53
+get	data	#54
+fwd	data	#54,	error rate = 0.2154
+get	ack	#39,	sack	#54
+fwd	ack	#39,	sack	#54
+get	data	#55
+drop	data	#55,	error rate = 0.2273
+get	data	#40
+drop	data	#40,	error rate = 0.2388
+get	data	#40
+fwd	data	#40,	error rate = 0.2353
+get	ack	#40,	sack	#40
+fwd	ack	#40,	sack	#40
+get	data	#41
+fwd	data	#41,	error rate = 0.2319
+get	data	#42
+fwd	data	#42,	error rate = 0.2286
+get	ack	#41,	sack	#41
+fwd	ack	#41,	sack	#41
+get	ack	#54,	sack	#42
+fwd	ack	#54,	sack	#42
+get	data	#55
+fwd	data	#55,	error rate = 0.2254
+get	data	#56
+fwd	data	#56,	error rate = 0.2222
+get	data	#57
+fwd	data	#57,	error rate = 0.2192
+get	ack	#55,	sack	#55
+fwd	ack	#55,	sack	#55
+get	ack	#56,	sack	#56
+fwd	ack	#56,	sack	#56
+get	ack	#57,	sack	#57
+fwd	ack	#57,	sack	#57
+get	data	#58
+fwd	data	#58,	error rate = 0.2162
+get	data	#59
+fwd	data	#59,	error rate = 0.2133
+get	data	#60
+fwd	data	#60,	error rate = 0.2105
+get	data	#61
+fwd	data	#61,	error rate = 0.2078
+get	ack	#58,	sack	#58
+fwd	ack	#58,	sack	#58
+get	ack	#59,	sack	#59
+fwd	ack	#59,	sack	#59
+get	ack	#60,	sack	#60
+fwd	ack	#60,	sack	#60
+get	ack	#61,	sack	#61
+fwd	ack	#61,	sack	#61
+get	data	#62
+fwd	data	#62,	error rate = 0.2051
+get	data	#63
+fwd	data	#63,	error rate = 0.2025
+get	data	#64
+fwd	data	#64,	error rate = 0.2000
+get	data	#65
+fwd	data	#65,	error rate = 0.1975
+get	data	#66
+fwd	data	#66,	error rate = 0.1951
+get	ack	#62,	sack	#62
+fwd	ack	#62,	sack	#62
+get	ack	#63,	sack	#63
+fwd	ack	#63,	sack	#63
+get	ack	#64,	sack	#64
+fwd	ack	#64,	sack	#64
+get	ack	#65,	sack	#65
+fwd	ack	#65,	sack	#65
+get	ack	#66,	sack	#66
+fwd	ack	#66,	sack	#66
+get	data	#67
+fwd	data	#67,	error rate = 0.1928
+get	data	#68
+fwd	data	#68,	error rate = 0.1905
+get	data	#69
+fwd	data	#69,	error rate = 0.1882
+get	data	#70
+fwd	data	#70,	error rate = 0.1860
+get	data	#71
+fwd	data	#71,	error rate = 0.1839
+get	data	#72
+fwd	data	#72,	error rate = 0.1818
+get	ack	#67,	sack	#67
+fwd	ack	#67,	sack	#67
+get	ack	#68,	sack	#68
+fwd	ack	#68,	sack	#68
+get	ack	#69,	sack	#69
+fwd	ack	#69,	sack	#69
+get	ack	#70,	sack	#70
+fwd	ack	#70,	sack	#70
+get	ack	#71,	sack	#71
+fwd	ack	#71,	sack	#71
+get	ack	#72,	sack	#72
+fwd	ack	#72,	sack	#72
+get	data	#73
+fwd	data	#73,	error rate = 0.1798
+get	data	#74
+fwd	data	#74,	error rate = 0.1778
+get	data	#75
+fwd	data	#75,	error rate = 0.1758
+get	data	#76
+fwd	data	#76,	error rate = 0.1739
+get	data	#77
+fwd	data	#77,	error rate = 0.1720
+get	data	#78
+fwd	data	#78,	error rate = 0.1702
+get	data	#79
+fwd	data	#79,	error rate = 0.1684
+get	ack	#73,	sack	#73
+fwd	ack	#73,	sack	#73
+get	ack	#74,	sack	#74
+fwd	ack	#74,	sack	#74
+get	ack	#75,	sack	#75
+fwd	ack	#75,	sack	#75
+get	ack	#76,	sack	#76
+fwd	ack	#76,	sack	#76
+get	ack	#77,	sack	#77
+fwd	ack	#77,	sack	#77
+get	ack	#78,	sack	#78
+fwd	ack	#78,	sack	#78
+get	ack	#79,	sack	#79
+fwd	ack	#79,	sack	#79
+get	data	#80
+fwd	data	#80,	error rate = 0.1667
+get	data	#81
+fwd	data	#81,	error rate = 0.1649
+get	data	#82
+corrupt	data	#82,	error rate = 0.1735
+get	data	#83
+drop	data	#83,	error rate = 0.1818
+get	data	#84
+fwd	data	#84,	error rate = 0.1800
+get	data	#85
+fwd	data	#85,	error rate = 0.1782
+get	data	#86
+fwd	data	#86,	error rate = 0.1765
+get	data	#87
+drop	data	#87,	error rate = 0.1845
+get	ack	#80,	sack	#80
+fwd	ack	#80,	sack	#80
+get	ack	#81,	sack	#81
+fwd	ack	#81,	sack	#81
+get	ack	#81,	sack	#81
+fwd	ack	#81,	sack	#81
+get	ack	#81,	sack	#84
+fwd	ack	#81,	sack	#84
+get	ack	#81,	sack	#85
+fwd	ack	#81,	sack	#85
+get	ack	#81,	sack	#86
+fwd	ack	#81,	sack	#86
+get	data	#88
+fwd	data	#88,	error rate = 0.1827
+get	data	#89
+fwd	data	#89,	error rate = 0.1810
+get	data	#90
+fwd	data	#90,	error rate = 0.1792
+get	data	#91
+fwd	data	#91,	error rate = 0.1776
+get	data	#82
+fwd	data	#82,	error rate = 0.1759
+get	data	#92
+fwd	data	#92,	error rate = 0.1743
+get	ack	#81,	sack	#88
+fwd	ack	#81,	sack	#88
+get	ack	#81,	sack	#89
+fwd	ack	#81,	sack	#89
+get	ack	#81,	sack	#90
+fwd	ack	#81,	sack	#90
+get	ack	#81,	sack	#91
+fwd	ack	#81,	sack	#91
+get	ack	#82,	sack	#82
+fwd	ack	#82,	sack	#82
+get	ack	#82,	sack	#92
+fwd	ack	#82,	sack	#92
+get	data	#93
+fwd	data	#93,	error rate = 0.1727
+get	data	#94
+fwd	data	#94,	error rate = 0.1712
+get	data	#95
+drop	data	#95,	error rate = 0.1786
+get	data	#96
+fwd	data	#96,	error rate = 0.1770
+get	data	#97
+fwd	data	#97,	error rate = 0.1754
+get	data	#98
+drop	data	#98,	error rate = 0.1826
+get	ack	#82,	sack	#93
+fwd	ack	#82,	sack	#93
+get	ack	#82,	sack	#94
+fwd	ack	#82,	sack	#94
+get	ack	#82,	sack	#96
+fwd	ack	#82,	sack	#96
+get	ack	#82,	sack	#97
+fwd	ack	#82,	sack	#97
+get	data	#99
+fwd	data	#99,	error rate = 0.1810
+get	data	#100
+fwd	data	#100,	error rate = 0.1795
+get	data	#83
+fwd	data	#83,	error rate = 0.1780
+get	data	#101
+fwd	data	#101,	error rate = 0.1765
+get	data	#102
+corrupt	data	#102,	error rate = 0.1833
+get	ack	#82,	sack	#99
+fwd	ack	#82,	sack	#99
+get	ack	#82,	sack	#100
+fwd	ack	#82,	sack	#100
+get	ack	#86,	sack	#83
+fwd	ack	#86,	sack	#83
+get	ack	#86,	sack	#101
+fwd	ack	#86,	sack	#101
+get	ack	#86,	sack	#86
+fwd	ack	#86,	sack	#86
+get	data	#103
+fwd	data	#103,	error rate = 0.1818
+get	data	#104
+fwd	data	#104,	error rate = 0.1803
+get	data	#105
+fwd	data	#105,	error rate = 0.1789
+get	data	#106
+drop	data	#106,	error rate = 0.1855
+get	ack	#86,	sack	#103
+fwd	ack	#86,	sack	#103
+get	ack	#86,	sack	#104
+fwd	ack	#86,	sack	#104
+get	ack	#86,	sack	#105
+fwd	ack	#86,	sack	#105
+get	data	#107
+drop	data	#107,	error rate = 0.1920
+get	data	#87
+fwd	data	#87,	error rate = 0.1905
+get	data	#108
+fwd	data	#108,	error rate = 0.1890
+get	data	#109
+drop	data	#109,	error rate = 0.1953
+get	ack	#94,	sack	#87
+fwd	ack	#94,	sack	#87
+get	ack	#94,	sack	#108
+fwd	ack	#94,	sack	#108
+get	data	#110
+fwd	data	#110,	error rate = 0.1938
+get	data	#111
+fwd	data	#111,	error rate = 0.1923
+get	ack	#94,	sack	#110
+fwd	ack	#94,	sack	#110
+get	ack	#94,	sack	#111
+fwd	ack	#94,	sack	#111
+get	data	#112
+fwd	data	#112,	error rate = 0.1908
+get	data	#113
+fwd	data	#113,	error rate = 0.1894
+get	data	#95
+fwd	data	#95,	error rate = 0.1880
+get	ack	#94,	sack	#112
+fwd	ack	#94,	sack	#112
+get	ack	#94,	sack	#113
+fwd	ack	#94,	sack	#113
+get	ack	#97,	sack	#95
+fwd	ack	#97,	sack	#95
+get	data	#114
+fwd	data	#114,	error rate = 0.1866
+get	data	#115
+fwd	data	#115,	error rate = 0.1852
+get	data	#116
+fwd	data	#116,	error rate = 0.1838
+get	ack	#97,	sack	#114
+fwd	ack	#97,	sack	#114
+get	ack	#97,	sack	#115
+fwd	ack	#97,	sack	#115
+get	ack	#97,	sack	#116
+fwd	ack	#97,	sack	#116
+get	data	#117
+fwd	data	#117,	error rate = 0.1825
+get	data	#118
+fwd	data	#118,	error rate = 0.1812
+get	data	#119
+fwd	data	#119,	error rate = 0.1799
+get	data	#98
+fwd	data	#98,	error rate = 0.1786
+get	ack	#97,	sack	#117
+fwd	ack	#97,	sack	#117
+get	ack	#97,	sack	#118
+fwd	ack	#97,	sack	#118
+get	ack	#97,	sack	#119
+fwd	ack	#97,	sack	#119
+get	ack	#101,	sack	#98
+fwd	ack	#101,	sack	#98
+get	data	#120
+fwd	data	#120,	error rate = 0.1773
+get	data	#121
+fwd	data	#121,	error rate = 0.1761
+get	data	#122
+fwd	data	#122,	error rate = 0.1748
+get	data	#123
+fwd	data	#123,	error rate = 0.1736
+get	ack	#101,	sack	#120
+fwd	ack	#101,	sack	#120
+get	ack	#101,	sack	#121
+fwd	ack	#101,	sack	#121
+get	ack	#101,	sack	#122
+fwd	ack	#101,	sack	#122
+get	ack	#101,	sack	#123
+fwd	ack	#101,	sack	#123
+get	data	#124
+fwd	data	#124,	error rate = 0.1724
+get	data	#125
+fwd	data	#125,	error rate = 0.1712
+get	data	#126
+fwd	data	#126,	error rate = 0.1701
+get	data	#102
+corrupt	data	#102,	error rate = 0.1757
+get	data	#127
+fwd	data	#127,	error rate = 0.1745
+get	ack	#101,	sack	#124
+fwd	ack	#101,	sack	#124
+get	ack	#101,	sack	#125
+fwd	ack	#101,	sack	#125
+get	ack	#101,	sack	#126
+fwd	ack	#101,	sack	#126
+get	ack	#101,	sack	#101
+fwd	ack	#101,	sack	#101
+get	ack	#101,	sack	#127
+fwd	ack	#101,	sack	#127
+get	data	#128
+fwd	data	#128,	error rate = 0.1733
+get	data	#129
+fwd	data	#129,	error rate = 0.1722
+get	data	#130
+drop	data	#130,	error rate = 0.1776
+get	data	#131
+fwd	data	#131,	error rate = 0.1765
+get	ack	#101,	sack	#128
+fwd	ack	#101,	sack	#128
+get	ack	#101,	sack	#129
+fwd	ack	#101,	sack	#129
+get	ack	#101,	sack	#131
+fwd	ack	#101,	sack	#131
+get	data	#132
+fwd	data	#132,	error rate = 0.1753
+get	data	#133
+fwd	data	#133,	error rate = 0.1742
+get	data	#134
+fwd	data	#134,	error rate = 0.1731
+get	ack	#101,	sack	#132
+fwd	ack	#101,	sack	#132
+get	ack	#101,	sack	#133
+fwd	ack	#101,	sack	#133
+get	ack	#101,	sack	#134
+fwd	ack	#101,	sack	#134
+get	data	#135
+fwd	data	#135,	error rate = 0.1720
+get	data	#136
+fwd	data	#136,	error rate = 0.1709
+get	data	#137
+fwd	data	#137,	error rate = 0.1698
+get	ack	#101,	sack	#135
+fwd	ack	#101,	sack	#135
+get	ack	#101,	sack	#136
+fwd	ack	#101,	sack	#136
+get	ack	#101,	sack	#137
+fwd	ack	#101,	sack	#137
+get	data	#138
+fwd	data	#138,	error rate = 0.1688
+get	data	#139
+fwd	data	#139,	error rate = 0.1677
+get	data	#140
+corrupt	data	#140,	error rate = 0.1728
+get	ack	#101,	sack	#138
+fwd	ack	#101,	sack	#138
+get	ack	#101,	sack	#139
+fwd	ack	#101,	sack	#139
+get	ack	#101,	sack	#101
+fwd	ack	#101,	sack	#101
+get	data	#141
+fwd	data	#141,	error rate = 0.1718
+get	data	#142
+fwd	data	#142,	error rate = 0.1707
+get	ack	#101,	sack	#141
+fwd	ack	#101,	sack	#141
+get	ack	#101,	sack	#142
+fwd	ack	#101,	sack	#142
+get	data	#143
+drop	data	#143,	error rate = 0.1758
+get	data	#144
+fwd	data	#144,	error rate = 0.1747
+get	ack	#101,	sack	#144
+fwd	ack	#101,	sack	#144
+get	data	#145
+fwd	data	#145,	error rate = 0.1737
+get	ack	#101,	sack	#145
+fwd	ack	#101,	sack	#145
+get	data	#146
+fwd	data	#146,	error rate = 0.1726
+get	ack	#101,	sack	#146
+fwd	ack	#101,	sack	#146
+get	data	#147
+fwd	data	#147,	error rate = 0.1716
+get	ack	#101,	sack	#147
+fwd	ack	#101,	sack	#147
+get	data	#148
+fwd	data	#148,	error rate = 0.1706
+get	ack	#101,	sack	#148
+fwd	ack	#101,	sack	#148
+get	data	#149
+fwd	data	#149,	error rate = 0.1696
+get	ack	#101,	sack	#149
+fwd	ack	#101,	sack	#149
+get	data	#150
+corrupt	data	#150,	error rate = 0.1744
+get	ack	#101,	sack	#101
+fwd	ack	#101,	sack	#101
+get	data	#102
+fwd	data	#102,	error rate = 0.1734
+get	ack	#105,	sack	#102
+fwd	ack	#105,	sack	#102
+get	data	#106
+corrupt	data	#106,	error rate = 0.1782
+get	data	#107
+fwd	data	#107,	error rate = 0.1771
+get	ack	#105,	sack	#105
+fwd	ack	#105,	sack	#105
+get	ack	#105,	sack	#107
+fwd	ack	#105,	sack	#107
+get	data	#109
+fwd	data	#109,	error rate = 0.1761
+get	ack	#105,	sack	#109
+fwd	ack	#105,	sack	#109
+get	data	#130
+fwd	data	#130,	error rate = 0.1751
+get	data	#106
+fwd	data	#106,	error rate = 0.1742
+get	ack	#105,	sack	#130
+fwd	ack	#105,	sack	#130
+get	ack	#139,	sack	#106
+fwd	ack	#139,	sack	#106
+get	data	#140
+fwd	data	#140,	error rate = 0.1732
+get	data	#143
+fwd	data	#143,	error rate = 0.1722
+get	data	#150
+drop	data	#150,	error rate = 0.1768
+get	ack	#142,	sack	#140
+fwd	ack	#142,	sack	#140
+get	ack	#149,	sack	#143
+fwd	ack	#149,	sack	#143
+get	data	#151
+fwd	data	#151,	error rate = 0.1758
+get	data	#152
+fwd	data	#152,	error rate = 0.1749
+get	data	#153
+fwd	data	#153,	error rate = 0.1739
+get	ack	#149,	sack	#151
+fwd	ack	#149,	sack	#151
+get	ack	#149,	sack	#152
+fwd	ack	#149,	sack	#152
+get	ack	#149,	sack	#153
+fwd	ack	#149,	sack	#153
+get	data	#154
+drop	data	#154,	error rate = 0.1784
+get	data	#155
+fwd	data	#155,	error rate = 0.1774
+get	data	#156
+fwd	data	#156,	error rate = 0.1765
+get	data	#150
+fwd	data	#150,	error rate = 0.1755
+get	ack	#149,	sack	#155
+fwd	ack	#149,	sack	#155
+get	ack	#149,	sack	#156
+fwd	ack	#149,	sack	#156
+get	ack	#153,	sack	#150
+fwd	ack	#153,	sack	#150
+get	data	#157
+drop	data	#157,	error rate = 0.1799
+get	data	#158
+fwd	data	#158,	error rate = 0.1789
+get	data	#159
+fwd	data	#159,	error rate = 0.1780
+get	ack	#153,	sack	#158
+fwd	ack	#153,	sack	#158
+get	ack	#153,	sack	#159
+fwd	ack	#153,	sack	#159
+get	data	#160
+drop	data	#160,	error rate = 0.1823
+get	data	#161
+drop	data	#161,	error rate = 0.1865
+get	data	#154
+corrupt	data	#154,	error rate = 0.1907
+get	ack	#153,	sack	#153
+fwd	ack	#153,	sack	#153
+get	data	#154
+fwd	data	#154,	error rate = 0.1897
+get	ack	#156,	sack	#154
+fwd	ack	#156,	sack	#154
+get	data	#157
+fwd	data	#157,	error rate = 0.1888
+get	data	#160
+fwd	data	#160,	error rate = 0.1878
+get	ack	#159,	sack	#157
+fwd	ack	#159,	sack	#157
+get	ack	#160,	sack	#160
+fwd	ack	#160,	sack	#160
+get	data	#161
+fwd	data	#161,	error rate = 0.1869
+get	data	#162
+fwd	data	#162,	error rate = 0.1859
+get	data	#163
+fwd	data	#163,	error rate = 0.1850
+get	ack	#161,	sack	#161
+fwd	ack	#161,	sack	#161
+get	ack	#162,	sack	#162
+fwd	ack	#162,	sack	#162
+get	ack	#163,	sack	#163
+fwd	ack	#163,	sack	#163
+get	data	#164
+fwd	data	#164,	error rate = 0.1841
+get	data	#165
+fwd	data	#165,	error rate = 0.1832
+get	data	#166
+fwd	data	#166,	error rate = 0.1823
+get	data	#167
+fwd	data	#167,	error rate = 0.1814
+get	ack	#164,	sack	#164
+fwd	ack	#164,	sack	#164
+get	ack	#165,	sack	#165
+fwd	ack	#165,	sack	#165
+get	ack	#166,	sack	#166
+fwd	ack	#166,	sack	#166
+get	ack	#167,	sack	#167
+fwd	ack	#167,	sack	#167
+get	data	#168
+drop	data	#168,	error rate = 0.1854
+get	data	#169
+fwd	data	#169,	error rate = 0.1845
+get	data	#170
+corrupt	data	#170,	error rate = 0.1884
+get	data	#171
+fwd	data	#171,	error rate = 0.1875
+get	data	#172
+fwd	data	#172,	error rate = 0.1866
+get	ack	#167,	sack	#169
+fwd	ack	#167,	sack	#169
+get	ack	#167,	sack	#167
+fwd	ack	#167,	sack	#167
+get	ack	#167,	sack	#171
+fwd	ack	#167,	sack	#171
+get	ack	#167,	sack	#172
+fwd	ack	#167,	sack	#172
+get	data	#173
+fwd	data	#173,	error rate = 0.1857
+get	data	#174
+fwd	data	#174,	error rate = 0.1848
+get	data	#168
+fwd	data	#168,	error rate = 0.1840
+get	data	#175
+fwd	data	#175,	error rate = 0.1831
+get	ack	#167,	sack	#173
+fwd	ack	#167,	sack	#173
+get	ack	#167,	sack	#174
+fwd	ack	#167,	sack	#174
+get	ack	#169,	sack	#168
+fwd	ack	#169,	sack	#168
+get	ack	#169,	sack	#175
+fwd	ack	#169,	sack	#175
+get	data	#176
+fwd	data	#176,	error rate = 0.1822
+get	data	#177
+fwd	data	#177,	error rate = 0.1814
+get	data	#178
+drop	data	#178,	error rate = 0.1852
+get	data	#179
+fwd	data	#179,	error rate = 0.1843
+get	ack	#169,	sack	#176
+fwd	ack	#169,	sack	#176
+get	ack	#169,	sack	#177
+fwd	ack	#169,	sack	#177
+get	ack	#169,	sack	#179
+fwd	ack	#169,	sack	#179
+get	data	#180
+fwd	data	#180,	error rate = 0.1835
+get	data	#181
+corrupt	data	#181,	error rate = 0.1872
+get	data	#170
+fwd	data	#170,	error rate = 0.1864
+get	data	#182
+fwd	data	#182,	error rate = 0.1855
+get	ack	#169,	sack	#180
+fwd	ack	#169,	sack	#180
+get	ack	#169,	sack	#169
+fwd	ack	#169,	sack	#169
+get	ack	#177,	sack	#170
+fwd	ack	#177,	sack	#170
+get	ack	#177,	sack	#182
+fwd	ack	#177,	sack	#182
+get	data	#183
+fwd	data	#183,	error rate = 0.1847
+get	data	#184
+fwd	data	#184,	error rate = 0.1839
+get	data	#185
+fwd	data	#185,	error rate = 0.1830
+get	ack	#177,	sack	#183
+fwd	ack	#177,	sack	#183
+get	ack	#177,	sack	#184
+fwd	ack	#177,	sack	#184
+get	ack	#177,	sack	#185
+fwd	ack	#177,	sack	#185
+get	data	#186
+fwd	data	#186,	error rate = 0.1822
+get	data	#187
+fwd	data	#187,	error rate = 0.1814
+get	data	#178
+fwd	data	#178,	error rate = 0.1806
+get	data	#188
+fwd	data	#188,	error rate = 0.1798
+get	ack	#177,	sack	#186
+fwd	ack	#177,	sack	#186
+get	ack	#177,	sack	#187
+fwd	ack	#177,	sack	#187
+get	ack	#180,	sack	#178
+fwd	ack	#180,	sack	#178
+get	ack	#180,	sack	#188
+fwd	ack	#180,	sack	#188
+get	data	#189
+fwd	data	#189,	error rate = 0.1790
+get	data	#190
+fwd	data	#190,	error rate = 0.1783
+get	data	#191
+fwd	data	#191,	error rate = 0.1775
+get	data	#192
+fwd	data	#192,	error rate = 0.1767
+get	ack	#180,	sack	#189
+fwd	ack	#180,	sack	#189
+get	ack	#180,	sack	#190
+fwd	ack	#180,	sack	#190
+get	ack	#180,	sack	#191
+fwd	ack	#180,	sack	#191
+get	ack	#180,	sack	#192
+fwd	ack	#180,	sack	#192
+get	data	#193
+fwd	data	#193,	error rate = 0.1760
+get	data	#194
+fwd	data	#194,	error rate = 0.1752
+get	data	#181
+fwd	data	#181,	error rate = 0.1745
+get	data	#195
+corrupt	data	#195,	error rate = 0.1780
+get	data	#196
+fwd	data	#196,	error rate = 0.1772
+get	ack	#180,	sack	#193
+fwd	ack	#180,	sack	#193
+get	ack	#180,	sack	#194
+fwd	ack	#180,	sack	#194
+get	ack	#194,	sack	#181
+fwd	ack	#194,	sack	#181
+get	ack	#194,	sack	#194
+fwd	ack	#194,	sack	#194
+get	ack	#194,	sack	#196
+fwd	ack	#194,	sack	#196
+get	data	#197
+drop	data	#197,	error rate = 0.1807
+get	data	#198
+fwd	data	#198,	error rate = 0.1799
+get	data	#199
+fwd	data	#199,	error rate = 0.1792
+get	data	#200
+fwd	data	#200,	error rate = 0.1784
+get	ack	#194,	sack	#198
+fwd	ack	#194,	sack	#198
+get	ack	#194,	sack	#199
+fwd	ack	#194,	sack	#199
+get	ack	#194,	sack	#200
+fwd	ack	#194,	sack	#200
+get	data	#201
+fwd	data	#201,	error rate = 0.1777
+get	data	#195
+fwd	data	#195,	error rate = 0.1770
+get	data	#202
+fwd	data	#202,	error rate = 0.1762
+get	data	#203
+drop	data	#203,	error rate = 0.1796
+get	ack	#194,	sack	#201
+fwd	ack	#194,	sack	#201
+get	ack	#196,	sack	#195
+fwd	ack	#196,	sack	#195
+get	ack	#196,	sack	#202
+fwd	ack	#196,	sack	#202
+get	data	#204
+fwd	data	#204,	error rate = 0.1789
+get	data	#205
+fwd	data	#205,	error rate = 0.1781
+get	data	#206
+fwd	data	#206,	error rate = 0.1774
+get	data	#207
+fwd	data	#207,	error rate = 0.1767
+get	ack	#196,	sack	#204
+fwd	ack	#196,	sack	#204
+get	ack	#196,	sack	#205
+fwd	ack	#196,	sack	#205
+get	ack	#196,	sack	#206
+fwd	ack	#196,	sack	#206
+get	ack	#196,	sack	#207
+fwd	ack	#196,	sack	#207
+get	data	#208
+fwd	data	#208,	error rate = 0.1760
+get	data	#209
+corrupt	data	#209,	error rate = 0.1793
+get	data	#197
+fwd	data	#197,	error rate = 0.1786
+get	data	#210
+fwd	data	#210,	error rate = 0.1779
+get	data	#211
+fwd	data	#211,	error rate = 0.1772
+get	ack	#196,	sack	#208
+fwd	ack	#196,	sack	#208
+get	ack	#196,	sack	#196
+fwd	ack	#196,	sack	#196
+get	ack	#202,	sack	#197
+fwd	ack	#202,	sack	#197
+get	ack	#202,	sack	#210
+fwd	ack	#202,	sack	#210
+get	ack	#202,	sack	#211
+fwd	ack	#202,	sack	#211
+get	data	#212
+drop	data	#212,	error rate = 0.1804
+get	data	#213
+corrupt	data	#213,	error rate = 0.1836
+get	data	#214
+fwd	data	#214,	error rate = 0.1829
+get	data	#215
+corrupt	data	#215,	error rate = 0.1860
+get	ack	#202,	sack	#202
+fwd	ack	#202,	sack	#202
+get	ack	#202,	sack	#214
+fwd	ack	#202,	sack	#214
+get	ack	#202,	sack	#202
+fwd	ack	#202,	sack	#202
+get	data	#203
+fwd	data	#203,	error rate = 0.1853
+get	data	#216
+fwd	data	#216,	error rate = 0.1846
+get	ack	#208,	sack	#203
+fwd	ack	#208,	sack	#203
+get	ack	#208,	sack	#216
+fwd	ack	#208,	sack	#216
+get	data	#217
+fwd	data	#217,	error rate = 0.1839
+get	data	#218
+corrupt	data	#218,	error rate = 0.1870
+get	ack	#208,	sack	#217
+fwd	ack	#208,	sack	#217
+get	ack	#208,	sack	#208
+fwd	ack	#208,	sack	#208
+get	data	#219
+fwd	data	#219,	error rate = 0.1863
+get	data	#209
+fwd	data	#209,	error rate = 0.1856
+get	ack	#208,	sack	#219
+fwd	ack	#208,	sack	#219
+get	ack	#211,	sack	#209
+fwd	ack	#211,	sack	#209
+get	data	#220
+fwd	data	#220,	error rate = 0.1849
+get	data	#221
+fwd	data	#221,	error rate = 0.1842
+get	ack	#211,	sack	#220
+fwd	ack	#211,	sack	#220
+get	ack	#211,	sack	#221
+fwd	ack	#211,	sack	#221
+get	data	#222
+corrupt	data	#222,	error rate = 0.1873
+get	data	#223
+drop	data	#223,	error rate = 0.1903
+get	ack	#211,	sack	#211
+fwd	ack	#211,	sack	#211
+get	data	#212
+fwd	data	#212,	error rate = 0.1896
+get	ack	#212,	sack	#212
+fwd	ack	#212,	sack	#212
+get	data	#224
+fwd	data	#224,	error rate = 0.1889
+get	ack	#212,	sack	#224
+fwd	ack	#212,	sack	#224
+get	data	#225
+fwd	data	#225,	error rate = 0.1882
+get	ack	#212,	sack	#225
+fwd	ack	#212,	sack	#225
+get	data	#226
+fwd	data	#226,	error rate = 0.1875
+get	ack	#212,	sack	#226
+fwd	ack	#212,	sack	#226
+get	data	#227
+fwd	data	#227,	error rate = 0.1868
+get	data	#213
+fwd	data	#213,	error rate = 0.1861
+get	ack	#212,	sack	#227
+fwd	ack	#212,	sack	#227
+get	ack	#214,	sack	#213
+fwd	ack	#214,	sack	#213
+get	data	#228
+fwd	data	#228,	error rate = 0.1855
+get	data	#229
+fwd	data	#229,	error rate = 0.1848
+get	ack	#214,	sack	#228
+fwd	ack	#214,	sack	#228
+get	ack	#214,	sack	#229
+fwd	ack	#214,	sack	#229
+get	data	#230
+fwd	data	#230,	error rate = 0.1841
+get	data	#231
+fwd	data	#231,	error rate = 0.1835
+get	ack	#214,	sack	#230
+fwd	ack	#214,	sack	#230
+get	ack	#214,	sack	#231
+fwd	ack	#214,	sack	#231
+get	data	#232
+fwd	data	#232,	error rate = 0.1828
+get	data	#215
+fwd	data	#215,	error rate = 0.1821
+get	data	#233
+fwd	data	#233,	error rate = 0.1815
+get	ack	#214,	sack	#232
+fwd	ack	#214,	sack	#232
+get	ack	#217,	sack	#215
+fwd	ack	#217,	sack	#215
+get	ack	#217,	sack	#233
+fwd	ack	#217,	sack	#233
+get	data	#234
+fwd	data	#234,	error rate = 0.1809
+get	data	#235
+drop	data	#235,	error rate = 0.1837
+get	data	#236
+fwd	data	#236,	error rate = 0.1831
+get	data	#237
+fwd	data	#237,	error rate = 0.1825
+get	ack	#217,	sack	#234
+fwd	ack	#217,	sack	#234
+get	ack	#217,	sack	#236
+fwd	ack	#217,	sack	#236
+get	ack	#217,	sack	#237
+fwd	ack	#217,	sack	#237
+get	data	#238
+fwd	data	#238,	error rate = 0.1818
+get	data	#239
+fwd	data	#239,	error rate = 0.1812
+get	data	#218
+fwd	data	#218,	error rate = 0.1806
+get	data	#240
+fwd	data	#240,	error rate = 0.1799
+get	ack	#217,	sack	#238
+fwd	ack	#217,	sack	#238
+get	ack	#217,	sack	#239
+fwd	ack	#217,	sack	#239
+get	ack	#221,	sack	#218
+fwd	ack	#221,	sack	#218
+get	ack	#221,	sack	#240
+fwd	ack	#221,	sack	#240
+get	data	#241
+corrupt	data	#241,	error rate = 0.1828
+get	data	#242
+fwd	data	#242,	error rate = 0.1821
+get	data	#243
+corrupt	data	#243,	error rate = 0.1849
+get	data	#244
+fwd	data	#244,	error rate = 0.1843
+get	ack	#221,	sack	#221
+fwd	ack	#221,	sack	#221
+get	ack	#221,	sack	#242
+fwd	ack	#221,	sack	#242
+get	ack	#221,	sack	#221
+fwd	ack	#221,	sack	#221
+get	ack	#221,	sack	#244
+fwd	ack	#221,	sack	#244
+get	data	#245
+fwd	data	#245,	error rate = 0.1837
+get	data	#222
+fwd	data	#222,	error rate = 0.1831
+get	data	#246
+corrupt	data	#246,	error rate = 0.1858
+get	ack	#221,	sack	#245
+fwd	ack	#221,	sack	#245
+get	ack	#222,	sack	#222
+fwd	ack	#222,	sack	#222
+get	ack	#222,	sack	#222
+fwd	ack	#222,	sack	#222
+get	data	#247
+fwd	data	#247,	error rate = 0.1852
+get	data	#248
+fwd	data	#248,	error rate = 0.1846
+get	ack	#222,	sack	#247
+fwd	ack	#222,	sack	#247
+get	ack	#222,	sack	#248
+fwd	ack	#222,	sack	#248
+get	data	#249
+fwd	data	#249,	error rate = 0.1839
+get	data	#250
+drop	data	#250,	error rate = 0.1867
+get	data	#223
+fwd	data	#223,	error rate = 0.1860
+get	ack	#222,	sack	#249
+fwd	ack	#222,	sack	#249
+get	ack	#234,	sack	#223
+fwd	ack	#234,	sack	#223
+get	data	#251
+drop	data	#251,	error rate = 0.1887
+get	data	#252
+fwd	data	#252,	error rate = 0.1881
+get	ack	#234,	sack	#252
+fwd	ack	#234,	sack	#252
+get	data	#253
+fwd	data	#253,	error rate = 0.1875
+get	ack	#234,	sack	#253
+fwd	ack	#234,	sack	#253
+get	data	#254
+fwd	data	#254,	error rate = 0.1869
+get	ack	#234,	sack	#254
+fwd	ack	#234,	sack	#254
+get	data	#255
+fwd	data	#255,	error rate = 0.1863
+get	data	#235
+fwd	data	#235,	error rate = 0.1857
+get	ack	#234,	sack	#255
+fwd	ack	#234,	sack	#255
+get	ack	#240,	sack	#235
+fwd	ack	#240,	sack	#235
+get	data	#256
+fwd	data	#256,	error rate = 0.1851
+get	data	#257
+fwd	data	#257,	error rate = 0.1845
+get	ack	#240,	sack	#256
+fwd	ack	#240,	sack	#256
+get	ack	#240,	sack	#240
+fwd	ack	#240,	sack	#240
+get	data	#258
+corrupt	data	#258,	error rate = 0.1871
+get	ack	#240,	sack	#240
+fwd	ack	#240,	sack	#240
+get	data	#241
+corrupt	data	#241,	error rate = 0.1897
+get	ack	#240,	sack	#240
+fwd	ack	#240,	sack	#240
+get	data	#241
+fwd	data	#241,	error rate = 0.1891
+get	ack	#242,	sack	#241
+fwd	ack	#242,	sack	#241
+get	data	#243
+fwd	data	#243,	error rate = 0.1885
+get	data	#246
+drop	data	#246,	error rate = 0.1911
+get	ack	#245,	sack	#243
+fwd	ack	#245,	sack	#243
+get	data	#250
+fwd	data	#250,	error rate = 0.1905
+get	data	#251
+fwd	data	#251,	error rate = 0.1899
+get	ack	#245,	sack	#250
+fwd	ack	#245,	sack	#250
+get	ack	#245,	sack	#251
+fwd	ack	#245,	sack	#251
+get	data	#257
+fwd	data	#257,	error rate = 0.1893
+get	data	#258
+fwd	data	#258,	error rate = 0.1887
+get	ack	#245,	sack	#245
+fwd	ack	#245,	sack	#245
+get	ack	#245,	sack	#245
+fwd	ack	#245,	sack	#245
+get	data	#246
+drop	data	#246,	error rate = 0.1912
+get	data	#246
+fwd	data	#246,	error rate = 0.1906
+get	ack	#256,	sack	#246
+fwd	ack	#256,	sack	#246
+get	data	#257
+fwd	data	#257,	error rate = 0.1900
+get	data	#258
+fwd	data	#258,	error rate = 0.1894
+get	ack	#257,	sack	#257
+fwd	ack	#257,	sack	#257
+get	ack	#258,	sack	#258
+fwd	ack	#258,	sack	#258
+get	data	#259
+fwd	data	#259,	error rate = 0.1889
+get	data	#260
+fwd	data	#260,	error rate = 0.1883
+get	data	#261
+fwd	data	#261,	error rate = 0.1877
+get	ack	#259,	sack	#259
+fwd	ack	#259,	sack	#259
+get	ack	#260,	sack	#260
+fwd	ack	#260,	sack	#260
+get	ack	#261,	sack	#261
+fwd	ack	#261,	sack	#261
+get	data	#262
+fwd	data	#262,	error rate = 0.1871
+get	data	#263
+fwd	data	#263,	error rate = 0.1865
+get	data	#264
+fwd	data	#264,	error rate = 0.1860
+get	data	#265
+fwd	data	#265,	error rate = 0.1854
+get	ack	#262,	sack	#262
+fwd	ack	#262,	sack	#262
+get	ack	#263,	sack	#263
+fwd	ack	#263,	sack	#263
+get	ack	#264,	sack	#264
+fwd	ack	#264,	sack	#264
+get	ack	#265,	sack	#265
+fwd	ack	#265,	sack	#265
+get	data	#266
+fwd	data	#266,	error rate = 0.1848
+get	data	#267
+fwd	data	#267,	error rate = 0.1843
+get	data	#268
+fwd	data	#268,	error rate = 0.1837
+get	data	#269
+fwd	data	#269,	error rate = 0.1832
+get	data	#270
+fwd	data	#270,	error rate = 0.1826
+get	ack	#266,	sack	#266
+fwd	ack	#266,	sack	#266
+get	ack	#267,	sack	#267
+fwd	ack	#267,	sack	#267
+get	ack	#268,	sack	#268
+fwd	ack	#268,	sack	#268
+get	ack	#269,	sack	#269
+fwd	ack	#269,	sack	#269
+get	ack	#270,	sack	#270
+fwd	ack	#270,	sack	#270
+get	data	#271
+fwd	data	#271,	error rate = 0.1821
+get	data	#272
+fwd	data	#272,	error rate = 0.1815
+get	data	#273
+fwd	data	#273,	error rate = 0.1810
+get	data	#274
+fwd	data	#274,	error rate = 0.1805
+get	data	#275
+corrupt	data	#275,	error rate = 0.1829
+get	data	#276
+fwd	data	#276,	error rate = 0.1824
+get	ack	#271,	sack	#271
+fwd	ack	#271,	sack	#271
+get	ack	#272,	sack	#272
+fwd	ack	#272,	sack	#272
+get	ack	#273,	sack	#273
+fwd	ack	#273,	sack	#273
+get	ack	#274,	sack	#274
+fwd	ack	#274,	sack	#274
+get	ack	#274,	sack	#274
+fwd	ack	#274,	sack	#274
+get	ack	#274,	sack	#276
+fwd	ack	#274,	sack	#276
+get	data	#277
+fwd	data	#277,	error rate = 0.1818
+get	data	#278
+drop	data	#278,	error rate = 0.1842
+get	data	#279
+fwd	data	#279,	error rate = 0.1837
+get	data	#280
+fwd	data	#280,	error rate = 0.1831
+get	data	#281
+corrupt	data	#281,	error rate = 0.1855
+get	ack	#274,	sack	#277
+fwd	ack	#274,	sack	#277
+get	ack	#274,	sack	#279
+fwd	ack	#274,	sack	#279
+get	ack	#274,	sack	#280
+fwd	ack	#274,	sack	#280
+get	ack	#274,	sack	#274
+fwd	ack	#274,	sack	#274
+get	data	#282
+corrupt	data	#282,	error rate = 0.1879
+get	data	#275
+fwd	data	#275,	error rate = 0.1873
+get	data	#283
+fwd	data	#283,	error rate = 0.1868
+get	data	#284
+fwd	data	#284,	error rate = 0.1862
+get	ack	#274,	sack	#274
+fwd	ack	#274,	sack	#274
+get	ack	#277,	sack	#275
+fwd	ack	#277,	sack	#275
+get	ack	#277,	sack	#283
+fwd	ack	#277,	sack	#283
+get	ack	#277,	sack	#284
+fwd	ack	#277,	sack	#284
+get	data	#285
+drop	data	#285,	error rate = 0.1886
+get	data	#286
+drop	data	#286,	error rate = 0.1909
+get	data	#287
+fwd	data	#287,	error rate = 0.1903
+get	ack	#277,	sack	#287
+fwd	ack	#277,	sack	#287
+get	data	#288
+fwd	data	#288,	error rate = 0.1898
+get	data	#278
+drop	data	#278,	error rate = 0.1921
+get	ack	#277,	sack	#288
+fwd	ack	#277,	sack	#288
+get	data	#289
+fwd	data	#289,	error rate = 0.1915
+get	ack	#277,	sack	#289
+fwd	ack	#277,	sack	#289
+get	data	#290
+fwd	data	#290,	error rate = 0.1910
+get	ack	#277,	sack	#290
+fwd	ack	#277,	sack	#290
+get	data	#291
+fwd	data	#291,	error rate = 0.1905
+get	ack	#277,	sack	#291
+fwd	ack	#277,	sack	#291
+get	data	#292
+fwd	data	#292,	error rate = 0.1899
+get	ack	#277,	sack	#292
+fwd	ack	#277,	sack	#292
+get	data	#293
+fwd	data	#293,	error rate = 0.1894
+get	ack	#277,	sack	#293
+fwd	ack	#277,	sack	#293
+get	data	#294
+drop	data	#294,	error rate = 0.1917
+get	data	#278
+fwd	data	#278,	error rate = 0.1911
+get	ack	#280,	sack	#278
+fwd	ack	#280,	sack	#278
+get	data	#281
+corrupt	data	#281,	error rate = 0.1934
+get	data	#282
+fwd	data	#282,	error rate = 0.1928
+get	ack	#280,	sack	#280
+fwd	ack	#280,	sack	#280
+get	ack	#280,	sack	#282
+fwd	ack	#280,	sack	#282
+get	data	#285
+fwd	data	#285,	error rate = 0.1923
+get	ack	#280,	sack	#285
+fwd	ack	#280,	sack	#285
+get	data	#286
+fwd	data	#286,	error rate = 0.1918
+get	data	#281
+fwd	data	#281,	error rate = 0.1913
+get	ack	#280,	sack	#286
+fwd	ack	#280,	sack	#286
+get	ack	#293,	sack	#281
+fwd	ack	#293,	sack	#281
+get	data	#294
+corrupt	data	#294,	error rate = 0.1935
+get	data	#295
+corrupt	data	#295,	error rate = 0.1957
+get	data	#296
+fwd	data	#296,	error rate = 0.1951
+get	ack	#293,	sack	#293
+fwd	ack	#293,	sack	#293
+get	ack	#293,	sack	#293
+fwd	ack	#293,	sack	#293
+get	ack	#293,	sack	#296
+fwd	ack	#293,	sack	#296
+get	data	#297
+fwd	data	#297,	error rate = 0.1946
+get	data	#294
+fwd	data	#294,	error rate = 0.1941
+get	ack	#293,	sack	#297
+fwd	ack	#293,	sack	#297
+get	ack	#294,	sack	#294
+fwd	ack	#294,	sack	#294
+get	data	#298
+drop	data	#298,	error rate = 0.1962
+get	data	#299
+fwd	data	#299,	error rate = 0.1957
+get	ack	#294,	sack	#299
+fwd	ack	#294,	sack	#299
+get	data	#300
+fwd	data	#300,	error rate = 0.1952
+get	ack	#294,	sack	#300
+fwd	ack	#294,	sack	#300
+get	data	#301
+corrupt	data	#301,	error rate = 0.1973
+get	ack	#294,	sack	#294
+fwd	ack	#294,	sack	#294
+get	data	#295
+drop	data	#295,	error rate = 0.1995
+get	data	#295
+fwd	data	#295,	error rate = 0.1989
+get	ack	#297,	sack	#295
+fwd	ack	#297,	sack	#295
+get	data	#298
+corrupt	data	#298,	error rate = 0.2011
+get	data	#301
+fwd	data	#301,	error rate = 0.2005
+get	ack	#297,	sack	#297
+fwd	ack	#297,	sack	#297
+get	ack	#297,	sack	#301
+fwd	ack	#297,	sack	#301
+get	data	#302
+corrupt	data	#302,	error rate = 0.2026
+get	ack	#297,	sack	#297
+fwd	ack	#297,	sack	#297
+get	data	#298
+corrupt	data	#298,	error rate = 0.2047
+get	ack	#297,	sack	#297
+fwd	ack	#297,	sack	#297
+get	data	#298
+fwd	data	#298,	error rate = 0.2042
+get	ack	#301,	sack	#298
+fwd	ack	#301,	sack	#298
+get	data	#302
+fwd	data	#302,	error rate = 0.2037
+get	data	#303
+fwd	data	#303,	error rate = 0.2031
+get	ack	#302,	sack	#302
+fwd	ack	#302,	sack	#302
+get	ack	#303,	sack	#303
+fwd	ack	#303,	sack	#303
+get	data	#304
+drop	data	#304,	error rate = 0.2052
+get	data	#305
+fwd	data	#305,	error rate = 0.2047
+get	data	#306
+drop	data	#306,	error rate = 0.2067
+get	ack	#303,	sack	#305
+fwd	ack	#303,	sack	#305
+get	data	#307
+fwd	data	#307,	error rate = 0.2062
+get	ack	#303,	sack	#307
+fwd	ack	#303,	sack	#307
+get	data	#308
+fwd	data	#308,	error rate = 0.2057
+get	ack	#303,	sack	#308
+fwd	ack	#303,	sack	#308
+get	data	#309
+fwd	data	#309,	error rate = 0.2051
+get	data	#304
+fwd	data	#304,	error rate = 0.2046
+get	ack	#303,	sack	#309
+fwd	ack	#303,	sack	#309
+get	ack	#305,	sack	#304
+fwd	ack	#305,	sack	#304
+get	data	#310
+drop	data	#310,	error rate = 0.2066
+get	data	#311
+fwd	data	#311,	error rate = 0.2061
+get	ack	#305,	sack	#311
+fwd	ack	#305,	sack	#311
+get	data	#312
+drop	data	#312,	error rate = 0.2081
+get	data	#306
+fwd	data	#306,	error rate = 0.2076
+get	ack	#309,	sack	#306
+fwd	ack	#309,	sack	#306
+get	data	#310
+drop	data	#310,	error rate = 0.2096
+get	data	#312
+fwd	data	#312,	error rate = 0.2091
+get	ack	#309,	sack	#312
+fwd	ack	#309,	sack	#312
+get	data	#313
+fwd	data	#313,	error rate = 0.2085
+get	ack	#309,	sack	#313
+fwd	ack	#309,	sack	#313
+get	data	#314
+fwd	data	#314,	error rate = 0.2080
+get	ack	#309,	sack	#314
+fwd	ack	#309,	sack	#314
+get	data	#315
+fwd	data	#315,	error rate = 0.2075
+get	data	#310
+corrupt	data	#310,	error rate = 0.2095
+get	ack	#309,	sack	#315
+fwd	ack	#309,	sack	#315
+get	ack	#309,	sack	#309
+fwd	ack	#309,	sack	#309
+get	data	#316
+corrupt	data	#316,	error rate = 0.2114
+get	ack	#309,	sack	#309
+fwd	ack	#309,	sack	#309
+get	data	#310
+drop	data	#310,	error rate = 0.2134
+get	data	#310
+fwd	data	#310,	error rate = 0.2129
+get	ack	#315,	sack	#310
+fwd	ack	#315,	sack	#310
+get	data	#316
+fwd	data	#316,	error rate = 0.2123
+get	data	#317
+fwd	data	#317,	error rate = 0.2118
+get	ack	#316,	sack	#316
+fwd	ack	#316,	sack	#316
+get	ack	#317,	sack	#317
+fwd	ack	#317,	sack	#317
+get	data	#318
+fwd	data	#318,	error rate = 0.2113
+get	data	#319
+fwd	data	#319,	error rate = 0.2108
+get	data	#320
+drop	data	#320,	error rate = 0.2127
+get	ack	#318,	sack	#318
+fwd	ack	#318,	sack	#318
+get	ack	#319,	sack	#319
+fwd	ack	#319,	sack	#319
+get	data	#321
+fwd	data	#321,	error rate = 0.2122
+get	data	#322
+fwd	data	#322,	error rate = 0.2117
+get	ack	#319,	sack	#321
+fwd	ack	#319,	sack	#321
+get	ack	#319,	sack	#322
+fwd	ack	#319,	sack	#322
+get	data	#323
+fwd	data	#323,	error rate = 0.2112
+get	data	#324
+fwd	data	#324,	error rate = 0.2107
+get	ack	#319,	sack	#323
+fwd	ack	#319,	sack	#323
+get	ack	#319,	sack	#324
+fwd	ack	#319,	sack	#324
+get	data	#325
+drop	data	#325,	error rate = 0.2126
+get	data	#320
+fwd	data	#320,	error rate = 0.2120
+get	data	#326
+fwd	data	#326,	error rate = 0.2115
+get	ack	#324,	sack	#320
+fwd	ack	#324,	sack	#320
+get	ack	#324,	sack	#326
+fwd	ack	#324,	sack	#326
+get	data	#327
+fwd	data	#327,	error rate = 0.2110
+get	data	#328
+fwd	data	#328,	error rate = 0.2105
+get	data	#329
+fwd	data	#329,	error rate = 0.2100
+get	ack	#324,	sack	#327
+fwd	ack	#324,	sack	#327
+get	ack	#324,	sack	#328
+fwd	ack	#324,	sack	#328
+get	ack	#324,	sack	#329
+fwd	ack	#324,	sack	#329
+get	data	#330
+drop	data	#330,	error rate = 0.2119
+get	data	#331
+corrupt	data	#331,	error rate = 0.2138
+get	data	#325
+fwd	data	#325,	error rate = 0.2133
+get	data	#332
+fwd	data	#332,	error rate = 0.2128
+get	ack	#324,	sack	#324
+fwd	ack	#324,	sack	#324
+get	ack	#329,	sack	#325
+fwd	ack	#329,	sack	#325
+get	ack	#329,	sack	#332
+fwd	ack	#329,	sack	#332
+get	data	#333
+fwd	data	#333,	error rate = 0.2123
+get	data	#334
+fwd	data	#334,	error rate = 0.2118
+get	ack	#329,	sack	#333
+fwd	ack	#329,	sack	#333
+get	ack	#329,	sack	#334
+fwd	ack	#329,	sack	#334
+get	data	#335
+fwd	data	#335,	error rate = 0.2113
+get	data	#336
+fwd	data	#336,	error rate = 0.2108
+get	data	#330
+fwd	data	#330,	error rate = 0.2103
+get	ack	#329,	sack	#335
+fwd	ack	#329,	sack	#335
+get	ack	#329,	sack	#336
+fwd	ack	#329,	sack	#336
+get	ack	#330,	sack	#330
+fwd	ack	#330,	sack	#330
+get	data	#337
+drop	data	#337,	error rate = 0.2121
+get	data	#338
+fwd	data	#338,	error rate = 0.2116
+get	data	#339
+fwd	data	#339,	error rate = 0.2111
+get	ack	#330,	sack	#338
+fwd	ack	#330,	sack	#338
+get	ack	#330,	sack	#339
+fwd	ack	#330,	sack	#339
+get	data	#340
+fwd	data	#340,	error rate = 0.2106
+get	data	#341
+fwd	data	#341,	error rate = 0.2102
+get	ack	#330,	sack	#340
+fwd	ack	#330,	sack	#340
+get	ack	#330,	sack	#341
+fwd	ack	#330,	sack	#341
+get	data	#342
+drop	data	#342,	error rate = 0.2120
+get	data	#331
+fwd	data	#331,	error rate = 0.2115
+get	data	#343
+fwd	data	#343,	error rate = 0.2110
+get	ack	#336,	sack	#331
+fwd	ack	#336,	sack	#331
+get	ack	#336,	sack	#343
+fwd	ack	#336,	sack	#343
+get	data	#344
+fwd	data	#344,	error rate = 0.2105
+get	data	#345
+fwd	data	#345,	error rate = 0.2100
+get	ack	#336,	sack	#344
+fwd	ack	#336,	sack	#344
+get	ack	#336,	sack	#345
+fwd	ack	#336,	sack	#345
+get	data	#346
+corrupt	data	#346,	error rate = 0.2118
+get	data	#347
+fwd	data	#347,	error rate = 0.2114
+get	data	#337
+fwd	data	#337,	error rate = 0.2109
+get	ack	#336,	sack	#336
+fwd	ack	#336,	sack	#336
+get	ack	#336,	sack	#347
+fwd	ack	#336,	sack	#347
+get	ack	#341,	sack	#337
+fwd	ack	#341,	sack	#337
+get	data	#348
+fwd	data	#348,	error rate = 0.2104
+get	data	#349
+fwd	data	#349,	error rate = 0.2099
+get	data	#350
+fwd	data	#350,	error rate = 0.2095
+get	ack	#341,	sack	#348
+fwd	ack	#341,	sack	#348
+get	ack	#341,	sack	#349
+fwd	ack	#341,	sack	#349
+get	ack	#341,	sack	#350
+fwd	ack	#341,	sack	#350
+get	data	#351
+fwd	data	#351,	error rate = 0.2090
+get	data	#352
+fwd	data	#352,	error rate = 0.2085
+get	data	#353
+fwd	data	#353,	error rate = 0.2081
+get	data	#342
+fwd	data	#342,	error rate = 0.2076
+get	ack	#341,	sack	#351
+fwd	ack	#341,	sack	#351
+get	ack	#341,	sack	#352
+fwd	ack	#341,	sack	#352
+get	ack	#341,	sack	#353
+fwd	ack	#341,	sack	#353
+get	ack	#345,	sack	#342
+fwd	ack	#345,	sack	#342
+get	data	#354
+fwd	data	#354,	error rate = 0.2071
+get	data	#355
+fwd	data	#355,	error rate = 0.2067
+get	data	#356
+fwd	data	#356,	error rate = 0.2062
+get	data	#357
+fwd	data	#357,	error rate = 0.2058
+get	ack	#345,	sack	#354
+fwd	ack	#345,	sack	#354
+get	ack	#345,	sack	#355
+fwd	ack	#345,	sack	#355
+get	ack	#345,	sack	#356
+fwd	ack	#345,	sack	#356
+get	ack	#345,	sack	#357
+fwd	ack	#345,	sack	#357
+get	data	#358
+fwd	data	#358,	error rate = 0.2053
+get	data	#359
+fwd	data	#359,	error rate = 0.2048
+get	data	#360
+fwd	data	#360,	error rate = 0.2044
+get	data	#346
+fwd	data	#346,	error rate = 0.2039
+get	data	#361
+fwd	data	#361,	error rate = 0.2035
+get	ack	#345,	sack	#358
+fwd	ack	#345,	sack	#358
+get	ack	#345,	sack	#359
+fwd	ack	#345,	sack	#359
+get	ack	#345,	sack	#360
+fwd	ack	#345,	sack	#360
+get	ack	#360,	sack	#346
+fwd	ack	#360,	sack	#346
+get	ack	#361,	sack	#361
+fwd	ack	#361,	sack	#361
+get	data	#362
+fwd	data	#362,	error rate = 0.2031
+get	data	#363
+corrupt	data	#363,	error rate = 0.2048
+get	data	#364
+drop	data	#364,	error rate = 0.2065
+get	data	#365
+fwd	data	#365,	error rate = 0.2061
+get	data	#366
+fwd	data	#366,	error rate = 0.2056
+get	ack	#362,	sack	#362
+fwd	ack	#362,	sack	#362
+get	ack	#362,	sack	#362
+fwd	ack	#362,	sack	#362
+get	ack	#362,	sack	#365
+fwd	ack	#362,	sack	#365
+get	ack	#362,	sack	#366
+fwd	ack	#362,	sack	#366
+get	data	#367
+fwd	data	#367,	error rate = 0.2052
+get	data	#368
+fwd	data	#368,	error rate = 0.2047
+get	data	#369
+fwd	data	#369,	error rate = 0.2043
+get	data	#363
+fwd	data	#363,	error rate = 0.2039
+get	ack	#362,	sack	#367
+fwd	ack	#362,	sack	#367
+get	ack	#362,	sack	#368
+fwd	ack	#362,	sack	#368
+get	ack	#362,	sack	#369
+fwd	ack	#362,	sack	#369
+get	ack	#363,	sack	#363
+fwd	ack	#363,	sack	#363
+get	data	#370
+fwd	data	#370,	error rate = 0.2034
+get	data	#371
+fwd	data	#371,	error rate = 0.2030
+get	data	#372
+fwd	data	#372,	error rate = 0.2026
+get	data	#373
+fwd	data	#373,	error rate = 0.2021
+get	data	#374
+fwd	data	#374,	error rate = 0.2017
+get	ack	#363,	sack	#370
+fwd	ack	#363,	sack	#370
+get	ack	#363,	sack	#371
+fwd	ack	#363,	sack	#371
+get	ack	#363,	sack	#372
+fwd	ack	#363,	sack	#372
+get	ack	#363,	sack	#373
+fwd	ack	#363,	sack	#373
+get	ack	#363,	sack	#374
+fwd	ack	#363,	sack	#374
+get	data	#375
+fwd	data	#375,	error rate = 0.2013
+get	data	#376
+fwd	data	#376,	error rate = 0.2008
+get	data	#377
+fwd	data	#377,	error rate = 0.2004
+get	data	#364
+fwd	data	#364,	error rate = 0.2000
+get	data	#378
+fwd	data	#378,	error rate = 0.1996
+get	data	#379
+fwd	data	#379,	error rate = 0.1992
+get	ack	#363,	sack	#375
+fwd	ack	#363,	sack	#375
+get	ack	#363,	sack	#376
+fwd	ack	#363,	sack	#376
+get	ack	#363,	sack	#377
+fwd	ack	#363,	sack	#377
+get	ack	#377,	sack	#364
+fwd	ack	#377,	sack	#364
+get	ack	#378,	sack	#378
+fwd	ack	#378,	sack	#378
+get	ack	#379,	sack	#379
+fwd	ack	#379,	sack	#379
+get	data	#380
+fwd	data	#380,	error rate = 0.1987
+get	data	#381
+fwd	data	#381,	error rate = 0.1983
+get	data	#382
+fwd	data	#382,	error rate = 0.1979
+get	data	#383
+fwd	data	#383,	error rate = 0.1975
+get	data	#384
+fwd	data	#384,	error rate = 0.1971
+get	data	#385
+fwd	data	#385,	error rate = 0.1967
+get	ack	#380,	sack	#380
+fwd	ack	#380,	sack	#380
+get	ack	#381,	sack	#381
+fwd	ack	#381,	sack	#381
+get	ack	#382,	sack	#382
+fwd	ack	#382,	sack	#382
+get	ack	#383,	sack	#383
+fwd	ack	#383,	sack	#383
+get	ack	#384,	sack	#384
+fwd	ack	#384,	sack	#384
+get	ack	#385,	sack	#385
+fwd	ack	#385,	sack	#385
+get	data	#386
+fwd	data	#386,	error rate = 0.1963
+get	data	#387
+drop	data	#387,	error rate = 0.1979
+get	data	#388
+fwd	data	#388,	error rate = 0.1975
+get	data	#389
+fwd	data	#389,	error rate = 0.1971
+get	data	#390
+fwd	data	#390,	error rate = 0.1967
+get	data	#391
+fwd	data	#391,	error rate = 0.1963
+get	data	#392
+fwd	data	#392,	error rate = 0.1959
+get	ack	#386,	sack	#386
+fwd	ack	#386,	sack	#386
+get	ack	#386,	sack	#388
+fwd	ack	#386,	sack	#388
+get	ack	#386,	sack	#389
+fwd	ack	#386,	sack	#389
+get	ack	#386,	sack	#390
+fwd	ack	#386,	sack	#390
+get	ack	#386,	sack	#391
+fwd	ack	#386,	sack	#391
+get	ack	#386,	sack	#392
+fwd	ack	#386,	sack	#392
+get	data	#393
+fwd	data	#393,	error rate = 0.1955
+get	data	#394
+fwd	data	#394,	error rate = 0.1951
+get	data	#395
+fwd	data	#395,	error rate = 0.1947
+get	data	#396
+fwd	data	#396,	error rate = 0.1943
+get	data	#387
+fwd	data	#387,	error rate = 0.1939
+get	data	#397
+fwd	data	#397,	error rate = 0.1935
+get	data	#398
+corrupt	data	#398,	error rate = 0.1952
+get	ack	#386,	sack	#393
+fwd	ack	#386,	sack	#393
+get	ack	#386,	sack	#394
+fwd	ack	#386,	sack	#394
+get	ack	#386,	sack	#395
+fwd	ack	#386,	sack	#395
+get	ack	#386,	sack	#396
+fwd	ack	#386,	sack	#396
+get	ack	#396,	sack	#387
+fwd	ack	#396,	sack	#387
+get	ack	#397,	sack	#397
+fwd	ack	#397,	sack	#397
+get	ack	#397,	sack	#397
+fwd	ack	#397,	sack	#397
+get	data	#399
+fwd	data	#399,	error rate = 0.1948
+get	data	#400
+drop	data	#400,	error rate = 0.1964
+get	data	#401
+corrupt	data	#401,	error rate = 0.1980
+get	data	#402
+fwd	data	#402,	error rate = 0.1976
+get	data	#403
+fwd	data	#403,	error rate = 0.1972
+get	data	#404
+fwd	data	#404,	error rate = 0.1968
+get	ack	#397,	sack	#399
+fwd	ack	#397,	sack	#399
+get	ack	#397,	sack	#397
+fwd	ack	#397,	sack	#397
+get	ack	#397,	sack	#402
+fwd	ack	#397,	sack	#402
+get	ack	#397,	sack	#403
+fwd	ack	#397,	sack	#403
+get	ack	#397,	sack	#404
+fwd	ack	#397,	sack	#404
+get	data	#405
+fwd	data	#405,	error rate = 0.1964
+get	data	#398
+fwd	data	#398,	error rate = 0.1960
+get	data	#406
+fwd	data	#406,	error rate = 0.1957
+get	data	#407
+fwd	data	#407,	error rate = 0.1953
+get	data	#408
+fwd	data	#408,	error rate = 0.1949
+get	ack	#397,	sack	#405
+fwd	ack	#397,	sack	#405
+get	ack	#399,	sack	#398
+fwd	ack	#399,	sack	#398
+get	ack	#399,	sack	#406
+fwd	ack	#399,	sack	#406
+get	ack	#399,	sack	#407
+fwd	ack	#399,	sack	#407
+get	ack	#399,	sack	#408
+fwd	ack	#399,	sack	#408
+get	data	#409
+fwd	data	#409,	error rate = 0.1945
+get	data	#410
+fwd	data	#410,	error rate = 0.1941
+get	data	#411
+fwd	data	#411,	error rate = 0.1937
+get	data	#412
+fwd	data	#412,	error rate = 0.1934
+get	data	#413
+fwd	data	#413,	error rate = 0.1930
+get	data	#414
+fwd	data	#414,	error rate = 0.1926
+get	data	#400
+fwd	data	#400,	error rate = 0.1922
+get	ack	#399,	sack	#409
+fwd	ack	#399,	sack	#409
+get	ack	#399,	sack	#410
+fwd	ack	#399,	sack	#410
+get	ack	#399,	sack	#411
+fwd	ack	#399,	sack	#411
+get	ack	#399,	sack	#412
+fwd	ack	#399,	sack	#412
+get	ack	#399,	sack	#413
+fwd	ack	#399,	sack	#413
+get	ack	#399,	sack	#414
+fwd	ack	#399,	sack	#414
+get	ack	#400,	sack	#400
+fwd	ack	#400,	sack	#400
+get	data	#415
+fwd	data	#415,	error rate = 0.1919
+get	data	#416
+fwd	data	#416,	error rate = 0.1915
+get	data	#417
+fwd	data	#417,	error rate = 0.1911
+get	data	#418
+fwd	data	#418,	error rate = 0.1908
+get	data	#419
+fwd	data	#419,	error rate = 0.1904
+get	data	#420
+fwd	data	#420,	error rate = 0.1900
+get	data	#421
+fwd	data	#421,	error rate = 0.1897
+get	ack	#400,	sack	#415
+fwd	ack	#400,	sack	#415
+get	ack	#400,	sack	#416
+fwd	ack	#400,	sack	#416
+get	ack	#400,	sack	#417
+fwd	ack	#400,	sack	#417
+get	ack	#400,	sack	#418
+fwd	ack	#400,	sack	#418
+get	ack	#400,	sack	#419
+fwd	ack	#400,	sack	#419
+get	ack	#400,	sack	#420
+fwd	ack	#400,	sack	#420
+get	ack	#400,	sack	#421
+fwd	ack	#400,	sack	#421
+get	data	#422
+fwd	data	#422,	error rate = 0.1893
+get	data	#423
+fwd	data	#423,	error rate = 0.1889
+get	data	#424
+fwd	data	#424,	error rate = 0.1886
+get	data	#401
+fwd	data	#401,	error rate = 0.1882
+get	data	#425
+drop	data	#425,	error rate = 0.1898
+get	data	#426
+fwd	data	#426,	error rate = 0.1894
+get	data	#427
+corrupt	data	#427,	error rate = 0.1909
+get	data	#428
+fwd	data	#428,	error rate = 0.1906
+get	ack	#400,	sack	#422
+fwd	ack	#400,	sack	#422
+get	ack	#400,	sack	#423
+fwd	ack	#400,	sack	#423
+get	ack	#400,	sack	#424
+fwd	ack	#400,	sack	#424
+get	ack	#424,	sack	#401
+fwd	ack	#424,	sack	#401
+get	ack	#424,	sack	#426
+fwd	ack	#424,	sack	#426
+get	ack	#424,	sack	#424
+fwd	ack	#424,	sack	#424
+get	ack	#424,	sack	#428
+fwd	ack	#424,	sack	#428
+get	data	#429
+fwd	data	#429,	error rate = 0.1902
+get	data	#430
+fwd	data	#430,	error rate = 0.1898
+get	data	#431
+drop	data	#431,	error rate = 0.1914
+get	data	#432
+fwd	data	#432,	error rate = 0.1910
+get	data	#433
+fwd	data	#433,	error rate = 0.1907
+get	data	#434
+drop	data	#434,	error rate = 0.1922
+get	data	#425
+fwd	data	#425,	error rate = 0.1918
+get	ack	#424,	sack	#429
+fwd	ack	#424,	sack	#429
+get	ack	#424,	sack	#430
+fwd	ack	#424,	sack	#430
+get	ack	#424,	sack	#432
+fwd	ack	#424,	sack	#432
+get	ack	#424,	sack	#433
+fwd	ack	#424,	sack	#433
+get	ack	#426,	sack	#425
+fwd	ack	#426,	sack	#425
+get	data	#435
+drop	data	#435,	error rate = 0.1933
+get	data	#436
+fwd	data	#436,	error rate = 0.1929
+get	data	#437
+fwd	data	#437,	error rate = 0.1926
+get	data	#438
+fwd	data	#438,	error rate = 0.1922
+get	data	#439
+corrupt	data	#439,	error rate = 0.1937
+get	ack	#426,	sack	#436
+fwd	ack	#426,	sack	#436
+get	ack	#426,	sack	#437
+fwd	ack	#426,	sack	#437
+get	ack	#426,	sack	#438
+fwd	ack	#426,	sack	#438
+get	ack	#426,	sack	#426
+fwd	ack	#426,	sack	#426
+get	data	#440
+fwd	data	#440,	error rate = 0.1934
+get	data	#441
+fwd	data	#441,	error rate = 0.1930
+get	data	#442
+fwd	data	#442,	error rate = 0.1927
+get	data	#427
+corrupt	data	#427,	error rate = 0.1941
+get	ack	#426,	sack	#440
+fwd	ack	#426,	sack	#440
+get	ack	#426,	sack	#441
+fwd	ack	#426,	sack	#441
+get	ack	#426,	sack	#442
+fwd	ack	#426,	sack	#442
+get	ack	#426,	sack	#426
+fwd	ack	#426,	sack	#426
+get	data	#443
+fwd	data	#443,	error rate = 0.1938
+get	data	#444
+fwd	data	#444,	error rate = 0.1934
+get	data	#445
+fwd	data	#445,	error rate = 0.1931
+get	ack	#426,	sack	#443
+fwd	ack	#426,	sack	#443
+get	ack	#426,	sack	#444
+fwd	ack	#426,	sack	#444
+get	ack	#426,	sack	#445
+fwd	ack	#426,	sack	#445
+get	data	#446
+corrupt	data	#446,	error rate = 0.1945
+get	data	#447
+fwd	data	#447,	error rate = 0.1942
+get	data	#448
+drop	data	#448,	error rate = 0.1957
+get	ack	#426,	sack	#426
+fwd	ack	#426,	sack	#426
+get	ack	#426,	sack	#447
+fwd	ack	#426,	sack	#447
+get	data	#449
+fwd	data	#449,	error rate = 0.1953
+get	ack	#426,	sack	#449
+fwd	ack	#426,	sack	#449
+get	data	#450
+fwd	data	#450,	error rate = 0.1949
+get	ack	#426,	sack	#450
+fwd	ack	#426,	sack	#450
+get	data	#451
+fwd	data	#451,	error rate = 0.1946
+get	ack	#426,	sack	#451
+fwd	ack	#426,	sack	#451
+get	data	#452
+fwd	data	#452,	error rate = 0.1942
+get	ack	#426,	sack	#452
+fwd	ack	#426,	sack	#452
+get	data	#453
+fwd	data	#453,	error rate = 0.1939
+get	ack	#426,	sack	#453
+fwd	ack	#426,	sack	#453
+get	data	#454
+fwd	data	#454,	error rate = 0.1935
+get	ack	#426,	sack	#454
+fwd	ack	#426,	sack	#454
+get	data	#455
+fwd	data	#455,	error rate = 0.1932
+get	ack	#426,	sack	#455
+fwd	ack	#426,	sack	#455
+get	data	#456
+drop	data	#456,	error rate = 0.1946
+get	data	#427
+fwd	data	#427,	error rate = 0.1943
+get	ack	#430,	sack	#427
+fwd	ack	#430,	sack	#427
+get	data	#431
+corrupt	data	#431,	error rate = 0.1957
+get	data	#434
+fwd	data	#434,	error rate = 0.1954
+get	ack	#430,	sack	#430
+fwd	ack	#430,	sack	#430
+get	ack	#430,	sack	#434
+fwd	ack	#430,	sack	#434
+get	data	#435
+fwd	data	#435,	error rate = 0.1950
+get	ack	#430,	sack	#435
+fwd	ack	#430,	sack	#435
+get	data	#439
+corrupt	data	#439,	error rate = 0.1965
+get	data	#431
+fwd	data	#431,	error rate = 0.1961
+get	ack	#430,	sack	#430
+fwd	ack	#430,	sack	#430
+get	ack	#438,	sack	#431
+fwd	ack	#438,	sack	#431
+get	data	#446
+drop	data	#446,	error rate = 0.1975
+get	data	#448
+fwd	data	#448,	error rate = 0.1972
+get	ack	#438,	sack	#448
+fwd	ack	#438,	sack	#448
+get	data	#456
+fwd	data	#456,	error rate = 0.1968
+get	ack	#438,	sack	#456
+fwd	ack	#438,	sack	#456
+get	data	#457
+fwd	data	#457,	error rate = 0.1965
+get	ack	#438,	sack	#457
+fwd	ack	#438,	sack	#457
+get	data	#458
+fwd	data	#458,	error rate = 0.1961
+get	data	#439
+corrupt	data	#439,	error rate = 0.1976
+get	ack	#438,	sack	#458
+fwd	ack	#438,	sack	#458
+get	ack	#438,	sack	#438
+fwd	ack	#438,	sack	#438
+get	data	#459
+fwd	data	#459,	error rate = 0.1972
+get	ack	#438,	sack	#459
+fwd	ack	#438,	sack	#459
+get	data	#460
+fwd	data	#460,	error rate = 0.1969
+get	ack	#438,	sack	#460
+fwd	ack	#438,	sack	#460
+get	data	#461
+corrupt	data	#461,	error rate = 0.1983
+get	ack	#438,	sack	#438
+fwd	ack	#438,	sack	#438
+get	data	#439
+corrupt	data	#439,	error rate = 0.1997
+get	ack	#438,	sack	#438
+fwd	ack	#438,	sack	#438
+get	data	#439
+corrupt	data	#439,	error rate = 0.2010
+get	ack	#438,	sack	#438
+fwd	ack	#438,	sack	#438
+get	data	#439
+fwd	data	#439,	error rate = 0.2007
+get	ack	#445,	sack	#439
+fwd	ack	#445,	sack	#439
+get	data	#446
+fwd	data	#446,	error rate = 0.2003
+get	data	#461
+fwd	data	#461,	error rate = 0.2000
+get	ack	#460,	sack	#446
+fwd	ack	#460,	sack	#446
+get	ack	#461,	sack	#461
+fwd	ack	#461,	sack	#461
+get	data	#462
+fwd	data	#462,	error rate = 0.1997
+get	data	#463
+fwd	data	#463,	error rate = 0.1993
+get	data	#464
+drop	data	#464,	error rate = 0.2007
+get	ack	#462,	sack	#462
+fwd	ack	#462,	sack	#462
+get	ack	#463,	sack	#463
+fwd	ack	#463,	sack	#463
+get	data	#465
+fwd	data	#465,	error rate = 0.2003
+get	data	#466
+fwd	data	#466,	error rate = 0.2000
+get	ack	#463,	sack	#465
+fwd	ack	#463,	sack	#465
+get	ack	#463,	sack	#466
+fwd	ack	#463,	sack	#466
+get	data	#467
+fwd	data	#467,	error rate = 0.1997
+get	data	#468
+fwd	data	#468,	error rate = 0.1993
+get	ack	#463,	sack	#467
+fwd	ack	#463,	sack	#467
+get	ack	#463,	sack	#468
+fwd	ack	#463,	sack	#468
+get	data	#469
+fwd	data	#469,	error rate = 0.1990
+get	data	#464
+fwd	data	#464,	error rate = 0.1986
+get	data	#470
+corrupt	data	#470,	error rate = 0.2000
+get	ack	#463,	sack	#469
+fwd	ack	#463,	sack	#469
+get	ack	#469,	sack	#464
+fwd	ack	#469,	sack	#464
+get	ack	#469,	sack	#469
+fwd	ack	#469,	sack	#469
+get	data	#471
+fwd	data	#471,	error rate = 0.1997
+get	data	#472
+fwd	data	#472,	error rate = 0.1993
+get	data	#473
+fwd	data	#473,	error rate = 0.1990
+get	ack	#469,	sack	#471
+fwd	ack	#469,	sack	#471
+get	ack	#469,	sack	#472
+fwd	ack	#469,	sack	#472
+get	ack	#469,	sack	#473
+fwd	ack	#469,	sack	#473
+get	data	#474
+fwd	data	#474,	error rate = 0.1987
+get	data	#475
+fwd	data	#475,	error rate = 0.1983
+get	data	#470
+fwd	data	#470,	error rate = 0.1980
+get	data	#476
+drop	data	#476,	error rate = 0.1993
+get	ack	#469,	sack	#474
+fwd	ack	#469,	sack	#474
+get	ack	#469,	sack	#475
+fwd	ack	#469,	sack	#475
+get	ack	#475,	sack	#470
+fwd	ack	#475,	sack	#470
+get	data	#477
+fwd	data	#477,	error rate = 0.1990
+get	data	#478
+fwd	data	#478,	error rate = 0.1987
+get	data	#479
+fwd	data	#479,	error rate = 0.1983
+get	ack	#475,	sack	#477
+fwd	ack	#475,	sack	#477
+get	ack	#475,	sack	#478
+fwd	ack	#475,	sack	#478
+get	ack	#475,	sack	#479
+fwd	ack	#475,	sack	#479
+get	data	#480
+fwd	data	#480,	error rate = 0.1980
+get	data	#481
+fwd	data	#481,	error rate = 0.1977
+get	data	#482
+fwd	data	#482,	error rate = 0.1973
+get	data	#476
+fwd	data	#476,	error rate = 0.1970
+get	ack	#475,	sack	#480
+fwd	ack	#475,	sack	#480
+get	ack	#475,	sack	#481
+fwd	ack	#475,	sack	#481
+get	ack	#475,	sack	#482
+fwd	ack	#475,	sack	#482
+get	ack	#482,	sack	#476
+fwd	ack	#482,	sack	#476
+get	data	#483
+corrupt	data	#483,	error rate = 0.1983
+get	data	#484
+fwd	data	#484,	error rate = 0.1980
+get	data	#485
+corrupt	data	#485,	error rate = 0.1993
+get	data	#486
+fwd	data	#486,	error rate = 0.1990
+get	ack	#482,	sack	#482
+fwd	ack	#482,	sack	#482
+get	ack	#482,	sack	#484
+fwd	ack	#482,	sack	#484
+get	ack	#482,	sack	#482
+fwd	ack	#482,	sack	#482
+get	ack	#482,	sack	#486
+fwd	ack	#482,	sack	#486
+get	data	#487
+fwd	data	#487,	error rate = 0.1987
+get	data	#483
+fwd	data	#483,	error rate = 0.1984
+get	data	#488
+fwd	data	#488,	error rate = 0.1980
+get	ack	#482,	sack	#487
+fwd	ack	#482,	sack	#487
+get	ack	#484,	sack	#483
+fwd	ack	#484,	sack	#483
+get	ack	#484,	sack	#488
+fwd	ack	#484,	sack	#488
+get	data	#489
+fwd	data	#489,	error rate = 0.1977
+get	data	#490
+fwd	data	#490,	error rate = 0.1974
+get	data	#491
+fwd	data	#491,	error rate = 0.1971
+get	ack	#484,	sack	#489
+fwd	ack	#484,	sack	#489
+get	ack	#484,	sack	#490
+fwd	ack	#484,	sack	#490
+get	ack	#484,	sack	#491
+fwd	ack	#484,	sack	#491
+get	data	#492
+fwd	data	#492,	error rate = 0.1967
+get	data	#493
+fwd	data	#493,	error rate = 0.1964
+get	data	#485
+fwd	data	#485,	error rate = 0.1961
+get	data	#494
+drop	data	#494,	error rate = 0.1974
+get	ack	#484,	sack	#492
+fwd	ack	#484,	sack	#492
+get	ack	#484,	sack	#493
+fwd	ack	#484,	sack	#493
+get	ack	#493,	sack	#485
+fwd	ack	#493,	sack	#485
+get	data	#495
+drop	data	#495,	error rate = 0.1987
+get	data	#496
+drop	data	#496,	error rate = 0.2000
+get	data	#497
+fwd	data	#497,	error rate = 0.1997
+get	data	#498
+drop	data	#498,	error rate = 0.2010
+get	ack	#493,	sack	#497
+fwd	ack	#493,	sack	#497
+get	data	#499
+fwd	data	#499,	error rate = 0.2006
+get	ack	#493,	sack	#499
+fwd	ack	#493,	sack	#499
+get	data	#500
+fwd	data	#500,	error rate = 0.2003
+get	ack	#493,	sack	#500
+fwd	ack	#493,	sack	#500
+get	data	#501
+drop	data	#501,	error rate = 0.2016
+get	data	#494
+fwd	data	#494,	error rate = 0.2013
+get	ack	#494,	sack	#494
+fwd	ack	#494,	sack	#494
+get	data	#502
+drop	data	#502,	error rate = 0.2026
+get	data	#495
+fwd	data	#495,	error rate = 0.2022
+get	ack	#495,	sack	#495
+fwd	ack	#495,	sack	#495
+get	data	#496
+corrupt	data	#496,	error rate = 0.2035
+get	data	#498
+fwd	data	#498,	error rate = 0.2032
+get	ack	#495,	sack	#495
+fwd	ack	#495,	sack	#495
+get	ack	#495,	sack	#498
+fwd	ack	#495,	sack	#498
+get	data	#501
+fwd	data	#501,	error rate = 0.2029
+get	ack	#495,	sack	#501
+fwd	ack	#495,	sack	#501
+get	data	#502
+fwd	data	#502,	error rate = 0.2025
+get	data	#496
+drop	data	#496,	error rate = 0.2038
+get	ack	#495,	sack	#502
+fwd	ack	#495,	sack	#502
+get	data	#503
+fwd	data	#503,	error rate = 0.2035
+get	ack	#495,	sack	#503
+fwd	ack	#495,	sack	#503
+get	data	#504
+fwd	data	#504,	error rate = 0.2031
+get	ack	#495,	sack	#504
+fwd	ack	#495,	sack	#504
+get	data	#505
+fwd	data	#505,	error rate = 0.2028
+get	ack	#495,	sack	#505
+fwd	ack	#495,	sack	#505
+get	data	#506
+drop	data	#506,	error rate = 0.2041
+get	data	#496
+fwd	data	#496,	error rate = 0.2038
+get	ack	#505,	sack	#496
+fwd	ack	#505,	sack	#496
+get	data	#506
+fwd	data	#506,	error rate = 0.2034
+get	data	#507
+fwd	data	#507,	error rate = 0.2031
+get	ack	#506,	sack	#506
+fwd	ack	#506,	sack	#506
+get	ack	#507,	sack	#507
+fwd	ack	#507,	sack	#507
+get	data	#508
+fwd	data	#508,	error rate = 0.2028
+get	data	#509
+fwd	data	#509,	error rate = 0.2025
+get	data	#510
+fwd	data	#510,	error rate = 0.2022
+get	ack	#508,	sack	#508
+fwd	ack	#508,	sack	#508
+get	ack	#509,	sack	#509
+fwd	ack	#509,	sack	#509
+get	ack	#510,	sack	#510
+fwd	ack	#510,	sack	#510
+get	data	#511
+drop	data	#511,	error rate = 0.2034
+get	data	#512
+fwd	data	#512,	error rate = 0.2031
+get	data	#513
+fwd	data	#513,	error rate = 0.2028
+get	data	#514
+corrupt	data	#514,	error rate = 0.2040
+get	ack	#510,	sack	#512
+fwd	ack	#510,	sack	#512
+get	ack	#510,	sack	#510
+fwd	ack	#510,	sack	#510
+get	ack	#510,	sack	#510
+fwd	ack	#510,	sack	#510
+get	data	#515
+fwd	data	#515,	error rate = 0.2037
+get	data	#511
+fwd	data	#511,	error rate = 0.2034
+get	ack	#510,	sack	#510
+fwd	ack	#510,	sack	#510
+get	ack	#512,	sack	#511
+fwd	ack	#512,	sack	#511
+get	data	#516
+fwd	data	#516,	error rate = 0.2031
+get	ack	#512,	sack	#516
+fwd	ack	#512,	sack	#516
+get	data	#517
+fwd	data	#517,	error rate = 0.2028
+get	ack	#512,	sack	#517
+fwd	ack	#512,	sack	#517
+get	data	#518
+fwd	data	#518,	error rate = 0.2025
+get	ack	#512,	sack	#518
+fwd	ack	#512,	sack	#518
+get	data	#519
+fwd	data	#519,	error rate = 0.2021
+get	data	#513
+fwd	data	#513,	error rate = 0.2018
+get	ack	#512,	sack	#519
+fwd	ack	#512,	sack	#519
+get	ack	#513,	sack	#513
+fwd	ack	#513,	sack	#513
+get	data	#520
+fwd	data	#520,	error rate = 0.2015
+get	data	#521
+drop	data	#521,	error rate = 0.2027
+get	ack	#513,	sack	#520
+fwd	ack	#513,	sack	#520
+get	data	#522
+fwd	data	#522,	error rate = 0.2024
+get	ack	#513,	sack	#522
+fwd	ack	#513,	sack	#522
+get	data	#523
+fwd	data	#523,	error rate = 0.2021
+get	ack	#513,	sack	#523
+fwd	ack	#513,	sack	#523
+get	data	#524
+corrupt	data	#524,	error rate = 0.2033
+get	data	#514
+fwd	data	#514,	error rate = 0.2030
+get	ack	#513,	sack	#513
+fwd	ack	#513,	sack	#513
+get	ack	#514,	sack	#514
+fwd	ack	#514,	sack	#514
+get	data	#525
+fwd	data	#525,	error rate = 0.2027
+get	ack	#514,	sack	#525
+fwd	ack	#514,	sack	#525
+get	data	#526
+fwd	data	#526,	error rate = 0.2024
+get	ack	#514,	sack	#526
+fwd	ack	#514,	sack	#526
+get	data	#527
+corrupt	data	#527,	error rate = 0.2036
+get	ack	#514,	sack	#514
+fwd	ack	#514,	sack	#514
+get	data	#515
+fwd	data	#515,	error rate = 0.2033
+get	ack	#520,	sack	#515
+fwd	ack	#520,	sack	#515
+get	data	#528
+fwd	data	#528,	error rate = 0.2030
+get	data	#529
+drop	data	#529,	error rate = 0.2042
+get	ack	#520,	sack	#528
+fwd	ack	#520,	sack	#528
+get	data	#530
+fwd	data	#530,	error rate = 0.2039
+get	ack	#520,	sack	#530
+fwd	ack	#520,	sack	#530
+get	data	#531
+fwd	data	#531,	error rate = 0.2036
+get	ack	#520,	sack	#531
+fwd	ack	#520,	sack	#531
+get	data	#532
+fwd	data	#532,	error rate = 0.2033
+get	data	#521
+fwd	data	#521,	error rate = 0.2030
+get	ack	#520,	sack	#532
+fwd	ack	#520,	sack	#532
+get	ack	#523,	sack	#521
+fwd	ack	#523,	sack	#521
+get	data	#533
+fwd	data	#533,	error rate = 0.2027
+get	data	#534
+fwd	data	#534,	error rate = 0.2024
+get	ack	#523,	sack	#533
+fwd	ack	#523,	sack	#533
+get	ack	#523,	sack	#534
+fwd	ack	#523,	sack	#534
+get	data	#535
+fwd	data	#535,	error rate = 0.2021
+get	data	#536
+fwd	data	#536,	error rate = 0.2018
+get	ack	#523,	sack	#535
+fwd	ack	#523,	sack	#535
+get	ack	#523,	sack	#536
+fwd	ack	#523,	sack	#536
+get	data	#537
+fwd	data	#537,	error rate = 0.2015
+get	data	#524
+fwd	data	#524,	error rate = 0.2012
+get	data	#538
+fwd	data	#538,	error rate = 0.2009
+get	ack	#523,	sack	#537
+fwd	ack	#523,	sack	#537
+get	ack	#526,	sack	#524
+fwd	ack	#526,	sack	#524
+get	ack	#526,	sack	#538
+fwd	ack	#526,	sack	#538
+get	data	#539
+fwd	data	#539,	error rate = 0.2006
+get	data	#540
+drop	data	#540,	error rate = 0.2018
+get	data	#541
+drop	data	#541,	error rate = 0.2029
+get	ack	#526,	sack	#539
+fwd	ack	#526,	sack	#539
+get	data	#542
+fwd	data	#542,	error rate = 0.2026
+get	ack	#526,	sack	#542
+fwd	ack	#526,	sack	#542
+get	data	#543
+corrupt	data	#543,	error rate = 0.2038
+get	data	#527
+fwd	data	#527,	error rate = 0.2035
+get	ack	#526,	sack	#526
+fwd	ack	#526,	sack	#526
+get	ack	#528,	sack	#527
+fwd	ack	#528,	sack	#527
+get	data	#544
+fwd	data	#544,	error rate = 0.2032
+get	ack	#528,	sack	#544
+fwd	ack	#528,	sack	#544
+get	data	#545
+drop	data	#545,	error rate = 0.2044
+get	data	#529
+drop	data	#529,	error rate = 0.2055
+get	data	#529
+corrupt	data	#529,	error rate = 0.2067
+get	ack	#528,	sack	#528
+fwd	ack	#528,	sack	#528
+get	data	#529
+fwd	data	#529,	error rate = 0.2064
+get	ack	#539,	sack	#529
+fwd	ack	#539,	sack	#529
+get	data	#540
+fwd	data	#540,	error rate = 0.2061
+get	data	#541
+fwd	data	#541,	error rate = 0.2058
+get	ack	#540,	sack	#540
+fwd	ack	#540,	sack	#540
+get	ack	#542,	sack	#541
+fwd	ack	#542,	sack	#541
+get	data	#543
+fwd	data	#543,	error rate = 0.2055
+get	data	#545
+drop	data	#545,	error rate = 0.2066
+get	data	#546
+fwd	data	#546,	error rate = 0.2063
+get	ack	#544,	sack	#543
+fwd	ack	#544,	sack	#543
+get	ack	#544,	sack	#546
+fwd	ack	#544,	sack	#546
+get	data	#547
+fwd	data	#547,	error rate = 0.2061
+get	data	#548
+fwd	data	#548,	error rate = 0.2058
+get	ack	#544,	sack	#547
+fwd	ack	#544,	sack	#547
+get	ack	#544,	sack	#548
+fwd	ack	#544,	sack	#548
+get	data	#549
+fwd	data	#549,	error rate = 0.2055
+get	data	#550
+fwd	data	#550,	error rate = 0.2052
+get	data	#545
+fwd	data	#545,	error rate = 0.2049
+get	ack	#544,	sack	#549
+fwd	ack	#544,	sack	#549
+get	ack	#544,	sack	#550
+fwd	ack	#544,	sack	#550
+get	ack	#550,	sack	#545
+fwd	ack	#550,	sack	#545
+get	data	#551
+fwd	data	#551,	error rate = 0.2046
+get	data	#552
+fwd	data	#552,	error rate = 0.2043
+get	data	#553
+fwd	data	#553,	error rate = 0.2040
+get	ack	#551,	sack	#551
+fwd	ack	#551,	sack	#551
+get	ack	#552,	sack	#552
+fwd	ack	#552,	sack	#552
+get	ack	#553,	sack	#553
+fwd	ack	#553,	sack	#553
+get	data	#554
+fwd	data	#554,	error rate = 0.2037
+get	data	#555
+corrupt	data	#555,	error rate = 0.2048
+get	data	#556
+fwd	data	#556,	error rate = 0.2045
+get	data	#557
+fwd	data	#557,	error rate = 0.2043
+get	ack	#554,	sack	#554
+fwd	ack	#554,	sack	#554
+get	ack	#554,	sack	#554
+fwd	ack	#554,	sack	#554
+get	ack	#554,	sack	#556
+fwd	ack	#554,	sack	#556
+get	ack	#554,	sack	#557
+fwd	ack	#554,	sack	#557
+get	data	#558
+corrupt	data	#558,	error rate = 0.2054
+get	data	#559
+drop	data	#559,	error rate = 0.2065
+get	data	#560
+fwd	data	#560,	error rate = 0.2062
+get	data	#555
+fwd	data	#555,	error rate = 0.2059
+get	ack	#554,	sack	#554
+fwd	ack	#554,	sack	#554
+get	ack	#554,	sack	#560
+fwd	ack	#554,	sack	#560
+get	ack	#557,	sack	#555
+fwd	ack	#557,	sack	#555
+get	data	#561
+drop	data	#561,	error rate = 0.2070
+get	data	#562
+corrupt	data	#562,	error rate = 0.2082
+get	data	#563
+fwd	data	#563,	error rate = 0.2079
+get	ack	#557,	sack	#557
+fwd	ack	#557,	sack	#557
+get	ack	#557,	sack	#563
+fwd	ack	#557,	sack	#563
+get	data	#564
+fwd	data	#564,	error rate = 0.2076
+get	ack	#557,	sack	#564
+fwd	ack	#557,	sack	#564
+get	data	#565
+fwd	data	#565,	error rate = 0.2073
+get	data	#558
+fwd	data	#558,	error rate = 0.2070
+get	ack	#557,	sack	#565
+fwd	ack	#557,	sack	#565
+get	ack	#558,	sack	#558
+fwd	ack	#558,	sack	#558
+get	data	#566
+drop	data	#566,	error rate = 0.2081
+get	data	#567
+fwd	data	#567,	error rate = 0.2078
+get	ack	#558,	sack	#567
+fwd	ack	#558,	sack	#567
+get	data	#568
+fwd	data	#568,	error rate = 0.2075
+get	ack	#558,	sack	#568
+fwd	ack	#558,	sack	#568
+get	data	#569
+fwd	data	#569,	error rate = 0.2072
+get	ack	#558,	sack	#569
+fwd	ack	#558,	sack	#569
+get	data	#570
+fwd	data	#570,	error rate = 0.2069
+get	data	#559
+fwd	data	#559,	error rate = 0.2067
+get	ack	#558,	sack	#570
+fwd	ack	#558,	sack	#570
+get	ack	#560,	sack	#559
+fwd	ack	#560,	sack	#559
+get	data	#571
+fwd	data	#571,	error rate = 0.2064
+get	data	#572
+fwd	data	#572,	error rate = 0.2061
+get	ack	#560,	sack	#571
+fwd	ack	#560,	sack	#571
+get	ack	#560,	sack	#572
+fwd	ack	#560,	sack	#572
+get	data	#573
+fwd	data	#573,	error rate = 0.2058
+get	data	#574
+fwd	data	#574,	error rate = 0.2055
+get	ack	#560,	sack	#573
+fwd	ack	#560,	sack	#573
+get	ack	#560,	sack	#574
+fwd	ack	#560,	sack	#574
+get	data	#575
+drop	data	#575,	error rate = 0.2066
+get	data	#561
+fwd	data	#561,	error rate = 0.2063
+get	data	#576
+corrupt	data	#576,	error rate = 0.2074
+get	ack	#561,	sack	#561
+fwd	ack	#561,	sack	#561
+get	ack	#561,	sack	#561
+fwd	ack	#561,	sack	#561
+get	data	#577
+drop	data	#577,	error rate = 0.2085
+get	data	#562
+drop	data	#562,	error rate = 0.2096
+get	data	#562
+fwd	data	#562,	error rate = 0.2093
+get	ack	#565,	sack	#562
+fwd	ack	#565,	sack	#562
+get	data	#566
+fwd	data	#566,	error rate = 0.2090
+get	data	#575
+fwd	data	#575,	error rate = 0.2087
+get	ack	#574,	sack	#566
+fwd	ack	#574,	sack	#566
+get	ack	#575,	sack	#575
+fwd	ack	#575,	sack	#575
+get	data	#576
+corrupt	data	#576,	error rate = 0.2098
+get	data	#577
+fwd	data	#577,	error rate = 0.2095
+get	data	#578
+drop	data	#578,	error rate = 0.2106
+get	ack	#575,	sack	#575
+fwd	ack	#575,	sack	#575
+get	ack	#575,	sack	#577
+fwd	ack	#575,	sack	#577
+get	data	#579
+drop	data	#579,	error rate = 0.2117
+get	data	#576
+fwd	data	#576,	error rate = 0.2114
+get	ack	#577,	sack	#576
+fwd	ack	#577,	sack	#576
+get	data	#578
+corrupt	data	#578,	error rate = 0.2124
+get	data	#579
+fwd	data	#579,	error rate = 0.2122
+get	ack	#577,	sack	#577
+fwd	ack	#577,	sack	#577
+get	ack	#577,	sack	#579
+fwd	ack	#577,	sack	#579
+get	data	#580
+fwd	data	#580,	error rate = 0.2119
+get	ack	#577,	sack	#580
+fwd	ack	#577,	sack	#580
+get	data	#581
+drop	data	#581,	error rate = 0.2129
+get	data	#578
+corrupt	data	#578,	error rate = 0.2140
+get	ack	#577,	sack	#577
+fwd	ack	#577,	sack	#577
+get	data	#578
+drop	data	#578,	error rate = 0.2151
+get	data	#578
+fwd	data	#578,	error rate = 0.2148
+get	ack	#580,	sack	#578
+fwd	ack	#580,	sack	#578
+get	data	#581
+fwd	data	#581,	error rate = 0.2145
+get	data	#582
+fwd	data	#582,	error rate = 0.2142
+get	ack	#581,	sack	#581
+fwd	ack	#581,	sack	#581
+get	ack	#582,	sack	#582
+fwd	ack	#582,	sack	#582
+get	data	#583
+corrupt	data	#583,	error rate = 0.2152
+get	data	#584
+fwd	data	#584,	error rate = 0.2150
+get	data	#585
+fwd	data	#585,	error rate = 0.2147
+get	ack	#582,	sack	#582
+fwd	ack	#582,	sack	#582
+get	ack	#582,	sack	#584
+fwd	ack	#582,	sack	#584
+get	ack	#582,	sack	#585
+fwd	ack	#582,	sack	#585
+get	data	#586
+fwd	data	#586,	error rate = 0.2144
+get	data	#587
+fwd	data	#587,	error rate = 0.2141
+get	data	#583
+corrupt	data	#583,	error rate = 0.2151
+get	ack	#582,	sack	#586
+fwd	ack	#582,	sack	#586
+get	ack	#582,	sack	#587
+fwd	ack	#582,	sack	#587
+get	ack	#582,	sack	#582
+fwd	ack	#582,	sack	#582
+get	data	#588
+fwd	data	#588,	error rate = 0.2149
+get	data	#589
+fwd	data	#589,	error rate = 0.2146
+get	ack	#582,	sack	#588
+fwd	ack	#582,	sack	#588
+get	ack	#582,	sack	#589
+fwd	ack	#582,	sack	#589
+get	data	#590
+fwd	data	#590,	error rate = 0.2143
+get	data	#591
+corrupt	data	#591,	error rate = 0.2153
+get	ack	#582,	sack	#590
+fwd	ack	#582,	sack	#590
+get	ack	#582,	sack	#582
+fwd	ack	#582,	sack	#582
+get	data	#592
+fwd	data	#592,	error rate = 0.2150
+get	ack	#582,	sack	#592
+fwd	ack	#582,	sack	#592
+get	data	#593
+fwd	data	#593,	error rate = 0.2148
+get	ack	#582,	sack	#593
+fwd	ack	#582,	sack	#593
+get	data	#594
+fwd	data	#594,	error rate = 0.2145
+get	ack	#582,	sack	#594
+fwd	ack	#582,	sack	#594
+get	data	#595
+fwd	data	#595,	error rate = 0.2142
+get	ack	#582,	sack	#595
+fwd	ack	#582,	sack	#595
+get	data	#596
+fwd	data	#596,	error rate = 0.2139
+get	ack	#582,	sack	#596
+fwd	ack	#582,	sack	#596
+get	data	#597
+fwd	data	#597,	error rate = 0.2136
+get	ack	#582,	sack	#597
+fwd	ack	#582,	sack	#597
+get	data	#598
+fwd	data	#598,	error rate = 0.2134
+get	ack	#582,	sack	#598
+fwd	ack	#582,	sack	#598
+get	data	#599
+fwd	data	#599,	error rate = 0.2131
+get	ack	#582,	sack	#599
+fwd	ack	#582,	sack	#599
+get	data	#600
+fwd	data	#600,	error rate = 0.2128
+get	ack	#582,	sack	#600
+fwd	ack	#582,	sack	#600
+get	data	#601
+fwd	data	#601,	error rate = 0.2125
+get	ack	#582,	sack	#601
+fwd	ack	#582,	sack	#601
+get	data	#602
+fwd	data	#602,	error rate = 0.2122
+get	ack	#582,	sack	#602
+fwd	ack	#582,	sack	#602
+get	data	#603
+fwd	data	#603,	error rate = 0.2120
+get	ack	#582,	sack	#603
+fwd	ack	#582,	sack	#603
+get	data	#604
+drop	data	#604,	error rate = 0.2130
+get	data	#583
+fwd	data	#583,	error rate = 0.2127
+get	ack	#590,	sack	#583
+fwd	ack	#590,	sack	#583
+get	data	#591
+corrupt	data	#591,	error rate = 0.2137
+get	data	#604
+fwd	data	#604,	error rate = 0.2135
+get	ack	#590,	sack	#590
+fwd	ack	#590,	sack	#590
+get	ack	#590,	sack	#604
+fwd	ack	#590,	sack	#604
+get	data	#605
+fwd	data	#605,	error rate = 0.2132
+get	ack	#590,	sack	#605
+fwd	ack	#590,	sack	#605
+get	data	#606
+fwd	data	#606,	error rate = 0.2129
+get	data	#591
+fwd	data	#591,	error rate = 0.2126
+get	ack	#590,	sack	#606
+fwd	ack	#590,	sack	#606
+get	ack	#606,	sack	#591
+fwd	ack	#606,	sack	#591
+get	data	#607
+fwd	data	#607,	error rate = 0.2124
+get	data	#608
+fwd	data	#608,	error rate = 0.2121
+get	ack	#607,	sack	#607
+fwd	ack	#607,	sack	#607
+get	ack	#608,	sack	#608
+fwd	ack	#608,	sack	#608
+get	data	#609
+corrupt	data	#609,	error rate = 0.2131
+get	data	#610
+fwd	data	#610,	error rate = 0.2128
+get	data	#611
+fwd	data	#611,	error rate = 0.2125
+get	ack	#608,	sack	#608
+fwd	ack	#608,	sack	#608
+get	ack	#608,	sack	#610
+fwd	ack	#608,	sack	#610
+get	ack	#608,	sack	#611
+fwd	ack	#608,	sack	#611
+get	data	#612
+fwd	data	#612,	error rate = 0.2123
+get	data	#613
+fwd	data	#613,	error rate = 0.2120
+get	data	#609
+corrupt	data	#609,	error rate = 0.2130
+get	ack	#608,	sack	#612
+fwd	ack	#608,	sack	#612
+get	ack	#608,	sack	#613
+fwd	ack	#608,	sack	#613
+get	ack	#608,	sack	#608
+fwd	ack	#608,	sack	#608
+get	data	#614
+corrupt	data	#614,	error rate = 0.2140
+get	data	#615
+fwd	data	#615,	error rate = 0.2137
+get	ack	#608,	sack	#608
+fwd	ack	#608,	sack	#608
+get	ack	#608,	sack	#615
+fwd	ack	#608,	sack	#615
+get	data	#616
+fwd	data	#616,	error rate = 0.2135
+get	ack	#608,	sack	#616
+fwd	ack	#608,	sack	#616
+get	data	#617
+fwd	data	#617,	error rate = 0.2132
+get	ack	#608,	sack	#617
+fwd	ack	#608,	sack	#617
+get	data	#618
+fwd	data	#618,	error rate = 0.2129
+get	ack	#608,	sack	#618
+fwd	ack	#608,	sack	#618
+get	data	#619
+fwd	data	#619,	error rate = 0.2127
+get	ack	#608,	sack	#619
+fwd	ack	#608,	sack	#619
+get	data	#620
+fwd	data	#620,	error rate = 0.2124
+get	ack	#608,	sack	#620
+fwd	ack	#608,	sack	#620
+get	data	#621
+fwd	data	#621,	error rate = 0.2121
+get	ack	#608,	sack	#621
+fwd	ack	#608,	sack	#621
+get	data	#622
+fwd	data	#622,	error rate = 0.2119
+get	ack	#608,	sack	#622
+fwd	ack	#608,	sack	#622
+get	data	#623
+drop	data	#623,	error rate = 0.2128
+get	data	#609
+fwd	data	#609,	error rate = 0.2126
+get	ack	#613,	sack	#609
+fwd	ack	#613,	sack	#609
+get	data	#614
+fwd	data	#614,	error rate = 0.2123
+get	data	#623
+fwd	data	#623,	error rate = 0.2120
+get	ack	#622,	sack	#614
+fwd	ack	#622,	sack	#614
+get	ack	#623,	sack	#623
+fwd	ack	#623,	sack	#623
+get	data	#624
+fwd	data	#624,	error rate = 0.2118
+get	data	#625
+fwd	data	#625,	error rate = 0.2115
+get	data	#626
+fwd	data	#626,	error rate = 0.2113
+get	ack	#624,	sack	#624
+fwd	ack	#624,	sack	#624
+get	ack	#625,	sack	#625
+fwd	ack	#625,	sack	#625
+get	ack	#626,	sack	#626
+fwd	ack	#626,	sack	#626
+get	data	#627
+fwd	data	#627,	error rate = 0.2110
+get	data	#628
+fwd	data	#628,	error rate = 0.2107
+get	data	#629
+fwd	data	#629,	error rate = 0.2105
+get	data	#630
+fwd	data	#630,	error rate = 0.2102
+get	ack	#627,	sack	#627
+fwd	ack	#627,	sack	#627
+get	ack	#628,	sack	#628
+fwd	ack	#628,	sack	#628
+get	ack	#629,	sack	#629
+fwd	ack	#629,	sack	#629
+get	ack	#630,	sack	#630
+fwd	ack	#630,	sack	#630
+get	data	#631
+fwd	data	#631,	error rate = 0.2099
+get	data	#632
+corrupt	data	#632,	error rate = 0.2109
+get	data	#633
+fwd	data	#633,	error rate = 0.2107
+get	data	#634
+fwd	data	#634,	error rate = 0.2104
+get	data	#635
+fwd	data	#635,	error rate = 0.2101
+get	ack	#631,	sack	#631
+fwd	ack	#631,	sack	#631
+get	ack	#631,	sack	#631
+fwd	ack	#631,	sack	#631
+get	ack	#631,	sack	#633
+fwd	ack	#631,	sack	#633
+get	ack	#631,	sack	#634
+fwd	ack	#631,	sack	#634
+get	ack	#631,	sack	#635
+fwd	ack	#631,	sack	#635
+get	data	#636
+fwd	data	#636,	error rate = 0.2099
+get	data	#637
+fwd	data	#637,	error rate = 0.2096
+get	data	#638
+fwd	data	#638,	error rate = 0.2094
+get	data	#632
+fwd	data	#632,	error rate = 0.2091
+get	data	#639
+corrupt	data	#639,	error rate = 0.2101
+get	ack	#631,	sack	#636
+fwd	ack	#631,	sack	#636
+get	ack	#631,	sack	#637
+fwd	ack	#631,	sack	#637
+get	ack	#631,	sack	#638
+fwd	ack	#631,	sack	#638
+get	ack	#638,	sack	#632
+fwd	ack	#638,	sack	#632
+get	ack	#638,	sack	#638
+fwd	ack	#638,	sack	#638
+get	data	#640
+fwd	data	#640,	error rate = 0.2098
+get	data	#641
+drop	data	#641,	error rate = 0.2108
+get	data	#642
+fwd	data	#642,	error rate = 0.2105
+get	data	#643
+fwd	data	#643,	error rate = 0.2103
+get	ack	#638,	sack	#640
+fwd	ack	#638,	sack	#640
+get	ack	#638,	sack	#642
+fwd	ack	#638,	sack	#642
+get	ack	#638,	sack	#643
+fwd	ack	#638,	sack	#643
+get	data	#644
+fwd	data	#644,	error rate = 0.2100
+get	data	#645
+fwd	data	#645,	error rate = 0.2098
+get	data	#639
+fwd	data	#639,	error rate = 0.2095
+get	data	#646
+corrupt	data	#646,	error rate = 0.2105
+get	ack	#638,	sack	#644
+fwd	ack	#638,	sack	#644
+get	ack	#638,	sack	#645
+fwd	ack	#638,	sack	#645
+get	ack	#640,	sack	#639
+fwd	ack	#640,	sack	#639
+get	ack	#640,	sack	#640
+fwd	ack	#640,	sack	#640
+get	data	#647
+fwd	data	#647,	error rate = 0.2102
+get	data	#648
+fwd	data	#648,	error rate = 0.2100
+get	data	#649
+drop	data	#649,	error rate = 0.2109
+get	ack	#640,	sack	#647
+fwd	ack	#640,	sack	#647
+get	ack	#640,	sack	#648
+fwd	ack	#640,	sack	#648
+get	data	#650
+fwd	data	#650,	error rate = 0.2107
+get	data	#651
+fwd	data	#651,	error rate = 0.2104
+get	data	#641
+fwd	data	#641,	error rate = 0.2101
+get	ack	#640,	sack	#650
+fwd	ack	#640,	sack	#650
+get	ack	#640,	sack	#651
+fwd	ack	#640,	sack	#651
+get	ack	#645,	sack	#641
+fwd	ack	#645,	sack	#641
+get	data	#652
+fwd	data	#652,	error rate = 0.2099
+get	data	#653
+fwd	data	#653,	error rate = 0.2096
+get	data	#654
+fwd	data	#654,	error rate = 0.2094
+get	ack	#645,	sack	#652
+fwd	ack	#645,	sack	#652
+get	ack	#645,	sack	#653
+fwd	ack	#645,	sack	#653
+get	ack	#645,	sack	#654
+fwd	ack	#645,	sack	#654
+get	data	#655
+drop	data	#655,	error rate = 0.2103
+get	data	#656
+corrupt	data	#656,	error rate = 0.2113
+get	data	#657
+corrupt	data	#657,	error rate = 0.2122
+get	data	#646
+fwd	data	#646,	error rate = 0.2120
+get	ack	#645,	sack	#645
+fwd	ack	#645,	sack	#645
+get	ack	#645,	sack	#645
+fwd	ack	#645,	sack	#645
+get	ack	#648,	sack	#646
+fwd	ack	#648,	sack	#646
+get	data	#658
+fwd	data	#658,	error rate = 0.2117
+get	data	#659
+fwd	data	#659,	error rate = 0.2115
+get	ack	#648,	sack	#658
+fwd	ack	#648,	sack	#658
+get	ack	#648,	sack	#659
+fwd	ack	#648,	sack	#659
+get	data	#660
+fwd	data	#660,	error rate = 0.2112
+get	data	#661
+fwd	data	#661,	error rate = 0.2110
+get	ack	#648,	sack	#660
+fwd	ack	#648,	sack	#660
+get	ack	#648,	sack	#661
+fwd	ack	#648,	sack	#661
+get	data	#662
+fwd	data	#662,	error rate = 0.2107
+get	data	#649
+fwd	data	#649,	error rate = 0.2105
+get	data	#663
+fwd	data	#663,	error rate = 0.2102
+get	ack	#648,	sack	#662
+fwd	ack	#648,	sack	#662
+get	ack	#654,	sack	#649
+fwd	ack	#654,	sack	#649
+get	ack	#654,	sack	#663
+fwd	ack	#654,	sack	#663
+get	data	#664
+fwd	data	#664,	error rate = 0.2100
+get	data	#665
+fwd	data	#665,	error rate = 0.2097
+get	data	#666
+fwd	data	#666,	error rate = 0.2095
+get	ack	#654,	sack	#664
+fwd	ack	#654,	sack	#664
+get	ack	#654,	sack	#665
+fwd	ack	#654,	sack	#665
+get	ack	#654,	sack	#666
+fwd	ack	#654,	sack	#666
+get	data	#667
+fwd	data	#667,	error rate = 0.2092
+get	data	#668
+drop	data	#668,	error rate = 0.2102
+get	data	#655
+fwd	data	#655,	error rate = 0.2099
+get	data	#669
+fwd	data	#669,	error rate = 0.2097
+get	ack	#654,	sack	#667
+fwd	ack	#654,	sack	#667
+get	ack	#655,	sack	#655
+fwd	ack	#655,	sack	#655
+get	ack	#655,	sack	#669
+fwd	ack	#655,	sack	#669
+get	data	#670
+drop	data	#670,	error rate = 0.2106
+get	data	#671
+drop	data	#671,	error rate = 0.2115
+get	data	#672
+fwd	data	#672,	error rate = 0.2113
+get	ack	#655,	sack	#672
+fwd	ack	#655,	sack	#672
+get	data	#673
+drop	data	#673,	error rate = 0.2122
+get	data	#656
+fwd	data	#656,	error rate = 0.2119
+get	ack	#656,	sack	#656
+fwd	ack	#656,	sack	#656
+get	data	#657
+fwd	data	#657,	error rate = 0.2117
+get	data	#668
+fwd	data	#668,	error rate = 0.2114
+get	ack	#667,	sack	#657
+fwd	ack	#667,	sack	#657
+get	ack	#669,	sack	#668
+fwd	ack	#669,	sack	#668
+get	data	#670
+fwd	data	#670,	error rate = 0.2112
+get	data	#671
+fwd	data	#671,	error rate = 0.2110
+get	data	#673
+fwd	data	#673,	error rate = 0.2107
+get	ack	#670,	sack	#670
+fwd	ack	#670,	sack	#670
+get	ack	#672,	sack	#671
+fwd	ack	#672,	sack	#671
+get	ack	#673,	sack	#673
+fwd	ack	#673,	sack	#673
+get	data	#674
+fwd	data	#674,	error rate = 0.2105
+get	data	#675
+fwd	data	#675,	error rate = 0.2102
+get	data	#676
+corrupt	data	#676,	error rate = 0.2111
+get	data	#677
+drop	data	#677,	error rate = 0.2121
+get	ack	#674,	sack	#674
+fwd	ack	#674,	sack	#674
+get	ack	#675,	sack	#675
+fwd	ack	#675,	sack	#675
+get	ack	#675,	sack	#675
+fwd	ack	#675,	sack	#675
+get	data	#678
+fwd	data	#678,	error rate = 0.2118
+get	data	#679
+corrupt	data	#679,	error rate = 0.2127
+get	ack	#675,	sack	#678
+fwd	ack	#675,	sack	#678
+get	ack	#675,	sack	#675
+fwd	ack	#675,	sack	#675
+get	data	#680
+fwd	data	#680,	error rate = 0.2125
+get	data	#676
+fwd	data	#676,	error rate = 0.2122
+get	ack	#675,	sack	#680
+fwd	ack	#675,	sack	#680
+get	ack	#676,	sack	#676
+fwd	ack	#676,	sack	#676
+get	data	#681
+drop	data	#681,	error rate = 0.2131
+get	data	#682
+fwd	data	#682,	error rate = 0.2129
+get	data	#683
+drop	data	#683,	error rate = 0.2138
+get	ack	#676,	sack	#682
+fwd	ack	#676,	sack	#682
+get	data	#684
+fwd	data	#684,	error rate = 0.2135
+get	ack	#676,	sack	#684
+fwd	ack	#676,	sack	#684
+get	data	#685
+fwd	data	#685,	error rate = 0.2133
+get	ack	#676,	sack	#685
+fwd	ack	#676,	sack	#685
+get	data	#686
+fwd	data	#686,	error rate = 0.2131
+get	data	#677
+fwd	data	#677,	error rate = 0.2128
+get	ack	#676,	sack	#686
+fwd	ack	#676,	sack	#686
+get	ack	#678,	sack	#677
+fwd	ack	#678,	sack	#677
+get	data	#687
+fwd	data	#687,	error rate = 0.2126
+get	data	#688
+drop	data	#688,	error rate = 0.2135
+get	ack	#678,	sack	#687
+fwd	ack	#678,	sack	#687
+get	data	#689
+fwd	data	#689,	error rate = 0.2132
+get	ack	#678,	sack	#689
+fwd	ack	#678,	sack	#689
+get	data	#690
+fwd	data	#690,	error rate = 0.2130
+get	ack	#678,	sack	#690
+fwd	ack	#678,	sack	#690
+get	data	#691
+fwd	data	#691,	error rate = 0.2127
+get	data	#679
+drop	data	#679,	error rate = 0.2136
+get	ack	#678,	sack	#691
+fwd	ack	#678,	sack	#691
+get	data	#692
+fwd	data	#692,	error rate = 0.2134
+get	ack	#678,	sack	#692
+fwd	ack	#678,	sack	#692
+get	data	#693
+fwd	data	#693,	error rate = 0.2132
+get	ack	#678,	sack	#693
+fwd	ack	#678,	sack	#693
+get	data	#694
+fwd	data	#694,	error rate = 0.2129
+get	ack	#678,	sack	#694
+fwd	ack	#678,	sack	#694
+get	data	#695
+fwd	data	#695,	error rate = 0.2127
+get	ack	#678,	sack	#695
+fwd	ack	#678,	sack	#695
+get	data	#696
+fwd	data	#696,	error rate = 0.2124
+get	ack	#678,	sack	#696
+fwd	ack	#678,	sack	#696
+get	data	#697
+drop	data	#697,	error rate = 0.2133
+get	data	#679
+fwd	data	#679,	error rate = 0.2131
+get	ack	#680,	sack	#679
+fwd	ack	#680,	sack	#679
+get	data	#681
+fwd	data	#681,	error rate = 0.2128
+get	data	#683
+fwd	data	#683,	error rate = 0.2126
+get	ack	#682,	sack	#681
+fwd	ack	#682,	sack	#681
+get	ack	#687,	sack	#683
+fwd	ack	#687,	sack	#683
+get	data	#688
+corrupt	data	#688,	error rate = 0.2135
+get	data	#697
+fwd	data	#697,	error rate = 0.2132
+get	data	#698
+fwd	data	#698,	error rate = 0.2130
+get	ack	#687,	sack	#687
+fwd	ack	#687,	sack	#687
+get	ack	#687,	sack	#697
+fwd	ack	#687,	sack	#697
+get	ack	#687,	sack	#698
+fwd	ack	#687,	sack	#698
+get	data	#699
+fwd	data	#699,	error rate = 0.2128
+get	data	#700
+fwd	data	#700,	error rate = 0.2125
+get	data	#688
+fwd	data	#688,	error rate = 0.2123
+get	ack	#687,	sack	#699
+fwd	ack	#687,	sack	#699
+get	ack	#687,	sack	#700
+fwd	ack	#687,	sack	#700
+get	ack	#700,	sack	#688
+fwd	ack	#700,	sack	#688
+get	data	#701
+fwd	data	#701,	error rate = 0.2121
+get	data	#702
+fwd	data	#702,	error rate = 0.2118
+get	data	#703
+fwd	data	#703,	error rate = 0.2116
+get	ack	#701,	sack	#701
+fwd	ack	#701,	sack	#701
+get	ack	#702,	sack	#702
+fwd	ack	#702,	sack	#702
+get	ack	#703,	sack	#703
+fwd	ack	#703,	sack	#703
+get	data	#704
+drop	data	#704,	error rate = 0.2125
+get	data	#705
+fwd	data	#705,	error rate = 0.2122
+get	data	#706
+fwd	data	#706,	error rate = 0.2120
+get	data	#707
+corrupt	data	#707,	error rate = 0.2129
+get	ack	#703,	sack	#705
+fwd	ack	#703,	sack	#705
+get	ack	#703,	sack	#706
+fwd	ack	#703,	sack	#706
+get	ack	#703,	sack	#703
+fwd	ack	#703,	sack	#703
+get	data	#708
+fwd	data	#708,	error rate = 0.2126
+get	data	#709
+fwd	data	#709,	error rate = 0.2124
+get	data	#704
+fwd	data	#704,	error rate = 0.2122
+get	ack	#703,	sack	#708
+fwd	ack	#703,	sack	#708
+get	ack	#703,	sack	#709
+fwd	ack	#703,	sack	#709
+get	ack	#706,	sack	#704
+fwd	ack	#706,	sack	#704
+get	data	#710
+fwd	data	#710,	error rate = 0.2119
+get	data	#711
+fwd	data	#711,	error rate = 0.2117
+get	data	#712
+fwd	data	#712,	error rate = 0.2115
+get	ack	#706,	sack	#710
+fwd	ack	#706,	sack	#710
+get	ack	#706,	sack	#711
+fwd	ack	#706,	sack	#711
+get	ack	#706,	sack	#712
+fwd	ack	#706,	sack	#712
+get	data	#713
+drop	data	#713,	error rate = 0.2123
+get	data	#714
+fwd	data	#714,	error rate = 0.2121
+get	data	#715
+fwd	data	#715,	error rate = 0.2119
+get	data	#707
+fwd	data	#707,	error rate = 0.2116
+get	ack	#706,	sack	#714
+fwd	ack	#706,	sack	#714
+get	ack	#706,	sack	#715
+fwd	ack	#706,	sack	#715
+get	ack	#712,	sack	#707
+fwd	ack	#712,	sack	#707
+get	data	#716
+fwd	data	#716,	error rate = 0.2114
+get	data	#717
+fwd	data	#717,	error rate = 0.2112
+get	data	#718
+fwd	data	#718,	error rate = 0.2109
+get	ack	#712,	sack	#716
+fwd	ack	#712,	sack	#716
+get	ack	#712,	sack	#717
+fwd	ack	#712,	sack	#717
+get	ack	#712,	sack	#718
+fwd	ack	#712,	sack	#718
+get	data	#719
+fwd	data	#719,	error rate = 0.2107
+get	data	#720
+fwd	data	#720,	error rate = 0.2105
+get	data	#721
+fwd	data	#721,	error rate = 0.2102
+get	data	#713
+fwd	data	#713,	error rate = 0.2100
+get	ack	#712,	sack	#719
+fwd	ack	#712,	sack	#719
+get	ack	#712,	sack	#720
+fwd	ack	#712,	sack	#720
+get	ack	#712,	sack	#721
+fwd	ack	#712,	sack	#721
+get	ack	#721,	sack	#713
+fwd	ack	#721,	sack	#713
+get	data	#722
+drop	data	#722,	error rate = 0.2109
+get	data	#723
+fwd	data	#723,	error rate = 0.2106
+get	data	#724
+drop	data	#724,	error rate = 0.2115
+get	data	#725
+fwd	data	#725,	error rate = 0.2113
+get	data	#726
+fwd	data	#726,	error rate = 0.2110
+get	ack	#721,	sack	#723
+fwd	ack	#721,	sack	#723
+get	ack	#721,	sack	#725
+fwd	ack	#721,	sack	#725
+get	ack	#721,	sack	#726
+fwd	ack	#721,	sack	#726
+get	data	#727
+corrupt	data	#727,	error rate = 0.2119
+get	data	#728
+drop	data	#728,	error rate = 0.2127
+get	data	#729
+corrupt	data	#729,	error rate = 0.2136
+get	data	#722
+drop	data	#722,	error rate = 0.2144
+get	ack	#721,	sack	#721
+fwd	ack	#721,	sack	#721
+get	ack	#721,	sack	#721
+fwd	ack	#721,	sack	#721
+get	data	#722
+fwd	data	#722,	error rate = 0.2142
+get	ack	#723,	sack	#722
+fwd	ack	#723,	sack	#722
+get	data	#724
+fwd	data	#724,	error rate = 0.2140
+get	data	#727
+fwd	data	#727,	error rate = 0.2137
+get	ack	#726,	sack	#724
+fwd	ack	#726,	sack	#724
+get	ack	#727,	sack	#727
+fwd	ack	#727,	sack	#727
+get	data	#728
+corrupt	data	#728,	error rate = 0.2146
+get	data	#729
+fwd	data	#729,	error rate = 0.2144
+get	data	#730
+fwd	data	#730,	error rate = 0.2141
+get	ack	#727,	sack	#727
+fwd	ack	#727,	sack	#727
+get	ack	#727,	sack	#729
+fwd	ack	#727,	sack	#729
+get	ack	#727,	sack	#730
+fwd	ack	#727,	sack	#730
+get	data	#731
+fwd	data	#731,	error rate = 0.2139
+get	data	#732
+fwd	data	#732,	error rate = 0.2137
+get	data	#728
+fwd	data	#728,	error rate = 0.2134
+get	ack	#727,	sack	#731
+fwd	ack	#727,	sack	#731
+get	ack	#727,	sack	#732
+fwd	ack	#727,	sack	#732
+get	ack	#732,	sack	#728
+fwd	ack	#732,	sack	#728
+get	data	#733
+fwd	data	#733,	error rate = 0.2132
+get	data	#734
+fwd	data	#734,	error rate = 0.2130
+get	data	#735
+fwd	data	#735,	error rate = 0.2128
+get	ack	#733,	sack	#733
+fwd	ack	#733,	sack	#733
+get	ack	#734,	sack	#734
+fwd	ack	#734,	sack	#734
+get	ack	#735,	sack	#735
+fwd	ack	#735,	sack	#735
+get	data	#736
+drop	data	#736,	error rate = 0.2136
+get	data	#737
+fwd	data	#737,	error rate = 0.2134
+get	data	#738
+fwd	data	#738,	error rate = 0.2131
+get	data	#739
+fwd	data	#739,	error rate = 0.2129
+get	ack	#735,	sack	#737
+fwd	ack	#735,	sack	#737
+get	ack	#735,	sack	#738
+fwd	ack	#735,	sack	#738
+get	ack	#735,	sack	#739
+fwd	ack	#735,	sack	#739
+get	data	#740
+fwd	data	#740,	error rate = 0.2127
+get	data	#741
+fwd	data	#741,	error rate = 0.2125
+get	data	#742
+fwd	data	#742,	error rate = 0.2122
+get	data	#736
+fwd	data	#736,	error rate = 0.2120
+get	ack	#735,	sack	#740
+fwd	ack	#735,	sack	#740
+get	ack	#735,	sack	#741
+fwd	ack	#735,	sack	#741
+get	ack	#735,	sack	#742
+fwd	ack	#735,	sack	#742
+get	ack	#742,	sack	#736
+fwd	ack	#742,	sack	#736
+get	data	#743
+corrupt	data	#743,	error rate = 0.2129
+get	data	#744
+fwd	data	#744,	error rate = 0.2126
+get	data	#745
+corrupt	data	#745,	error rate = 0.2135
+get	data	#746
+fwd	data	#746,	error rate = 0.2132
+get	ack	#742,	sack	#742
+fwd	ack	#742,	sack	#742
+get	ack	#742,	sack	#744
+fwd	ack	#742,	sack	#744
+get	ack	#742,	sack	#742
+fwd	ack	#742,	sack	#742
+get	ack	#742,	sack	#746
+fwd	ack	#742,	sack	#746
+get	data	#747
+fwd	data	#747,	error rate = 0.2130
+get	data	#743
+corrupt	data	#743,	error rate = 0.2138
+get	data	#748
+fwd	data	#748,	error rate = 0.2136
+get	ack	#742,	sack	#747
+fwd	ack	#742,	sack	#747
+get	ack	#742,	sack	#742
+fwd	ack	#742,	sack	#742
+get	ack	#742,	sack	#748
+fwd	ack	#742,	sack	#748
+get	data	#749
+fwd	data	#749,	error rate = 0.2134
+get	data	#750
+fwd	data	#750,	error rate = 0.2132
+get	ack	#742,	sack	#749
+fwd	ack	#742,	sack	#749
+get	ack	#742,	sack	#750
+fwd	ack	#742,	sack	#750
+get	data	#751
+fwd	data	#751,	error rate = 0.2129
+get	data	#752
+drop	data	#752,	error rate = 0.2138
+get	ack	#742,	sack	#751
+fwd	ack	#742,	sack	#751
+get	data	#753
+fwd	data	#753,	error rate = 0.2135
+get	ack	#742,	sack	#753
+fwd	ack	#742,	sack	#753
+get	data	#754
+fwd	data	#754,	error rate = 0.2133
+get	ack	#742,	sack	#754
+fwd	ack	#742,	sack	#754
+get	data	#755
+drop	data	#755,	error rate = 0.2141
+get	data	#743
+fwd	data	#743,	error rate = 0.2139
+get	ack	#744,	sack	#743
+fwd	ack	#744,	sack	#743
+get	data	#745
+fwd	data	#745,	error rate = 0.2137
+get	data	#752
+fwd	data	#752,	error rate = 0.2135
+get	ack	#751,	sack	#745
+fwd	ack	#751,	sack	#745
+get	ack	#754,	sack	#752
+fwd	ack	#754,	sack	#752
+get	data	#755
+drop	data	#755,	error rate = 0.2143
+get	data	#756
+fwd	data	#756,	error rate = 0.2141
+get	data	#757
+fwd	data	#757,	error rate = 0.2138
+get	ack	#754,	sack	#756
+fwd	ack	#754,	sack	#756
+get	ack	#754,	sack	#757
+fwd	ack	#754,	sack	#757
+get	data	#758
+fwd	data	#758,	error rate = 0.2136
+get	data	#759
+corrupt	data	#759,	error rate = 0.2144
+get	ack	#754,	sack	#758
+fwd	ack	#754,	sack	#758
+get	ack	#754,	sack	#754
+fwd	ack	#754,	sack	#754
+get	data	#760
+drop	data	#760,	error rate = 0.2152
+get	data	#755
+fwd	data	#755,	error rate = 0.2150
+get	ack	#758,	sack	#755
+fwd	ack	#758,	sack	#755
+get	data	#761
+fwd	data	#761,	error rate = 0.2148
+get	ack	#758,	sack	#761
+fwd	ack	#758,	sack	#761
+get	data	#762
+fwd	data	#762,	error rate = 0.2146
+get	ack	#758,	sack	#762
+fwd	ack	#758,	sack	#762
+get	data	#763
+drop	data	#763,	error rate = 0.2154
+get	data	#759
+fwd	data	#759,	error rate = 0.2152
+get	ack	#759,	sack	#759
+fwd	ack	#759,	sack	#759
+get	data	#760
+fwd	data	#760,	error rate = 0.2149
+get	data	#763
+fwd	data	#763,	error rate = 0.2147
+get	ack	#762,	sack	#760
+fwd	ack	#762,	sack	#760
+get	ack	#763,	sack	#763
+fwd	ack	#763,	sack	#763
+get	data	#764
+fwd	data	#764,	error rate = 0.2145
+get	data	#765
+corrupt	data	#765,	error rate = 0.2153
+get	data	#766
+fwd	data	#766,	error rate = 0.2151
+get	ack	#764,	sack	#764
+fwd	ack	#764,	sack	#764
+get	ack	#764,	sack	#764
+fwd	ack	#764,	sack	#764
+get	ack	#764,	sack	#766
+fwd	ack	#764,	sack	#766
+get	data	#767
+fwd	data	#767,	error rate = 0.2149
+get	data	#768
+fwd	data	#768,	error rate = 0.2146
+get	ack	#764,	sack	#767
+fwd	ack	#764,	sack	#767
+get	ack	#764,	sack	#768
+fwd	ack	#764,	sack	#768
+get	data	#769
+fwd	data	#769,	error rate = 0.2144
+get	data	#765
+fwd	data	#765,	error rate = 0.2142
+get	data	#770
+fwd	data	#770,	error rate = 0.2140
+get	ack	#764,	sack	#764
+fwd	ack	#764,	sack	#764
+get	ack	#768,	sack	#765
+fwd	ack	#768,	sack	#765
+get	ack	#768,	sack	#770
+fwd	ack	#768,	sack	#770
+get	data	#771
+fwd	data	#771,	error rate = 0.2138
+get	data	#772
+fwd	data	#772,	error rate = 0.2136
+get	ack	#768,	sack	#771
+fwd	ack	#768,	sack	#771
+get	ack	#768,	sack	#772
+fwd	ack	#768,	sack	#772
+get	data	#773
+fwd	data	#773,	error rate = 0.2133
+get	data	#774
+drop	data	#774,	error rate = 0.2141
+get	data	#769
+fwd	data	#769,	error rate = 0.2139
+get	ack	#768,	sack	#773
+fwd	ack	#768,	sack	#773
+get	ack	#773,	sack	#769
+fwd	ack	#773,	sack	#769
+get	data	#775
+fwd	data	#775,	error rate = 0.2137
+get	data	#776
+drop	data	#776,	error rate = 0.2145
+get	data	#777
+fwd	data	#777,	error rate = 0.2143
+get	ack	#773,	sack	#775
+fwd	ack	#773,	sack	#775
+get	ack	#773,	sack	#777
+fwd	ack	#773,	sack	#777
+get	data	#778
+fwd	data	#778,	error rate = 0.2141
+get	data	#779
+fwd	data	#779,	error rate = 0.2139
+get	ack	#773,	sack	#778
+fwd	ack	#773,	sack	#778
+get	ack	#773,	sack	#779
+fwd	ack	#773,	sack	#779
+get	data	#780
+fwd	data	#780,	error rate = 0.2136
+get	data	#774
+corrupt	data	#774,	error rate = 0.2144
+get	data	#781
+fwd	data	#781,	error rate = 0.2142
+get	ack	#773,	sack	#780
+fwd	ack	#773,	sack	#780
+get	ack	#773,	sack	#773
+fwd	ack	#773,	sack	#773
+get	ack	#773,	sack	#781
+fwd	ack	#773,	sack	#781
+get	data	#782
+fwd	data	#782,	error rate = 0.2140
+get	data	#783
+fwd	data	#783,	error rate = 0.2138
+get	ack	#773,	sack	#782
+fwd	ack	#773,	sack	#782
+get	ack	#773,	sack	#783
+fwd	ack	#773,	sack	#783
+get	data	#784
+fwd	data	#784,	error rate = 0.2136
+get	data	#785
+corrupt	data	#785,	error rate = 0.2144
+get	ack	#773,	sack	#784
+fwd	ack	#773,	sack	#784
+get	ack	#773,	sack	#773
+fwd	ack	#773,	sack	#773
+get	data	#786
+fwd	data	#786,	error rate = 0.2141
+get	ack	#773,	sack	#786
+fwd	ack	#773,	sack	#786
+get	data	#787
+corrupt	data	#787,	error rate = 0.2149
+get	ack	#773,	sack	#773
+fwd	ack	#773,	sack	#773
+get	data	#774
+fwd	data	#774,	error rate = 0.2147
+get	ack	#775,	sack	#774
+fwd	ack	#775,	sack	#774
+get	data	#776
+fwd	data	#776,	error rate = 0.2145
+get	data	#785
+fwd	data	#785,	error rate = 0.2143
+get	ack	#784,	sack	#776
+fwd	ack	#784,	sack	#776
+get	ack	#786,	sack	#785
+fwd	ack	#786,	sack	#785
+get	data	#787
+fwd	data	#787,	error rate = 0.2141
+get	data	#788
+fwd	data	#788,	error rate = 0.2139
+get	data	#789
+fwd	data	#789,	error rate = 0.2136
+get	ack	#787,	sack	#787
+fwd	ack	#787,	sack	#787
+get	ack	#788,	sack	#788
+fwd	ack	#788,	sack	#788
+get	ack	#789,	sack	#789
+fwd	ack	#789,	sack	#789
+get	data	#790
+fwd	data	#790,	error rate = 0.2134
+get	data	#791
+fwd	data	#791,	error rate = 0.2132
+get	data	#792
+fwd	data	#792,	error rate = 0.2130
+get	data	#793
+fwd	data	#793,	error rate = 0.2128
+get	ack	#790,	sack	#790
+fwd	ack	#790,	sack	#790
+get	ack	#791,	sack	#791
+fwd	ack	#791,	sack	#791
+get	ack	#792,	sack	#792
+fwd	ack	#792,	sack	#792
+get	ack	#793,	sack	#793
+fwd	ack	#793,	sack	#793
+get	data	#794
+fwd	data	#794,	error rate = 0.2126
+get	data	#795
+drop	data	#795,	error rate = 0.2134
+get	data	#796
+fwd	data	#796,	error rate = 0.2132
+get	data	#797
+fwd	data	#797,	error rate = 0.2130
+get	data	#798
+fwd	data	#798,	error rate = 0.2127
+get	ack	#794,	sack	#794
+fwd	ack	#794,	sack	#794
+get	ack	#794,	sack	#796
+fwd	ack	#794,	sack	#796
+get	ack	#794,	sack	#797
+fwd	ack	#794,	sack	#797
+get	ack	#794,	sack	#798
+fwd	ack	#794,	sack	#798
+get	data	#799
+fwd	data	#799,	error rate = 0.2125
+get	data	#800
+fwd	data	#800,	error rate = 0.2123
+get	data	#801
+fwd	data	#801,	error rate = 0.2121
+get	data	#802
+fwd	data	#802,	error rate = 0.2119
+get	data	#795
+fwd	data	#795,	error rate = 0.2117
+get	ack	#794,	sack	#799
+fwd	ack	#794,	sack	#799
+get	ack	#794,	sack	#800
+fwd	ack	#794,	sack	#800
+get	ack	#794,	sack	#801
+fwd	ack	#794,	sack	#801
+get	ack	#794,	sack	#802
+fwd	ack	#794,	sack	#802
+get	ack	#802,	sack	#795
+fwd	ack	#802,	sack	#795
+get	data	#803
+fwd	data	#803,	error rate = 0.2115
+get	data	#804
+fwd	data	#804,	error rate = 0.2113
+get	data	#805
+fwd	data	#805,	error rate = 0.2111
+get	data	#806
+drop	data	#806,	error rate = 0.2119
+get	data	#807
+fwd	data	#807,	error rate = 0.2117
+get	ack	#803,	sack	#803
+fwd	ack	#803,	sack	#803
+get	ack	#804,	sack	#804
+fwd	ack	#804,	sack	#804
+get	ack	#805,	sack	#805
+fwd	ack	#805,	sack	#805
+get	ack	#805,	sack	#807
+fwd	ack	#805,	sack	#807
+get	data	#808
+fwd	data	#808,	error rate = 0.2114
+get	data	#809
+fwd	data	#809,	error rate = 0.2112
+get	data	#810
+fwd	data	#810,	error rate = 0.2110
+get	data	#811
+fwd	data	#811,	error rate = 0.2108
+get	data	#812
+fwd	data	#812,	error rate = 0.2106
+get	ack	#805,	sack	#808
+fwd	ack	#805,	sack	#808
+get	ack	#805,	sack	#809
+fwd	ack	#805,	sack	#809
+get	ack	#805,	sack	#810
+fwd	ack	#805,	sack	#810
+get	ack	#805,	sack	#811
+fwd	ack	#805,	sack	#811
+get	ack	#805,	sack	#812
+fwd	ack	#805,	sack	#812
+get	data	#813
+fwd	data	#813,	error rate = 0.2104
+get	data	#814
+fwd	data	#814,	error rate = 0.2102
+get	data	#806
+fwd	data	#806,	error rate = 0.2100
+get	data	#815
+fwd	data	#815,	error rate = 0.2098
+get	data	#816
+corrupt	data	#816,	error rate = 0.2106
+get	data	#817
+fwd	data	#817,	error rate = 0.2104
+get	ack	#805,	sack	#813
+fwd	ack	#805,	sack	#813
+get	ack	#805,	sack	#814
+fwd	ack	#805,	sack	#814
+get	ack	#814,	sack	#806
+fwd	ack	#814,	sack	#806
+get	ack	#815,	sack	#815
+fwd	ack	#815,	sack	#815
+get	ack	#815,	sack	#815
+fwd	ack	#815,	sack	#815
+get	ack	#815,	sack	#817
+fwd	ack	#815,	sack	#817
+get	data	#818
+fwd	data	#818,	error rate = 0.2102
+get	data	#819
+fwd	data	#819,	error rate = 0.2100
+get	data	#820
+fwd	data	#820,	error rate = 0.2098
+get	data	#821
+fwd	data	#821,	error rate = 0.2096
+get	data	#822
+fwd	data	#822,	error rate = 0.2094
+get	ack	#815,	sack	#818
+fwd	ack	#815,	sack	#818
+get	ack	#815,	sack	#819
+fwd	ack	#815,	sack	#819
+get	ack	#815,	sack	#820
+fwd	ack	#815,	sack	#820
+get	ack	#815,	sack	#821
+fwd	ack	#815,	sack	#821
+get	ack	#815,	sack	#822
+fwd	ack	#815,	sack	#822
+get	data	#823
+fwd	data	#823,	error rate = 0.2092
+get	data	#816
+fwd	data	#816,	error rate = 0.2090
+get	data	#824
+fwd	data	#824,	error rate = 0.2088
+get	data	#825
+drop	data	#825,	error rate = 0.2095
+get	data	#826
+fwd	data	#826,	error rate = 0.2093
+get	data	#827
+fwd	data	#827,	error rate = 0.2091
+get	ack	#815,	sack	#823
+fwd	ack	#815,	sack	#823
+get	ack	#823,	sack	#816
+fwd	ack	#823,	sack	#816
+get	ack	#824,	sack	#824
+fwd	ack	#824,	sack	#824
+get	ack	#824,	sack	#826
+fwd	ack	#824,	sack	#826
+get	ack	#824,	sack	#827
+fwd	ack	#824,	sack	#827
+get	data	#828
+fwd	data	#828,	error rate = 0.2089
+get	data	#829
+corrupt	data	#829,	error rate = 0.2097
+get	data	#830
+fwd	data	#830,	error rate = 0.2095
+get	data	#831
+drop	data	#831,	error rate = 0.2102
+get	data	#832
+fwd	data	#832,	error rate = 0.2100
+get	ack	#824,	sack	#828
+fwd	ack	#824,	sack	#828
+get	ack	#824,	sack	#824
+fwd	ack	#824,	sack	#824
+get	ack	#824,	sack	#830
+fwd	ack	#824,	sack	#830
+get	ack	#824,	sack	#832
+fwd	ack	#824,	sack	#832
+get	data	#833
+fwd	data	#833,	error rate = 0.2098
+get	data	#825
+fwd	data	#825,	error rate = 0.2096
+get	data	#834
+fwd	data	#834,	error rate = 0.2094
+get	data	#835
+drop	data	#835,	error rate = 0.2102
+get	ack	#824,	sack	#833
+fwd	ack	#824,	sack	#833
+get	ack	#828,	sack	#825
+fwd	ack	#828,	sack	#825
+get	ack	#828,	sack	#834
+fwd	ack	#828,	sack	#834
+get	data	#836
+fwd	data	#836,	error rate = 0.2100
+get	data	#837
+fwd	data	#837,	error rate = 0.2098
+get	data	#838
+corrupt	data	#838,	error rate = 0.2105
+get	ack	#828,	sack	#836
+fwd	ack	#828,	sack	#836
+get	ack	#828,	sack	#837
+fwd	ack	#828,	sack	#837
+get	ack	#828,	sack	#828
+fwd	ack	#828,	sack	#828
+get	data	#839
+fwd	data	#839,	error rate = 0.2103
+get	data	#840
+fwd	data	#840,	error rate = 0.2101
+get	data	#829
+fwd	data	#829,	error rate = 0.2099
+get	ack	#828,	sack	#839
+fwd	ack	#828,	sack	#839
+get	ack	#828,	sack	#840
+fwd	ack	#828,	sack	#840
+get	ack	#830,	sack	#829
+fwd	ack	#830,	sack	#829
+get	data	#841
+fwd	data	#841,	error rate = 0.2097
+get	data	#842
+fwd	data	#842,	error rate = 0.2095
+get	data	#843
+fwd	data	#843,	error rate = 0.2093
+get	data	#844
+fwd	data	#844,	error rate = 0.2092
+get	ack	#830,	sack	#841
+fwd	ack	#830,	sack	#841
+get	ack	#830,	sack	#842
+fwd	ack	#830,	sack	#842
+get	ack	#830,	sack	#843
+fwd	ack	#830,	sack	#843
+get	ack	#830,	sack	#844
+fwd	ack	#830,	sack	#844
+get	data	#845
+fwd	data	#845,	error rate = 0.2090
+get	data	#846
+fwd	data	#846,	error rate = 0.2088
+get	data	#847
+fwd	data	#847,	error rate = 0.2086
+get	data	#831
+fwd	data	#831,	error rate = 0.2084
+get	data	#848
+fwd	data	#848,	error rate = 0.2082
+get	ack	#830,	sack	#845
+fwd	ack	#830,	sack	#845
+get	ack	#830,	sack	#846
+fwd	ack	#830,	sack	#846
+get	ack	#830,	sack	#847
+fwd	ack	#830,	sack	#847
+get	ack	#834,	sack	#831
+fwd	ack	#834,	sack	#831
+get	ack	#834,	sack	#848
+fwd	ack	#834,	sack	#848
+get	data	#849
+fwd	data	#849,	error rate = 0.2080
+get	data	#850
+fwd	data	#850,	error rate = 0.2078
+get	data	#851
+corrupt	data	#851,	error rate = 0.2085
+get	data	#852
+fwd	data	#852,	error rate = 0.2083
+get	data	#853
+fwd	data	#853,	error rate = 0.2081
+get	ack	#834,	sack	#849
+fwd	ack	#834,	sack	#849
+get	ack	#834,	sack	#850
+fwd	ack	#834,	sack	#850
+get	ack	#834,	sack	#834
+fwd	ack	#834,	sack	#834
+get	ack	#834,	sack	#852
+fwd	ack	#834,	sack	#852
+get	ack	#834,	sack	#853
+fwd	ack	#834,	sack	#853
+get	data	#854
+fwd	data	#854,	error rate = 0.2079
+get	data	#855
+fwd	data	#855,	error rate = 0.2078
+get	data	#835
+fwd	data	#835,	error rate = 0.2076
+get	data	#856
+fwd	data	#856,	error rate = 0.2074
+get	data	#857
+fwd	data	#857,	error rate = 0.2072
+get	ack	#834,	sack	#854
+fwd	ack	#834,	sack	#854
+get	ack	#834,	sack	#855
+fwd	ack	#834,	sack	#855
+get	ack	#837,	sack	#835
+fwd	ack	#837,	sack	#835
+get	ack	#837,	sack	#856
+fwd	ack	#837,	sack	#856
+get	ack	#837,	sack	#857
+fwd	ack	#837,	sack	#857
+get	data	#858
+fwd	data	#858,	error rate = 0.2070
+get	data	#859
+drop	data	#859,	error rate = 0.2077
+get	data	#860
+fwd	data	#860,	error rate = 0.2075
+get	data	#861
+fwd	data	#861,	error rate = 0.2073
+get	data	#862
+fwd	data	#862,	error rate = 0.2071
+get	ack	#837,	sack	#858
+fwd	ack	#837,	sack	#858
+get	ack	#837,	sack	#860
+fwd	ack	#837,	sack	#860
+get	ack	#837,	sack	#861
+fwd	ack	#837,	sack	#861
+get	ack	#837,	sack	#862
+fwd	ack	#837,	sack	#862
+get	data	#863
+fwd	data	#863,	error rate = 0.2070
+get	data	#838
+fwd	data	#838,	error rate = 0.2068
+get	data	#864
+fwd	data	#864,	error rate = 0.2066
+get	data	#865
+corrupt	data	#865,	error rate = 0.2073
+get	data	#866
+fwd	data	#866,	error rate = 0.2071
+get	ack	#837,	sack	#863
+fwd	ack	#837,	sack	#863
+get	ack	#850,	sack	#838
+fwd	ack	#850,	sack	#838
+get	ack	#850,	sack	#864
+fwd	ack	#850,	sack	#864
+get	ack	#850,	sack	#850
+fwd	ack	#850,	sack	#850
+get	ack	#850,	sack	#866
+fwd	ack	#850,	sack	#866
+get	data	#867
+drop	data	#867,	error rate = 0.2078
+get	data	#868
+fwd	data	#868,	error rate = 0.2077
+get	data	#869
+fwd	data	#869,	error rate = 0.2075
+get	data	#870
+fwd	data	#870,	error rate = 0.2073
+get	data	#851
+drop	data	#851,	error rate = 0.2080
+get	ack	#850,	sack	#868
+fwd	ack	#850,	sack	#868
+get	ack	#850,	sack	#869
+fwd	ack	#850,	sack	#869
+get	ack	#850,	sack	#870
+fwd	ack	#850,	sack	#870
+get	data	#871
+fwd	data	#871,	error rate = 0.2078
+get	data	#872
+fwd	data	#872,	error rate = 0.2076
+get	data	#873
+fwd	data	#873,	error rate = 0.2074
+get	ack	#850,	sack	#871
+fwd	ack	#850,	sack	#871
+get	ack	#850,	sack	#872
+fwd	ack	#850,	sack	#872
+get	ack	#850,	sack	#873
+fwd	ack	#850,	sack	#873
+get	data	#874
+fwd	data	#874,	error rate = 0.2072
+get	data	#875
+corrupt	data	#875,	error rate = 0.2080
+get	data	#876
+fwd	data	#876,	error rate = 0.2078
+get	ack	#850,	sack	#874
+fwd	ack	#850,	sack	#874
+get	ack	#850,	sack	#850
+fwd	ack	#850,	sack	#850
+get	ack	#850,	sack	#876
+fwd	ack	#850,	sack	#876
+get	data	#877
+fwd	data	#877,	error rate = 0.2076
+get	data	#878
+fwd	data	#878,	error rate = 0.2074
+get	ack	#850,	sack	#877
+fwd	ack	#850,	sack	#877
+get	ack	#850,	sack	#878
+fwd	ack	#850,	sack	#878
+get	data	#879
+fwd	data	#879,	error rate = 0.2072
+get	data	#880
+fwd	data	#880,	error rate = 0.2070
+get	ack	#850,	sack	#879
+fwd	ack	#850,	sack	#879
+get	ack	#850,	sack	#880
+fwd	ack	#850,	sack	#880
+get	data	#881
+corrupt	data	#881,	error rate = 0.2077
+get	data	#882
+drop	data	#882,	error rate = 0.2084
+get	ack	#850,	sack	#850
+fwd	ack	#850,	sack	#850
+get	data	#851
+fwd	data	#851,	error rate = 0.2083
+get	ack	#858,	sack	#851
+fwd	ack	#858,	sack	#851
+get	data	#859
+fwd	data	#859,	error rate = 0.2081
+get	data	#865
+fwd	data	#865,	error rate = 0.2079
+get	ack	#864,	sack	#859
+fwd	ack	#864,	sack	#859
+get	ack	#866,	sack	#865
+fwd	ack	#866,	sack	#865
+get	data	#867
+fwd	data	#867,	error rate = 0.2077
+get	data	#875
+fwd	data	#875,	error rate = 0.2075
+get	data	#881
+fwd	data	#881,	error rate = 0.2073
+get	ack	#874,	sack	#867
+fwd	ack	#874,	sack	#867
+get	ack	#880,	sack	#875
+fwd	ack	#880,	sack	#875
+get	ack	#881,	sack	#881
+fwd	ack	#881,	sack	#881
+get	data	#882
+fwd	data	#882,	error rate = 0.2071
+get	data	#883
+fwd	data	#883,	error rate = 0.2070
+get	data	#884
+fwd	data	#884,	error rate = 0.2068
+get	data	#885
+fwd	data	#885,	error rate = 0.2066
+get	ack	#882,	sack	#882
+fwd	ack	#882,	sack	#882
+get	ack	#883,	sack	#883
+fwd	ack	#883,	sack	#883
+get	ack	#884,	sack	#884
+fwd	ack	#884,	sack	#884
+get	ack	#885,	sack	#885
+fwd	ack	#885,	sack	#885
+get	data	#886
+corrupt	data	#886,	error rate = 0.2073
+get	data	#887
+fwd	data	#887,	error rate = 0.2071
+get	data	#888
+fwd	data	#888,	error rate = 0.2069
+get	data	#889
+drop	data	#889,	error rate = 0.2076
+get	data	#890
+fwd	data	#890,	error rate = 0.2074
+get	ack	#885,	sack	#885
+fwd	ack	#885,	sack	#885
+get	ack	#885,	sack	#887
+fwd	ack	#885,	sack	#887
+get	ack	#885,	sack	#888
+fwd	ack	#885,	sack	#888
+get	ack	#885,	sack	#890
+fwd	ack	#885,	sack	#890
+get	data	#891
+drop	data	#891,	error rate = 0.2081
+get	data	#892
+corrupt	data	#892,	error rate = 0.2088
+get	data	#886
+fwd	data	#886,	error rate = 0.2087
+get	data	#893
+fwd	data	#893,	error rate = 0.2085
+get	ack	#885,	sack	#885
+fwd	ack	#885,	sack	#885
+get	ack	#888,	sack	#886
+fwd	ack	#888,	sack	#886
+get	ack	#888,	sack	#893
+fwd	ack	#888,	sack	#893
+get	data	#894
+fwd	data	#894,	error rate = 0.2083
+get	data	#895
+fwd	data	#895,	error rate = 0.2081
+get	ack	#888,	sack	#894
+fwd	ack	#888,	sack	#894
+get	ack	#888,	sack	#895
+fwd	ack	#888,	sack	#895
+get	data	#896
+drop	data	#896,	error rate = 0.2088
+get	data	#897
+fwd	data	#897,	error rate = 0.2086
+get	data	#889
+fwd	data	#889,	error rate = 0.2084
+get	ack	#888,	sack	#897
+fwd	ack	#888,	sack	#897
+get	ack	#890,	sack	#889
+fwd	ack	#890,	sack	#889
+get	data	#898
+fwd	data	#898,	error rate = 0.2083
+get	data	#899
+fwd	data	#899,	error rate = 0.2081
+get	ack	#890,	sack	#898
+fwd	ack	#890,	sack	#898
+get	ack	#890,	sack	#899
+fwd	ack	#890,	sack	#899
+get	data	#900
+fwd	data	#900,	error rate = 0.2079
+get	data	#901
+drop	data	#901,	error rate = 0.2086
+get	ack	#890,	sack	#900
+fwd	ack	#890,	sack	#900
+get	data	#902
+fwd	data	#902,	error rate = 0.2084
+get	data	#891
+corrupt	data	#891,	error rate = 0.2091
+get	ack	#890,	sack	#902
+fwd	ack	#890,	sack	#902
+get	ack	#890,	sack	#890
+fwd	ack	#890,	sack	#890
+get	data	#903
+corrupt	data	#903,	error rate = 0.2098
+get	ack	#890,	sack	#890
+fwd	ack	#890,	sack	#890
+get	data	#891
+fwd	data	#891,	error rate = 0.2096
+get	ack	#891,	sack	#891
+fwd	ack	#891,	sack	#891
+get	data	#892
+corrupt	data	#892,	error rate = 0.2103
+get	data	#896
+fwd	data	#896,	error rate = 0.2101
+get	ack	#891,	sack	#891
+fwd	ack	#891,	sack	#891
+get	ack	#891,	sack	#896
+fwd	ack	#891,	sack	#896
+get	data	#901
+fwd	data	#901,	error rate = 0.2099
+get	ack	#891,	sack	#901
+fwd	ack	#891,	sack	#901
+get	data	#903
+fwd	data	#903,	error rate = 0.2097
+get	data	#892
+fwd	data	#892,	error rate = 0.2096
+get	ack	#891,	sack	#903
+fwd	ack	#891,	sack	#903
+get	ack	#903,	sack	#892
+fwd	ack	#903,	sack	#892
+get	data	#904
+fwd	data	#904,	error rate = 0.2094
+get	data	#905
+fwd	data	#905,	error rate = 0.2092
+get	ack	#904,	sack	#904
+fwd	ack	#904,	sack	#904
+get	ack	#905,	sack	#905
+fwd	ack	#905,	sack	#905
+get	data	#906
+fwd	data	#906,	error rate = 0.2090
+get	data	#907
+fwd	data	#907,	error rate = 0.2088
+get	data	#908
+fwd	data	#908,	error rate = 0.2087
+get	ack	#906,	sack	#906
+fwd	ack	#906,	sack	#906
+get	ack	#907,	sack	#907
+fwd	ack	#907,	sack	#907
+get	ack	#908,	sack	#908
+fwd	ack	#908,	sack	#908
+get	data	#909
+corrupt	data	#909,	error rate = 0.2093
+get	data	#910
+fwd	data	#910,	error rate = 0.2092
+get	data	#911
+fwd	data	#911,	error rate = 0.2090
+get	data	#912
+drop	data	#912,	error rate = 0.2097
+get	ack	#908,	sack	#908
+fwd	ack	#908,	sack	#908
+get	ack	#908,	sack	#910
+fwd	ack	#908,	sack	#910
+get	ack	#908,	sack	#911
+fwd	ack	#908,	sack	#911
+get	data	#913
+drop	data	#913,	error rate = 0.2103
+get	data	#914
+fwd	data	#914,	error rate = 0.2102
+get	data	#909
+fwd	data	#909,	error rate = 0.2100
+get	ack	#908,	sack	#914
+fwd	ack	#908,	sack	#914
+get	ack	#911,	sack	#909
+fwd	ack	#911,	sack	#909
+get	data	#915
+fwd	data	#915,	error rate = 0.2098
+get	data	#916
+fwd	data	#916,	error rate = 0.2096
+get	ack	#911,	sack	#915
+fwd	ack	#911,	sack	#915
+get	ack	#911,	sack	#916
+fwd	ack	#911,	sack	#916
+get	data	#917
+fwd	data	#917,	error rate = 0.2094
+get	data	#918
+fwd	data	#918,	error rate = 0.2093
+get	ack	#911,	sack	#917
+fwd	ack	#911,	sack	#917
+get	ack	#911,	sack	#918
+fwd	ack	#911,	sack	#918
+get	data	#919
+fwd	data	#919,	error rate = 0.2091
+get	data	#912
+fwd	data	#912,	error rate = 0.2089
+get	data	#920
+fwd	data	#920,	error rate = 0.2087
+get	ack	#911,	sack	#919
+fwd	ack	#911,	sack	#919
+get	ack	#912,	sack	#912
+fwd	ack	#912,	sack	#912
+get	ack	#912,	sack	#920
+fwd	ack	#912,	sack	#920
+get	data	#921
+fwd	data	#921,	error rate = 0.2085
+get	data	#922
+fwd	data	#922,	error rate = 0.2084
+get	data	#923
+fwd	data	#923,	error rate = 0.2082
+get	ack	#912,	sack	#921
+fwd	ack	#912,	sack	#921
+get	ack	#912,	sack	#922
+fwd	ack	#912,	sack	#922
+get	ack	#912,	sack	#923
+fwd	ack	#912,	sack	#923
+get	data	#924
+fwd	data	#924,	error rate = 0.2080
+get	data	#925
+fwd	data	#925,	error rate = 0.2078
+get	data	#913
+fwd	data	#913,	error rate = 0.2077
+get	data	#926
+fwd	data	#926,	error rate = 0.2075
+get	ack	#912,	sack	#924
+fwd	ack	#912,	sack	#924
+get	ack	#912,	sack	#925
+fwd	ack	#912,	sack	#925
+get	ack	#925,	sack	#913
+fwd	ack	#925,	sack	#913
+get	ack	#926,	sack	#926
+fwd	ack	#926,	sack	#926
+get	data	#927
+fwd	data	#927,	error rate = 0.2073
+get	data	#928
+corrupt	data	#928,	error rate = 0.2080
+get	data	#929
+corrupt	data	#929,	error rate = 0.2087
+get	data	#930
+fwd	data	#930,	error rate = 0.2085
+get	data	#931
+fwd	data	#931,	error rate = 0.2083
+get	ack	#927,	sack	#927
+fwd	ack	#927,	sack	#927
+get	ack	#927,	sack	#927
+fwd	ack	#927,	sack	#927
+get	ack	#927,	sack	#927
+fwd	ack	#927,	sack	#927
+get	ack	#927,	sack	#930
+fwd	ack	#927,	sack	#930
+get	ack	#927,	sack	#931
+fwd	ack	#927,	sack	#931
+get	data	#932
+fwd	data	#932,	error rate = 0.2081
+get	data	#933
+fwd	data	#933,	error rate = 0.2079
+get	data	#928
+drop	data	#928,	error rate = 0.2086
+get	data	#934
+fwd	data	#934,	error rate = 0.2084
+get	ack	#927,	sack	#932
+fwd	ack	#927,	sack	#932
+get	ack	#927,	sack	#933
+fwd	ack	#927,	sack	#933
+get	ack	#927,	sack	#934
+fwd	ack	#927,	sack	#934
+get	data	#935
+fwd	data	#935,	error rate = 0.2083
+get	data	#936
+fwd	data	#936,	error rate = 0.2081
+get	data	#937
+fwd	data	#937,	error rate = 0.2079
+get	ack	#927,	sack	#935
+fwd	ack	#927,	sack	#935
+get	ack	#927,	sack	#936
+fwd	ack	#927,	sack	#936
+get	ack	#927,	sack	#937
+fwd	ack	#927,	sack	#937
+get	data	#938
+fwd	data	#938,	error rate = 0.2077
+get	data	#939
+fwd	data	#939,	error rate = 0.2076
+get	data	#940
+fwd	data	#940,	error rate = 0.2074
+get	ack	#927,	sack	#938
+fwd	ack	#927,	sack	#938
+get	ack	#927,	sack	#939
+fwd	ack	#927,	sack	#939
+get	ack	#927,	sack	#940
+fwd	ack	#927,	sack	#940
+get	data	#941
+fwd	data	#941,	error rate = 0.2072
+get	data	#942
+corrupt	data	#942,	error rate = 0.2079
+get	data	#943
+fwd	data	#943,	error rate = 0.2077
+get	ack	#927,	sack	#941
+fwd	ack	#927,	sack	#941
+get	ack	#927,	sack	#927
+fwd	ack	#927,	sack	#927
+get	ack	#927,	sack	#943
+fwd	ack	#927,	sack	#943
+get	data	#944
+fwd	data	#944,	error rate = 0.2075
+get	data	#945
+corrupt	data	#945,	error rate = 0.2082
+get	ack	#927,	sack	#944
+fwd	ack	#927,	sack	#944
+get	ack	#927,	sack	#927
+fwd	ack	#927,	sack	#927
+get	data	#946
+fwd	data	#946,	error rate = 0.2080
+get	ack	#927,	sack	#946
+fwd	ack	#927,	sack	#946
+get	data	#947
+fwd	data	#947,	error rate = 0.2078
+get	ack	#927,	sack	#947
+fwd	ack	#927,	sack	#947
+get	data	#948
+fwd	data	#948,	error rate = 0.2077
+get	ack	#927,	sack	#948
+fwd	ack	#927,	sack	#948
+get	data	#949
+fwd	data	#949,	error rate = 0.2075
+get	ack	#927,	sack	#949
+fwd	ack	#927,	sack	#949
+get	data	#950
+fwd	data	#950,	error rate = 0.2073
+get	ack	#927,	sack	#950
+fwd	ack	#927,	sack	#950
+get	data	#951
+fwd	data	#951,	error rate = 0.2072
+get	ack	#927,	sack	#951
+fwd	ack	#927,	sack	#951
+get	data	#952
+drop	data	#952,	error rate = 0.2078
+get	data	#928
+fwd	data	#928,	error rate = 0.2076
+get	ack	#928,	sack	#928
+fwd	ack	#928,	sack	#928
+get	data	#929
+corrupt	data	#929,	error rate = 0.2083
+get	data	#942
+fwd	data	#942,	error rate = 0.2081
+get	ack	#928,	sack	#928
+fwd	ack	#928,	sack	#928
+get	ack	#928,	sack	#942
+fwd	ack	#928,	sack	#942
+get	data	#945
+fwd	data	#945,	error rate = 0.2080
+get	ack	#928,	sack	#945
+fwd	ack	#928,	sack	#945
+get	data	#952
+fwd	data	#952,	error rate = 0.2078
+get	data	#929
+fwd	data	#929,	error rate = 0.2076
+get	ack	#928,	sack	#952
+fwd	ack	#928,	sack	#952
+get	ack	#952,	sack	#929
+fwd	ack	#952,	sack	#929
+get	data	#953
+fwd	data	#953,	error rate = 0.2074
+get	data	#954
+fwd	data	#954,	error rate = 0.2073
+get	ack	#953,	sack	#953
+fwd	ack	#953,	sack	#953
+get	ack	#954,	sack	#954
+fwd	ack	#954,	sack	#954
+get	data	#955
+drop	data	#955,	error rate = 0.2079
+get	data	#956
+fwd	data	#956,	error rate = 0.2077
+get	data	#957
+fwd	data	#957,	error rate = 0.2076
+get	ack	#954,	sack	#956
+fwd	ack	#954,	sack	#956
+get	ack	#954,	sack	#957
+fwd	ack	#954,	sack	#957
+get	data	#958
+fwd	data	#958,	error rate = 0.2074
+get	data	#959
+fwd	data	#959,	error rate = 0.2072
+get	ack	#954,	sack	#958
+fwd	ack	#954,	sack	#958
+get	ack	#954,	sack	#959
+fwd	ack	#954,	sack	#959
+get	data	#960
+corrupt	data	#960,	error rate = 0.2079
+get	data	#955
+fwd	data	#955,	error rate = 0.2077
+get	data	#961
+fwd	data	#961,	error rate = 0.2075
+get	ack	#954,	sack	#954
+fwd	ack	#954,	sack	#954
+get	ack	#959,	sack	#955
+fwd	ack	#959,	sack	#955
+get	ack	#959,	sack	#961
+fwd	ack	#959,	sack	#961
+get	data	#962
+fwd	data	#962,	error rate = 0.2074
+get	data	#963
+fwd	data	#963,	error rate = 0.2072
+get	ack	#959,	sack	#962
+fwd	ack	#959,	sack	#962
+get	ack	#959,	sack	#963
+fwd	ack	#959,	sack	#963
+get	data	#964
+fwd	data	#964,	error rate = 0.2070
+get	data	#965
+fwd	data	#965,	error rate = 0.2069
+get	data	#960
+corrupt	data	#960,	error rate = 0.2075
+get	ack	#959,	sack	#964
+fwd	ack	#959,	sack	#964
+get	ack	#959,	sack	#965
+fwd	ack	#959,	sack	#965
+get	ack	#959,	sack	#959
+fwd	ack	#959,	sack	#959
+get	data	#966
+fwd	data	#966,	error rate = 0.2073
+get	data	#967
+fwd	data	#967,	error rate = 0.2072
+get	ack	#959,	sack	#966
+fwd	ack	#959,	sack	#966
+get	ack	#959,	sack	#967
+fwd	ack	#959,	sack	#967
+get	data	#968
+fwd	data	#968,	error rate = 0.2070
+get	data	#969
+fwd	data	#969,	error rate = 0.2068
+get	ack	#959,	sack	#968
+fwd	ack	#959,	sack	#968
+get	ack	#959,	sack	#969
+fwd	ack	#959,	sack	#969
+get	data	#970
+fwd	data	#970,	error rate = 0.2067
+get	data	#971
+fwd	data	#971,	error rate = 0.2065
+get	ack	#959,	sack	#970
+fwd	ack	#959,	sack	#970
+get	ack	#959,	sack	#971
+fwd	ack	#959,	sack	#971
+get	data	#972
+fwd	data	#972,	error rate = 0.2063
+get	data	#973
+fwd	data	#973,	error rate = 0.2062
+get	ack	#959,	sack	#972
+fwd	ack	#959,	sack	#972
+get	ack	#959,	sack	#973
+fwd	ack	#959,	sack	#973
+get	data	#974
+drop	data	#974,	error rate = 0.2068
+get	data	#975
+fwd	data	#975,	error rate = 0.2066
+get	ack	#959,	sack	#975
+fwd	ack	#959,	sack	#975
+get	data	#976
+fwd	data	#976,	error rate = 0.2065
+get	ack	#959,	sack	#976
+fwd	ack	#959,	sack	#976
+get	data	#977
+fwd	data	#977,	error rate = 0.2063
+get	ack	#959,	sack	#977
+fwd	ack	#959,	sack	#977
+get	data	#978
+fwd	data	#978,	error rate = 0.2061
+get	ack	#959,	sack	#978
+fwd	ack	#959,	sack	#978
+get	data	#979
+fwd	data	#979,	error rate = 0.2060
+get	ack	#959,	sack	#979
+fwd	ack	#959,	sack	#979
+get	data	#980
+fwd	data	#980,	error rate = 0.2058
+get	ack	#959,	sack	#980
+fwd	ack	#959,	sack	#980
+get	data	#981
+fwd	data	#981,	error rate = 0.2056
+get	ack	#959,	sack	#981
+fwd	ack	#959,	sack	#981
+get	data	#982
+drop	data	#982,	error rate = 0.2063
+get	data	#960
+fwd	data	#960,	error rate = 0.2061
+get	ack	#973,	sack	#960
+fwd	ack	#973,	sack	#960
+get	data	#974
+fwd	data	#974,	error rate = 0.2060
+get	data	#982
+fwd	data	#982,	error rate = 0.2058
+get	ack	#981,	sack	#974
+fwd	ack	#981,	sack	#974
+get	ack	#982,	sack	#982
+fwd	ack	#982,	sack	#982
+get	data	#983
+fwd	data	#983,	error rate = 0.2056
+get	data	#984
+fwd	data	#984,	error rate = 0.2055
+get	data	#985
+fwd	data	#985,	error rate = 0.2053
+get	ack	#983,	sack	#983
+fwd	ack	#983,	sack	#983
+get	ack	#984,	sack	#984
+fwd	ack	#984,	sack	#984
+get	ack	#985,	sack	#985
+fwd	ack	#985,	sack	#985
+get	data	#986
+fwd	data	#986,	error rate = 0.2051
+get	data	#987
+fwd	data	#987,	error rate = 0.2050
+get	data	#988
+fwd	data	#988,	error rate = 0.2048
+get	data	#989
+corrupt	data	#989,	error rate = 0.2054
+get	ack	#986,	sack	#986
+fwd	ack	#986,	sack	#986
+get	ack	#987,	sack	#987
+fwd	ack	#987,	sack	#987
+get	ack	#988,	sack	#988
+fwd	ack	#988,	sack	#988
+get	ack	#988,	sack	#988
+fwd	ack	#988,	sack	#988
+get	data	#990
+fwd	data	#990,	error rate = 0.2053
+get	data	#991
+fwd	data	#991,	error rate = 0.2051
+get	data	#992
+fwd	data	#992,	error rate = 0.2049
+get	ack	#988,	sack	#990
+fwd	ack	#988,	sack	#990
+get	ack	#988,	sack	#991
+fwd	ack	#988,	sack	#991
+get	ack	#988,	sack	#992
+fwd	ack	#988,	sack	#992
+get	data	#993
+fwd	data	#993,	error rate = 0.2048
+get	data	#994
+fwd	data	#994,	error rate = 0.2046
+get	data	#989
+corrupt	data	#989,	error rate = 0.2053
+get	data	#995
+fwd	data	#995,	error rate = 0.2051
+get	ack	#988,	sack	#993
+fwd	ack	#988,	sack	#993
+get	ack	#988,	sack	#994
+fwd	ack	#988,	sack	#994
+get	ack	#988,	sack	#988
+fwd	ack	#988,	sack	#988
+get	ack	#988,	sack	#995
+fwd	ack	#988,	sack	#995
+get	data	#996
+fwd	data	#996,	error rate = 0.2049
+get	data	#997
+fwd	data	#997,	error rate = 0.2048
+get	data	#998
+fwd	data	#998,	error rate = 0.2046
+get	ack	#988,	sack	#996
+fwd	ack	#988,	sack	#996
+get	ack	#988,	sack	#997
+fwd	ack	#988,	sack	#997
+get	ack	#988,	sack	#998
+fwd	ack	#988,	sack	#998
+get	data	#999
+fwd	data	#999,	error rate = 0.2044
+get	data	#1000
+corrupt	data	#1000,	error rate = 0.2051
+get	data	#1001
+drop	data	#1001,	error rate = 0.2057
+get	ack	#988,	sack	#999
+fwd	ack	#988,	sack	#999
+get	ack	#988,	sack	#988
+fwd	ack	#988,	sack	#988
+get	data	#1002
+fwd	data	#1002,	error rate = 0.2055
+get	ack	#988,	sack	#1002
+fwd	ack	#988,	sack	#1002
+get	data	#1003
+fwd	data	#1003,	error rate = 0.2054
+get	ack	#988,	sack	#1003
+fwd	ack	#988,	sack	#1003
+get	data	#1004
+fwd	data	#1004,	error rate = 0.2052
+get	ack	#988,	sack	#1004
+fwd	ack	#988,	sack	#1004
+get	data	#1005
+fwd	data	#1005,	error rate = 0.2050
+get	ack	#988,	sack	#1005
+fwd	ack	#988,	sack	#1005
+get	data	#1006
+fwd	data	#1006,	error rate = 0.2049
+get	ack	#988,	sack	#1006
+fwd	ack	#988,	sack	#1006
+get	data	#1007
+fwd	data	#1007,	error rate = 0.2047
+get	ack	#988,	sack	#1007
+fwd	ack	#988,	sack	#1007
+get	data	#1008
+drop	data	#1008,	error rate = 0.2054
+get	data	#989
+fwd	data	#989,	error rate = 0.2052
+get	ack	#999,	sack	#989
+fwd	ack	#999,	sack	#989
+get	data	#1000
+fwd	data	#1000,	error rate = 0.2050
+get	data	#1001
+fwd	data	#1001,	error rate = 0.2049
+get	ack	#1000,	sack	#1000
+fwd	ack	#1000,	sack	#1000
+get	ack	#1007,	sack	#1001
+fwd	ack	#1007,	sack	#1001
+get	data	#1008
+fwd	data	#1008,	error rate = 0.2047
+get	data	#1009
+fwd	data	#1009,	error rate = 0.2045
+get	data	#1010
+fwd	data	#1010,	error rate = 0.2044
+get	ack	#1008,	sack	#1008
+fwd	ack	#1008,	sack	#1008
+get	ack	#1009,	sack	#1009
+fwd	ack	#1009,	sack	#1009
+get	ack	#1010,	sack	#1010
+fwd	ack	#1010,	sack	#1010
+get	data	#1011
+fwd	data	#1011,	error rate = 0.2042
+get	data	#1012
+fwd	data	#1012,	error rate = 0.2041
+get	data	#1013
+corrupt	data	#1013,	error rate = 0.2047
+get	data	#1014
+fwd	data	#1014,	error rate = 0.2045
+get	ack	#1011,	sack	#1011
+fwd	ack	#1011,	sack	#1011
+get	ack	#1012,	sack	#1012
+fwd	ack	#1012,	sack	#1012
+get	ack	#1012,	sack	#1012
+fwd	ack	#1012,	sack	#1012
+get	ack	#1012,	sack	#1014
+fwd	ack	#1012,	sack	#1014
+get	data	#1015
+fwd	data	#1015,	error rate = 0.2044
+get	data	#1016
+fwd	data	#1016,	error rate = 0.2042
+get	data	#1017
+fwd	data	#1017,	error rate = 0.2040
+get	ack	#1012,	sack	#1015
+fwd	ack	#1012,	sack	#1015
+get	ack	#1012,	sack	#1016
+fwd	ack	#1012,	sack	#1016
+get	ack	#1012,	sack	#1017
+fwd	ack	#1012,	sack	#1017
+get	data	#1018
+fwd	data	#1018,	error rate = 0.2039
+get	data	#1013
+fwd	data	#1013,	error rate = 0.2037
+get	data	#1019
+fwd	data	#1019,	error rate = 0.2036
+get	data	#1020
+drop	data	#1020,	error rate = 0.2042
+get	ack	#1012,	sack	#1018
+fwd	ack	#1012,	sack	#1018
+get	ack	#1018,	sack	#1013
+fwd	ack	#1018,	sack	#1013
+get	ack	#1019,	sack	#1019
+fwd	ack	#1019,	sack	#1019
+get	data	#1021
+fwd	data	#1021,	error rate = 0.2040
+get	data	#1022
+fwd	data	#1022,	error rate = 0.2039
+get	data	#1023
+fwd	data	#1023,	error rate = 0.2037
+get	data	#1024
+fwd	data	#1024,	error rate = 0.2036
+get	ack	#1019,	sack	#1021
+fwd	ack	#1019,	sack	#1021
+get	ack	#1019,	sack	#1022
+fwd	ack	#1019,	sack	#1022
+get	ack	#1019,	sack	#1023
+fwd	ack	#1019,	sack	#1023
+get	ack	#1019,	sack	#1024
+fwd	ack	#1019,	sack	#1024
+get	data	#1020
+fwd	data	#1020,	error rate = 0.2034
+get	ack	#1024,	sack	#1020
+fwd	ack	#1024,	sack	#1020
+get	fin
+fwd	fin
+get	finack
+fwd	finack
