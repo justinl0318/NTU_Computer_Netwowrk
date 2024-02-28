@@ -1,6 +1,6 @@
 # Computer Network
 
-Project Spec
+Project Spec: [https://github.com/justinl0318/NTU_Computer_Netwowrk/blob/main/CN2023-HW3-ProblemSheet-1.pdf](https://github.com/justinl0318/NTU_Computer_Netwowrk/blob/main/CN2023-HW3-ProblemSheet-1.pdf)
 
 To run your code, run the following command ***in order***  
 
